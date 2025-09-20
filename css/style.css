@@ -1,6 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  margin-bottom: 3.9rem;
+}
+
+.logo-pic {
+  background-color: #a76545;
+  border-bottom: solid 5px #72442d;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  /* width: 345px; */
+  height: 80px;
+  background-color: #a76545;
+  margin: 0 auto;
+}
+
+.logo-pic-section {
+  display: inline-block;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  bottom: 1em;
+}
+
+.magnifie,
+.profile-pic-user {
+  width: 5.5em;
+  margin-left: 2em;
+  color: #fff;
+}
+
+.profile-pic-user {
+  width: 5.5em;
+  border-radius: 50%;
+  /* position: absolute; */
+}
+
+.navigation-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  font-size: 2.1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: #a76545;
+}
+
+.navigation-menu li a:link,
+.navigation-menu li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
 .post-header h1 {
   text-align: center;
-  font-size: 5.2rem;
+  font-size: 4.8rem;
   color: #333;
   margin-bottom: 2.1rem;
 }
@@ -50,6 +120,15 @@
   text-align: center;
 }
 
+.pic-1:hover,
+.cross-icon:hover {
+  cursor: pointer;
+}
+
+.cross-icon {
+  width: 2.5em;
+}
+
 .btn {
   text-align: center;
 }
@@ -73,4 +152,101 @@
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.popup-pic-detail {
+  display: none;
+  width: 100em;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  padding: 3em;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dog {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+.details h5 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.details p {
+  font-size: 1.6em;
+  color: #333;
+}
+.pic-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.button-detail-section {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .button-detail-section a {
+  text-decoration: none;
+  padding: 1em;
+
+  font-size: 2em;
+} */
+
+.fav,
+.download {
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 15px;
+  font-size: 2em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.fav:link,
+.download:link,
+.fav:visited,
+.download:visited {
+  border: #4c311c 0.2em solid;
+}
+
+.fav:link,
+.fav:visited {
+  color: #4c311c;
+}
+
+.download:link,
+.download:visited {
+  color: #fff;
+  background-color: #4c311c;
+}
+
+.fav:hover,
+.download:hover {
+  box-shadow: 0 0 20px rgba(76, 49, 28, 0.5);
+  transform: scale(1.2);
+}
+
+.fav:hover,
+.fav:active {
+  background-color: #f7efe6;
+  color: #4c311c;
+}
+
+.download:hover,
+.download:active {
+  background-color: #6a4525;
 }

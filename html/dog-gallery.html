@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/style.css" />
 
     <title>Dog gallery</title>
@@ -18,7 +17,32 @@
     <header>
       <div class="logo-pic">
         <img src="../img/image 9.png" alt="logo-website-doggo" class="logo" />
+        <div class="logo-pic-section">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="magnifie"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              /></svg
+          ></a>
+
+          <a href="#"
+            ><img
+              src="../img/profile-pic-11.jpg"
+              alt=""
+              class="profile-pic-user"
+          /></a>
+        </div>
       </div>
+
       <nav class="navigation-menu">
         <ul>
           <li><a href="#">About dog</a></li>
@@ -40,7 +64,7 @@
         </p>
       </header>
       <section class="gallery-pic-dog">
-        <div class="pic-1" id="pic-1" onclick="openPopup('pic-1-details')">
+        <div class="pic-1" id="pic-1" onclick="myFunction()">
           <img src="../img/gallery-dog-1.avif" alt="" class="pic-dog-gall" />
           <div class="photographer">
             <img
@@ -52,7 +76,7 @@
           </div>
         </div>
 
-        <div class="pic-1">
+        <div class="pic-1" id="pic-1">
           <img src="../img/gallery-dog-2.avif" alt="" class="pic-dog-gall" />
           <div class="photographer">
             <img
@@ -140,8 +164,66 @@
             <p>Patrick Hendry</p>
           </div>
         </div>
+        <div class="popup-pic-detail" id="detail">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="cross-icon"
+            id="cross-con"
+            onclick="closePage()"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+
+          <img src="../img/gallery-dog-1.avif" alt="" class="dog" />
+          <div class="details">
+            <div>
+              <h5>Author</h5>
+              <div class="pic-author">
+                <img
+                  src="../img/profile-pic-1.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Anoir Chafik</p>
+              </div>
+            </div>
+            <div>
+              <h5>Downloads</h5>
+              <p>40,302</p>
+            </div>
+            <div>
+              <h5>Views</h5>
+              <p>100,221</p>
+            </div>
+            <div>
+              <h5>Publish date</h5>
+              <p>August 28, 2020</p>
+            </div>
+          </div>
+          <div class="button-detail-section">
+            <a href="#" class="fav">Favourite</a>
+            <a href="#" class="download">Download</a>
+          </div>
+        </div>
       </section>
+
       <p class="btn"><a href="#">More</a></p>
     </article>
+    <script>
+      function myFunction() {
+        document.getElementById("detail").style.display = "block";
+      }
+      function closePage() {
+        document.getElementById("detail").style.display = "none";
+      }
+    </script>
   </body>
 </html>
