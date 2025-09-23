@@ -75,3 +75,50 @@ header {
   text-decoration: none;
   color: #fff;
 }
+
+.nav-mobile {
+  background-color: #a76545;
+}
+
+.hamburger {
+  width: 3rem;
+  color: antiquewhite;
+}
+
+.tap-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+  padding-right: 1rem;
+  width: 100vw;
+}
+
+.menu-mobile {
+  list-style: none;
+  background-color: blue;
+  background-color: #cc8866;
+  width: 50%;
+  margin-left: auto;
+  padding-left: 0;
+  position: fixed;
+  right: 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu-mobile a {
+  display: block;
+}
+
+.menu-mobile a:link,
+.menu-mobile a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.menu-mobile a:hover,
+.menu-mobile a:active {
+  background-color: #a76545;
+}
