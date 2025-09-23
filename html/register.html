@@ -3,7 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Register</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container-fluid contain-section">
+      <div class="top-right-logo">
+        <img src="../img/logo-pic.png" alt="" class="logo-pic-1" />
+        <img src="../img/image 9.png" alt="" class="logo-text" />
+      </div>
+      <div class="row">
+        <div class="img-section col-lg-8 col-md-6 d-none d-md-block">
+          <img src="../img/register-pic.png" alt="" class="img-1" />
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center right-side"
+        >
+          <h1>REGISTER</h1>
+
+          <form class="form-section">
+            <label for="username" class="username-label fw-bolder"
+              >USERNAME</label
+            ><br />
+            <input type="text" id="email" name="email" /><br />
+            <label for="password" class="new-password-label fw-bolder"
+              >PASSWORD</label
+            ><br />
+            <input type="password" id="username" name="username" /><br />
+            <label for="password" class="confirm-password-label fw-bolder"
+              >CONFIRM NEW PASSWORD</label
+            ><br /><input
+              type="password"
+              id="password"
+              name="password"
+              class="password-field"
+            /><br />
+
+            <label for="email" class="new-password-label fw-bolder">EMAIL</label
+            ><br />
+            <input type="email" id="username" name="username" /><br />
+            <br />
+
+            <input
+              type="submit"
+              value="REGISTER"
+              class="submit btn align-items-center justify-content-center"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

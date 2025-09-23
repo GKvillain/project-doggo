@@ -9,55 +9,87 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/general.css" />
+    <script src="../js/bootstrap.min.js"></script>
 
     <title>Dog gallery</title>
   </head>
   <body>
     <header>
-      <div class="logo-pic">
-        <img src="../img/image 9.png" alt="logo-website-doggo" class="logo" />
-        <div class="logo-pic-section">
-          <a href="#"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="magnifie"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-              /></svg
-          ></a>
+      <div class="d-none d-md-block">
+        <div class="logo-pic">
+          <img src="../img/image 9.png" alt="logo-website-doggo" class="logo" />
+          <div class="logo-pic-section">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="magnifie"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                /></svg
+            ></a>
 
-          <a href="#"
-            ><img
-              src="../img/profile-pic-11.jpg"
-              alt=""
-              class="profile-pic-user"
-          /></a>
+            <a href="#"
+              ><img
+                src="../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
+          </div>
+        </div>
+
+        <nav class="navigation-menu">
+          <ul>
+            <li><a href="#">About dog</a></li>
+            <li><a href="#">Adoption</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Expert</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="d-md-none">
+        <div class="tap-bar nav-mobile" onclick="menu.hidden^=1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="3"
+            stroke="currentColor"
+            class="hamburger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+        <div>
+          <ul id="menu" hidden class="menu-mobile">
+            <li><a href="#">About dog</a></li>
+            <li><a href="#">Adoption</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Expert</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
         </div>
       </div>
-
-      <nav class="navigation-menu">
-        <ul>
-          <li><a href="#">About dog</a></li>
-          <li><a href="#">Adoption</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Expert</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </nav>
     </header>
+
     <article>
       <header class="post-header">
         <h1>Dog Gallery</h1>
-        <p>
+        <p class="d-none d-md-block">
           Welcome to our Dog Gallery — a space full of wagging tails, goofy
           smiles, and heartwarming moments. Here, our community shares snapshots
           of their beloved dogs, from playful adventures to lazy nap times.
@@ -65,107 +97,174 @@
         </p>
       </header>
       <section class="gallery-pic-dog">
-        <div class="pic-1" id="pic-1" onclick="myFunction()">
-          <img src="../img/gallery-dog-1.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-1.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Anoir Chafik</p>
+        <div class="row text-center contain-row">
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1" id="pic-1" onclick="myFunction()">
+              <img
+                src="../img/gallery-dog-1.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-1.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Anoir Chafik</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1" id="pic-1">
+              <img
+                src="../img/gallery-dog-2.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-2.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Justin Aikin</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1">
+              <img
+                src="../img/gallery-dog-3.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-3.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Jesse Schoff</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="pic-1" id="pic-1">
-          <img src="../img/gallery-dog-2.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-2.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Justin Aikin</p>
+        <div class="row text-center contain-row">
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1">
+              <img
+                src="../img/gallery-dog-4.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-4.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Christopher Ayme</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="pic-1 col-sm-12 box">
+              <img
+                src="../img/gallery-dog-5.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-5.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Marcus Cramer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="pic-1 col-sm-12 box">
+              <img
+                src="../img/gallery-dog-6.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-6.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Marcus Cramer</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-3.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-3.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Jesse Schoff</p>
+
+        <div class="row text-center contain-row">
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1">
+              <img
+                src="../img/gallery-dog-7.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer d-flex">
+                <img
+                  src="../img/profile-pic-9.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Joe Caione</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1">
+              <img
+                src="../img/gallery-dog-8.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-8.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Ron Fung</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 box">
+            <div class="pic-1">
+              <img
+                src="../img/gallery-dog-9.avif"
+                alt=""
+                class="pic-dog-gall"
+              />
+              <div class="photographer">
+                <img
+                  src="../img/profile-pic-10.jpg"
+                  alt=""
+                  class="pic-photographer"
+                />
+                <p>Patrick Hendry</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-4.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-4.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Christopher Ayme</p>
-          </div>
-        </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-5.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-5.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Marcus Cramer</p>
-          </div>
-        </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-6.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-6.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Marcus Cramer</p>
-          </div>
-        </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-7.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-9.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Joe Caione</p>
-          </div>
-        </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-8.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-8.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Ron Fung</p>
-          </div>
-        </div>
-        <div class="pic-1">
-          <img src="../img/gallery-dog-9.avif" alt="" class="pic-dog-gall" />
-          <div class="photographer">
-            <img
-              src="../img/profile-pic-10.jpg"
-              alt=""
-              class="pic-photographer"
-            />
-            <p>Patrick Hendry</p>
-          </div>
-        </div>
-        <div class="popup-pic-detail" id="detail">
+
+        <div class="popup-pic-detail d-none" id="detail">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -216,7 +315,9 @@
         </div>
       </section>
 
-      <p class="btn"><a href="#">More</a></p>
+      <div class="btn btn-more d-flex justify-content-center">
+        <a href="#">More</a>
+      </div>
     </article>
     <script>
       function myFunction() {
