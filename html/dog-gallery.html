@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/general.css" />
-    <script src="../js/bootstrap.min.js"></script>
 
     <title>Dog gallery</title>
   </head>
@@ -48,127 +47,105 @@
         </div>
 
         <nav class="navigation-menu">
-          <ul>
-            <div class="dropdown">
-              <li>
-                <a href="#" class="dropbtn"
-                  >About dog
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="down-chevron"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <div class="dropdown-content">
-                <div class="dropdown-3">
-                  <div class="dropbtn-2"><a href="#">Dog info</a></div>
-                  <div class="dropdown-content-2">
-                    <a href="breeds-sm.html">Breeds</a>
-                    <a href="#">Dog news</a>
-                    <a href="#">Pet insurance</a>
-                    <a href="#">Common disease</a>
-                  </div>
-                </div>
-                <div class="dropdown-2">
-                  <div class="dropbtn-3"><a href="#">Dog Social</a></div>
-                  <div class="dropdown-content-3">
-                    <a href="#">Dog community forum</a>
-                    <a href="#">Dog gallery</a>
-                  </div>
-                </div>
+          <ul class="vertical-menu">
+            <li>
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About dog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog info</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li><a href="#" class="dropdown-item">Breeds</a></li>
+                      <li><a href="#" class="dropdown-item">Dog news</a></li>
+                      <li>
+                        <a href="#" class="dropdown-item">Pet insurance</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">Common disease</a>
+                      </li>
+                      <li><a href="#" class="dropdown-item">Poison</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog social</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="#" class="dropdown-item"
+                          >Dog community forum</a
+                        >
+                      </li>
+                      <li><a href="#" class="dropdown-item">Dog gallery</a></li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
-            </div>
+            </li>
 
             <li><a href="#">Adoption</a></li>
+            <li>
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
 
-            <div class="dropdown">
-              <li>
-                <a href="#" class="dropbtn"
-                  >Shop
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="down-chevron"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <div class="dropdown-content">
-                <a href="#">Shopping</a>
-                <a href="#">Cart</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Shopping</a></li>
+                  <li><a href="#" class="dropdown-item">Card</a></li>
+                </ul>
               </div>
-            </div>
+            </li>
 
-            <div class="dropdown">
-              <li>
-                <a href="#"
-                  >Expert
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="down-chevron"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <div class="dropdown-content">
-                <a href="#">Advice</a>
-                <a href="#">Training</a>
+            <li>
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Expert</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Advice</a></li>
+                  <li><a href="#" class="dropdown-item">Traning</a></li>
+                </ul>
               </div>
-            </div>
+            </li>
 
-            <div class="dropdown">
-              <li>
-                <a href="#"
-                  >About Us
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="down-chevron"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <div class="dropdown-content">
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Team</a>
+            <li>
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">About us</a></li>
+                  <li><a href="#" class="dropdown-item">Contact</a></li>
+                  <li><a href="#" class="dropdown-item">Team</a></li>
+                </ul>
               </div>
-            </div>
+            </li>
           </ul>
         </nav>
       </div>
@@ -189,15 +166,107 @@
             />
           </svg>
         </div>
-        <div>
-          <ul id="menu" hidden class="menu-mobile">
-            <li><a href="#">About dog</a></li>
-            <li><a href="#">Adoption</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Expert</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
-        </div>
+        <ul hidden id="menu">
+          <li>
+            <div class="dropdown">
+              <div
+                class="about-dog dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a href="#">About dog</a>
+              </div>
+
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu-mb">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                  <ul class="dropdown-menu dropdown-2-mb">
+                    <li><a href="#" class="dropdown-item">Breeds</a></li>
+                    <li><a href="#" class="dropdown-item">Dog news</a></li>
+                    <li><a href="#" class="dropdown-item">Pet insurance</a></li>
+                    <li>
+                      <a href="#" class="dropdown-item">Common disease</a>
+                    </li>
+                    <li><a href="#" class="dropdown-item">Poison</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu-mb">
+                  <a href="#" class="dropdown-item dropdown-toggle"
+                    >Dog social</a
+                  >
+                  <ul class="dropdown-menu dropdown-2-mb">
+                    <li>
+                      <a href="#" class="dropdown-item">Dog community forum</a>
+                    </li>
+                    <li>
+                      <a href="dog-gallery.html" class="dropdown-item"
+                        >Dog gallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="about-dog"><a href="#">Adoption</a></div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <div
+                class="dropdown-toggle about-dog"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a href="#">Shop</a>
+              </div>
+
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Shopping</a></li>
+                <li><a href="#" class="dropdown-item">Card</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <div
+                class="dropdown-toggle about-dog"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a href="#">Expert</a>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Advice</a></li>
+                <li><a href="#" class="dropdown-item">Traning</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <div
+                class="dropdown-toggle about-dog"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <a href="#">About us</a>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">About us</a></li>
+                <li><a href="#" class="dropdown-item">Contact</a></li>
+                <li><a href="#" class="dropdown-item">Team</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -441,6 +510,13 @@
       function closePage() {
         document.getElementById("detail").style.display = "none";
       }
+      function toggleDropdown() {
+        document.getElementById("dropdown").style.display = "block";
+        document.getElementById("dropdown").style.backgroundColor = "#4a2c23";
+      }
     </script>
+    <!-- Correct way -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   </body>
 </html>
