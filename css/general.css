@@ -186,3 +186,18 @@ header {
   text-decoration: none;
   font-size: 2rem;
 }
+
+.navbar {
+  background-color: #a76545;
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  color: #fff;
+  font-size: clamp(1.6rem, 1.3vw, 3rem);
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #cc8866;
+}
