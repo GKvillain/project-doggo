@@ -1,0 +1,39 @@
+.img-adopt {
+  border-radius: 15px;
+}
+
+.paw-dog {
+  width: 9.1rem;
+}
+
+.adoption-detail-tab h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: #333;
+  background-color: #fff3c4;
+  margin-right: 1rem;
+  width: 10rem;
+  padding: 10px;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border: none !important;
+}
+
+.nav-link.active {
+  background-color: #ffdf88 !important;
+}
+
+.tab-content {
+  width: 60rem;
+  font-size: 2rem;
+  background-color: #ffdf88;
+  padding: 20px;
+  height: 27rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
