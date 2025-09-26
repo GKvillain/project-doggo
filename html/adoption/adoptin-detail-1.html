@@ -8,8 +8,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../css/adoption-detail.css" />
     <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/adoption-detail.css" />
     <title>Adoption details</title>
   </head>
   <body>
@@ -27,7 +27,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="magnifie"
+              class="magnifie d-none d-md-block"
             >
               <path
                 stroke-linecap="round"
@@ -165,10 +165,10 @@
 
     <div class="container-fluid contain-section">
       <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-5 col-sm-12 text-center">
           <img src="../../img/adoppic-1.jpg" alt="" class="img-adopt" />
         </div>
-        <div class="col-lg-6 adoption-detail-tab">
+        <div class="col-lg-7 col-sm-12 adoption-detail-tab">
           <div class="d-flex">
             <h3 class="align-self-center">Hi, I'm Dokdak</h3>
             <img src="../../img/paw-dog.png" alt="" class="paw-dog" />
@@ -215,48 +215,172 @@
 
               <div class="tab-content" id="nav-tabContent">
                 <div
-                  class="tab-pane fade show active"
+                  class="tab-pane fade show active content-in-tab"
                   id="nav-general"
                   role="tabpanel"
                   aria-labelledby="nav-general-tab"
                   tabindex="0"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Aliquid porro amet culpa pariatur reiciendis blanditiis
-                  impedit! Nemo nulla, qui nisi ad reiciendis, harum ullam velit
-                  excepturi voluptates voluptatibus necessitatibus est.
+                  <ul>
+                    <li>Age: <span>7 years and 8 months</span></li>
+                    <li>Gender: <span>Female</span></li>
+                    <li>Health: <span>Vaccinated, neutered, healthy</span></li>
+                    <li>Size: <span>Medium(about 18kg)</span></li>
+                    <li>
+                      Medical history:
+                      <span
+                        >No chronic illness, regular checkups completed</span
+                      >
+                    </li>
+                  </ul>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  class="tab-pane fade content-in-tab"
                   id="nav-trait"
                   role="tabpanel"
                   aria-labelledby="nav-trait-tab"
                   tabindex="0"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita reprehenderit labore odit excepturi, eum alias
-                  deserunt cum nihil iusto officiis doloremque et sint
-                  asperiores porro ea exercitationem? Dicta, tempora ratione.
+                  <ul>
+                    <li>
+                      Temperament: <span>Affectionate, playful, loyal</span>
+                    </li>
+                    <li>
+                      Energy Level:
+                      <span>Moderate - enjoys walks, play, and rest</span>
+                    </li>
+                    <li>Compatibility: <span>Good with kids and dogs</span></li>
+                    <li>
+                      Personality: <span>Curious and loves exploring</span>
+                    </li>
+                    <li>
+                      Special Quirks:
+                      <span>Belly rubs, follows people, head tilt</span>
+                    </li>
+                  </ul>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  class="tab-pane fade content-in-tab"
                   id="nav-training"
                   role="tabpanel"
                   aria-labelledby="nav-training-tab"
                   tabindex="0"
                 >
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Optio sequi culpa, officiis molestiae sunt cumque repellat
-                  iste, accusantium doloremque mollitia explicabo consequatur
-                  minus sapiente deleniti commodi asperiores, enim dolore
-                  soluta!
+                  <ul>
+                    <li>
+                      House Training: <span>Fully trained, keeps routine</span>
+                    </li>
+                    <li>Commands: <span>Knows sit, stay, paw</span></li>
+                    <li>
+                      Leash Walking: <span>Walks well, pulls when excited</span>
+                    </li>
+                    <li>
+                      Socialization: <span>Friendly with people and dogs</span>
+                    </li>
+                    <li>
+                      Needs Improvement: <span>Shy with loud noise/crowds</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </nav>
         </div>
       </div>
+
+      <p class="about-dog-detail">
+        Dokdak is a sweet and playful girl who loves belly rubs and going for
+        walks. Rescued from the streets, she has been waiting patiently for her
+        forever home. She's friendly with kids and gets along well with other
+        dogs, making her a perfect family companion. Curious and active, Dokdak
+        enjoys exploring new places and would be happiest with a family who can
+        give her both love and space to run around. Despite her energy, she has
+        a gentle side and adores quiet cuddle time after play. With her kind
+        nature and loyal heart, Dokdak is ready to bring joy and companionship
+        to a loving home.
+      </p>
+
+      <div class="adoption-info">
+        <h4>Adoption Info</h4>
+        <p>
+          Dokdak is under the care of Happy Paws Foundation. Our website is only
+          helping to announce her adoption. Contact Happy Paws Foundation:
+          012-345-6789
+        </p>
+      </div>
+
+      <div class="contain-adopt-info">
+        <h4 class="text-center">How to Adopt</h4>
+
+        <div class="d-flex flex-column box-adopt">
+          <div class="info-about-adopt">
+            <div>
+              <h5>Browse Profiles</h5>
+              <p>
+                Look through the available dogs on our website. Each profile
+                includes details about the dog and the foundation currently
+                caring for them.
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Contact the Foundation</h5>
+              <p>
+                If you find a dog you're interested in, please use the contact
+                details provided in their profile. Reach out directly to the
+                foundation for more information.
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Application & Interview</h5>
+              <p>
+                The foundation will guide you through their adoption
+                application. They may ask questions to make sure the dog is a
+                good match for your lifestyle.
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Meet & Greet</h5>
+              <p>
+                You'll usually have the chance to meet the dog in person at the
+                foundation or in a foster home.
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Home Check & Approval</h5>
+              <p>
+                Some foundations may do a home visit or request photos to ensure
+                a safe environment for the dog.
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Adoption Fee & Agreement</h5>
+              <p>
+                If approved, you'll sign an adoption agreement and pay a small
+                fee (which supports the foundation's rescue work).
+              </p>
+            </div>
+          </div>
+          <div class="info-about-adopt">
+            <div>
+              <h5>Welcome Your New Friend!</h5>
+              <p>Bring your dog home and give them the love they deserve.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
