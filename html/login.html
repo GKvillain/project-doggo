@@ -9,9 +9,9 @@
     />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="stylesheet" href="../css/login-style.css" />
     <script src="../js/bootstrap.min.js"></script>
-    <title>Register</title>
+    <title>Login</title>
   </head>
   <body>
     <main class="container-fluid contain-section">
@@ -19,48 +19,39 @@
         <img src="../img/logo-pic.png" alt="" class="logo-pic-1" />
         <img src="../img/image 9.png" alt="" class="logo-text" />
       </div>
+
       <div class="row">
-        <div class="img-section col-lg-8 col-md-6 d-none d-md-block">
-          <img src="../img/register-pic.png" alt="" class="img-1" />
+        <div class="col-lg-8 col-md-7 d-none d-md-block img-section">
+          <img src="../img/login-pic-5.png" alt="Login Image" class="img-1" />
         </div>
 
         <div
-          class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center right-side"
+          class="col-lg-4 col-md-5 col-sm-12 d-flex flex-column align-items-center justify-content-center right-side"
         >
-          <h1>REGISTER</h1>
-
+          <h1 class="fw-bolder">LOGIN</h1>
           <form class="form-section">
             <label for="username" class="username-label fw-bolder"
               >USERNAME</label
             ><br />
-            <input type="text" id="email" name="email" /><br />
-            <label for="password" class="new-password-label fw-bolder"
+            <input type="text" id="username" name="username" /><br />
+            <label for="password" class="password-label fw-bolder"
               >PASSWORD</label
             ><br />
-            <input type="password" id="username" name="username" /><br />
-            <label for="password" class="confirm-password-label fw-bolder"
-              >CONFIRM NEW PASSWORD</label
-            ><br /><input
+            <input
               type="password"
               id="password"
               name="password"
               class="password-field"
-            /><br />
-
-            <label for="email" class="new-password-label fw-bolder">EMAIL</label
-            ><br />
-            <input type="email" id="username" name="username" /><br />
-            <br />
-
+            /><br /><br />
             <p class="link">
-              <a href="login.html" class="text-uppercase"
-                >Already have an account?</a
-              >
+              <a href="forget-password.html">FORGOT PASSWORD?</a>
             </p>
-
+            <p class="link margin-bottom-4">
+              <a href="register.html">DON'T HAVE AN ACCOUNT?</a>
+            </p>
             <input
               type="submit"
-              value="REGISTER"
+              value="LOGIN"
               class="submit btn align-items-center justify-content-center"
             />
           </form>

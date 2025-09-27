@@ -39,11 +39,12 @@
               />
             </svg>
 
-            <img
-              src="../img/profile-pic-11.jpg"
-              alt=""
-              class="profile-pic-user"
-            />
+            <a href="profile.html"
+              ><img
+                src="../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
           </div>
         </div>
         <div class="navbar-expand-sm d-flex justify-content-end">
@@ -84,7 +85,9 @@
                       >Dog info</a
                     >
                     <ul class="dropdown-menu dropdown-2">
-                      <li><a href="#" class="dropdown-item">Breeds</a></li>
+                      <li>
+                        <a href="breeds-md" class="dropdown-item">Breeds</a>
+                      </li>
                       <li><a href="#" class="dropdown-item">Dog news</a></li>
                       <li>
                         <a href="#" class="dropdown-item">Pet insurance</a>
@@ -102,17 +105,21 @@
                     >
                     <ul class="dropdown-menu dropdown-2">
                       <li>
-                        <a href="#" class="dropdown-item"
+                        <a href="community.html" class="dropdown-item"
                           >Dog community forum</a
                         >
                       </li>
-                      <li><a href="#" class="dropdown-item">Dog gallery</a></li>
+                      <li>
+                        <a href="dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item"><a href="#">Adoption</a></li>
+              <li class="nav-item"><a href="adoption.html">Adoption</a></li>
 
               <li class="nav-item dropdown">
                 <a
@@ -395,9 +402,24 @@
         </div>
       </section>
 
-      <div class="btn btn-more d-flex justify-content-center">
+      <!-- <div class="btn btn-more d-flex justify-content-center">
         <a href="#">More</a>
-      </div>
+      </div> -->
+      <nav aria-label="Page navigation example">
+        <ul
+          class="pagination pagination-lg justify-content-center pagination-dog"
+        >
+          <li class="page-item">
+            <a href="#" class="page-link">Previous</a>
+          </li>
+          <li class="page-item active">
+            <a href="#" class="page-link" aria-current="page">1</a>
+          </li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+      </nav>
     </article>
     <script>
       function myFunction() {
