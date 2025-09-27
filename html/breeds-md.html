@@ -115,21 +115,26 @@
 
     <main>
         <h1 class="header-main ">Dog Breeds</h1>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-4 col-sm-12">
-                    <h2><a class="btn-sm" href="../html/breeds-sm.html">Small</a></h2>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <h2> <a class="btn-md" id="active" href="../html/breeds-md.html">Medium</a></h2>
-
-                </div>
-                <div class="col-lg-4 col-sm-12">
-
-                    <h2> <a class="btn-lg" href="../html/breeds-lg.html">Large</a></h2>
-
+         <div class="container my-4 ">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-12 d-sm-none d-md-flex justify-content-center gap-5">
+                    <h2><a class="btn"  href="../html/breeds-sm.html">Small</a></h2>
+                    <h2><a class="btn" id="active" href="../html/breeds-md.html">Medium</a></h2>
+                    <h2><a class="btn"  href="../html/breeds-lg.html">Large</a></h2>
                 </div>
 
+                <div class="col-lg-4 col-md-6 col-sm-12 d-md-none text-center">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle fs-1 w-auto" data-bs-toggle="dropdown">
+                            Small
+                        </button>
+                        <ul class="dropdown-menu text-center fs-1">
+                            <li><a class="dropdown-item" href="../html/breeds-sm.html">Small</a></li>
+                            <li><a class="dropdown-item" href="../html/breeds-md.html">Medium</a></li>
+                            <li><a class="dropdown-item" href="../html/breeds-lg.html">Large</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
