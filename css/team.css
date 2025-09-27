@@ -7,7 +7,7 @@ h2 {
     text-align: center;
     font-size: 2em;
     color: rgb(124, 124, 124);
-    margin: 0em 15em;
+    margin: 0em 5em;
 }
 
 h1 {
@@ -31,5 +31,6 @@ i{
 i:hover{
     color: brown;
 }
+
 
 
