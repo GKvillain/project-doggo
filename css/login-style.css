@@ -104,7 +104,6 @@ input[name="password"] {
   font-weight: bold;
   color: #fff;
   background-color: #a76545;
-  display: block;
   margin: 0 auto;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -120,4 +119,8 @@ input[name="password"] {
   width: 100%;
   max-width: 36rem;
   padding: 2rem;
+}
+
+.logo-login {
+  width: 5.1rem;
 }
