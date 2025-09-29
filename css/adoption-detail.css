@@ -3,6 +3,8 @@
 }
 
 .img-adopt {
+  width: 35rem;
+  max-width: 40rem;
   border-radius: 15px;
 }
 
