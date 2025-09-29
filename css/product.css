@@ -1,0 +1,130 @@
+h1 {
+  font-size: clamp(2.5rem, 2.4305vw, 4rem);
+  margin-bottom: 5rem;
+}
+
+.product-row {
+  gap: 3rem;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 26.7rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.card-flash,
+.card-normal {
+  border-radius: 30px;
+  --bs-card-border-color: none;
+  width: 33.7rem;
+  height: 48.6rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.card-flash {
+  background-color: #ffa55d;
+  position: relative;
+}
+
+.card-flash h5,
+.card-normal h5 {
+  margin: 25px;
+  font-size: clamp(2rem, 1.5999vw, 3.5rem);
+}
+
+.card-flash h5 span {
+  background-color: #ffa8a8;
+  color: #e03131;
+  display: inline-block;
+  padding: 5px;
+  font-size: clamp(1.3rem, 1.3333vw, 3rem);
+  border-radius: 15px;
+}
+
+.buy-btn:link,
+.buy-btn:visited,
+.cart-btn:link,
+.cart-btn:visited {
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: clamp(1.5rem, 1.299999vw, 2.8rem);
+  transition: all 0.5s ease;
+}
+
+.buy-btn:link,
+.buy-btn:visited {
+  background-color: #e03131;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.buy-btn:hover,
+.buy-btn:active {
+  background-color: #b02525;
+  transform: translatey(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.type-product li {
+  margin: 5px;
+}
+
+.pills {
+  background-color: #a76545;
+  color: #fff;
+  font-size: clamp(1.6rem, 1.3vw, 3.5rem);
+  height: 6.6rem;
+  width: 13rem;
+  --bs-nav-pills-border-radius: 15px;
+}
+
+.pills:hover {
+  background-color: #915a3d;
+  color: #fff;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #cc8866;
+}
+
+#carouselFood {
+  width: 100%;
+  max-height: auto;
+  background-color: #ffdf88;
+}
+
+.carousel-item {
+  margin: 8rem 0;
+}
+
+.card-normal {
+  background-color: #f5e9dc;
+  color: #333333;
+  position: relative;
+}
+
+.cart-btn:link,
+.cart-btn:visited {
+  background-color: #a76545;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.cart-btn:hover,
+.cart-btn:active {
+  background-color: #915a3d;
+  transform: translatey(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 5rem;
+  height: 5rem;
+}
