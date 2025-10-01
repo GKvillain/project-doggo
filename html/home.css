@@ -1,0 +1,302 @@
+header {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.hero-section img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.intro {
+  position: absolute;
+  left: 5rem;
+  bottom: 5rem;
+
+  color: #fff;
+}
+
+.intro h1 {
+  font-size: 9.6rem;
+  font-weight: bold;
+}
+
+.intro p {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.history-1 {
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  animation: fadeScroll 0.8s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+.history-1 .block {
+  width: 35%;
+  height: 30rem;
+  border-radius: 30px;
+  font-size: 2.4rem;
+}
+
+.one {
+  background-color: #ffdf88;
+}
+
+.two {
+  background-color: #ffd562;
+}
+
+.three {
+  background-color: #ffc62a;
+}
+
+.four {
+  background-color: #e4a700;
+}
+
+.five {
+  background-color: #ce990a;
+}
+
+/* line */
+.history-1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: 0;
+  width: 1.5rem;
+  height: 90%;
+  background-color: #000;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.history-1:last-child::after {
+  display: none;
+}
+
+/* circle */
+.history-1 .block::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-color: #000;
+  z-index: 0;
+}
+
+.history-1 .block::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.years {
+  width: 35%;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.history-2 {
+  position: relative;
+  width: 85%;
+  height: 15rem;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  animation: fadeScroll 0.8s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+.history-2 .years {
+  font-size: 2rem;
+  width: 90%;
+}
+
+.two-one {
+  font-size: 1.3rem;
+}
+
+/* line */
+.history-2::after {
+  content: "";
+  position: absolute;
+  left: -2.5rem;
+  top: 50%;
+  bottom: 0;
+  width: 1.5rem;
+  height: 110%;
+  background-color: #000;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.history-2:last-child::after {
+  display: none;
+}
+
+/* circle */
+.history-2 .two-one::after {
+  content: "";
+  position: absolute;
+  left: -2.5rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #000;
+  z-index: 0;
+}
+
+.history-2 .two-one::before {
+  content: "";
+  position: absolute;
+  left: -2.5rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+@keyframes fadeScroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.row-dog {
+  gap: 4rem;
+}
+
+.three-dog {
+  width: 40rem;
+}
+
+.row-dog img {
+  width: 30rem;
+  height: 20rem;
+}
+
+.row-dog p {
+  font-size: clamp(1.1rem, 1.1vw, 2.5rem);
+}
+
+.additional-dog {
+  background-color: #fff6df;
+  margin-right: 0;
+}
+
+.additional-dog img {
+  width: 50rem;
+  height: 100vh;
+}
+
+.additional-dog p {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  font-weight: 400;
+  text-indent: 4rem;
+}
+
+.post-footer {
+  width: 100%;
+  height: 25rem;
+  background-color: #acc572;
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+}
+
+.post-footer h3 {
+  font-size: clamp(3.5rem, 3.4722222vw, 5.5rem);
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+  margin-right: 0;
+}
+
+.logo-home {
+  width: 26.7rem;
+}
+
+.bi {
+  font-size: 4rem;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.footer-pic {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+}
+footer {
+  background-color: #acc572;
+}
+
+footer p {
+  font-size: clamp(1.1rem, 1.1vw, 2.5rem);
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: clamp(1.1rem, 1.1vw, 2.5rem);
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover,
+footer a:active {
+  color: #333;
+}
+
+.line {
+  border: none;
+  height: 5px;
+  background-color: #fff;
+}
