@@ -79,7 +79,7 @@ input[type="password"] {
   font-size: 1.8rem;
 }
 input[name="password"] {
-  margin-bottom: 0;
+  margin-bottom: 5%;
 }
 
 .link {
