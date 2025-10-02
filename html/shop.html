@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar d-block">
+        <div class="d-flex justify-content-center align-items-center logo-pic">
+          <a href="#" class="navbar-brand"
+            ><img src="../img/image 9.png" alt="" class="logo navbar-brand"
+          /></a>
+
+          <div class="d-flex justify-content-end profile-zone">
+            <a href="#"><i class="bi bi-cart-dash-fill"></i></a>
+            <a href="#"><i class="bi bi-bell-fill"></i></a>
+            <a href="profile.html"
+              ><img
+                src="../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
+          </div>
+        </div>
+        <div class="navbar-expand-sm d-flex justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarToggleExternalContent"
+        >
+          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="#">Foods</a></li>
+              <li class="nav-item"><a href="#">Toys</a></li>
+              <li class="nav-item"><a href="#">Treats & Biscuits</a></li>
+              <li class="nav-item"><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="product.html">Trending</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Foods</li>
+        </ol>
+      </nav>
+
+      <div class="row">
+        <div class="col-md-3 d-none d-md-block">
+          <div class="row-input">
+            <h3>Brand</h3>
+            <form action="#">
+              <input type="checkbox" name="brand" /> Pedigree<br />
+              <input type="checkbox" name="brand" /> Royal canin<br />
+              <input type="checkbox" name="brand" /> SmartHeart<br />
+              <input type="checkbox" name="brand" /> Jerhigh<br />
+            </form>
+          </div>
+
+          <div class="row-input">
+            <h3>Other</h3>
+            <form action="#">
+              <input type="checkbox" name="other" /> Shipping in country<br />
+              <input type="checkbox" name="other" /> Free shipping<br />
+              <input type="checkbox" name="other" /> New<br />
+              <input type="checkbox" name="other" /> Best sellers<br />
+            </form>
+          </div>
+
+          <div class="row-input">
+            <h3>Price</h3>
+            <form action="#">
+              <input type="text" class="price" placeholder="min" /> -
+              <input type="text" class="price" placeholder="max" />
+            </form>
+          </div>
+
+          <div class="star-rating row-input">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+            ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+            ><i class="bi bi-star-fill"></i>
+          </div>
+          <div class="d-flex justify-content-center">
+            <input type="submit" class="btn submit" />
+          </div>
+        </div>
+
+        <div class="col-md-8 col-12">
+          <div class="d-flex sort-search">
+            <div class="d-flex justify-content-center align-items-center">
+              <label for="sort-select">Sort by</label>
+              <select name="sort" id="sort-select">
+                <option value="">Please choose an option</option>
+                <option value="match">Best match</option>
+                <option value="price-low">Price low to high</option>
+                <option value="price-high">Price high to low</option>
+              </select>
+            </div>
+
+            <div class="navbar search-item">
+              <div class="container-fluid">
+                <form action="#" class="d-flex gap-3" role="search">
+                  <input
+                    type="search"
+                    class="form-control text-search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn search-button" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="all-items">
+            <div class="row row-item">
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="card">
+                  <img
+                    src="../img/dog-product-3.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title text-center">
+                      Jerhigh Hot Dog Bar for Dogs, Chicken Flavor, 150 g
+                    </h2>
+                    <h5 class="card-subtitle text-center">$4.57</h5>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="btn cart-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Page navigation example" class="pagi">
+        <ul class="pagination pagination-lg justify-content-end pagination-dog">
+          <li class="page-item">
+            <a href="#" class="page-link">Previous</a>
+          </li>
+          <li class="page-item active">
+            <a href="#" class="page-link" aria-current="page">1</a>
+          </li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <footer>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6">
+          <div class="row">
+            <img src="../img/logo-pic.png" alt="" class="logo-home col-6" />
+            <div class="col-6 justify-content-center">
+              <img
+                src="../img/logo-name-2.png"
+                alt=""
+                class="logo-home d-none d-md-block"
+              />
+              <p>
+                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+                Khon Kaen 40002, Thailand
+              </p>
+              <p>Tel: +66 43 009700</p>
+              <div>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-md-block">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About dog</a></li>
+              <li><a href="#">Adoption</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Expert</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy;</p>
+      <hr class="line" />
+      <img src="../img/footer-pic.png" alt="" class="footer-pic" />
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
+</html>
