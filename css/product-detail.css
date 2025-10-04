@@ -9,6 +9,16 @@
   border-radius: 15px;
 }
 
+.item-all-pic {
+  max-width: 70rem;
+  padding: 2rem;
+}
+
+.descrip-item {
+  max-width: 70rem;
+  padding: 2rem;
+}
+
 .item-detail {
   gap: 5%;
 }
@@ -17,4 +27,201 @@
   align-items: center;
   width: 95%;
   font-size: clamp(2rem, 1.66666vw, 3.2rem);
+}
+
+.descrip-item-inside {
+  gap: 2rem;
+  align-items: center;
+}
+
+.price {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  font-weight: bold;
+}
+
+/* .descrip-item-inside h4,
+.ori-price,
+.save-price {
+  width: 4rem;
+} */
+
+.ori-price {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  padding: 5px 20px;
+  background-color: #ffa8a8;
+  color: #e03131;
+}
+
+.save-price {
+  font-size: clamp(1.2rem, 1.1111vw, 2.3rem);
+  background-color: #bee3b3;
+  color: #18841f;
+  padding: 4px;
+}
+
+.paragraph-item {
+  width: 75%;
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+
+  color: #444444;
+}
+
+.bi-star-fill {
+  font-size: 2rem;
+  color: #ffd700;
+}
+
+.num-reviews {
+  font-size: clamp(1.2rem, 1.1111vw, 2.3rem);
+}
+
+.group-btn {
+  gap: 1.5rem;
+}
+
+.buy-btn:link,
+.buy-btn:visited,
+.cart-btn:link,
+.cart-btn:visited {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  width: 17rem;
+  height: 6.5rem;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+}
+
+.buy-btn:link,
+.buy-btn:visited {
+  background-color: #e03131;
+}
+
+.cart-btn:link,
+.cart-btn:visited {
+  background-color: #a76545;
+}
+
+.buy-btn:hover,
+.cart-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.buy-btn:active,
+.cart-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+}
+
+.review-shipping {
+  width: 90%;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.reviews {
+  max-width: 70rem;
+  padding: 3rem;
+  overflow: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.shipping {
+  max-width: 50rem;
+  height: 25rem;
+  background-color: #ffdf88;
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+.shipping ul {
+  list-style-type: circle;
+  font-size: clamp(1.2rem, 1.1111vw, 2.3rem);
+}
+
+.comment-review {
+  gap: 1.5rem;
+}
+
+h4 {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+}
+
+.reviews ul li {
+  margin: 3rem;
+}
+.profile-review {
+  width: 4.7rem;
+  height: 4.7rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: clamp(1.2rem, 1.1111vw, 2.3rem);
+  margin-bottom: 0;
+}
+
+.comments {
+  font-size: clamp(1.2rem, 1.1111vw, 2.3rem);
+  margin-left: 3rem;
+}
+
+.more-topic {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+}
+
+.product-row {
+  gap: 3rem;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 26.7rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.card-normal {
+  background-color: #f5e9dc;
+  color: #333333;
+}
+
+.card-normal {
+  border-radius: 30px;
+  --bs-card-border-color: none;
+  width: 33.7rem;
+  height: 48.6rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.card-normal h5 {
+  margin: 25px;
+  font-size: 3rem;
+}
+
+#carouselMore {
+  width: 100%;
+  max-height: auto;
+}
+
+.carousel-item {
+  margin: 8rem 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 5rem;
+  height: 5rem;
+  color: #616161;
 }
