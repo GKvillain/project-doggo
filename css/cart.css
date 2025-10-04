@@ -1,0 +1,109 @@
+h1 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.product {
+  border-radius: 15px;
+}
+
+.product img {
+  width: 25%;
+  border-radius: 15px;
+}
+
+.all-product {
+  gap: 1rem;
+}
+
+.box-product {
+  background-color: #fff;
+  border-radius: 15px;
+  /* margin: 2rem; */
+  padding: 2rem;
+}
+
+.box-product h5 {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.inside-option {
+  gap: 1rem;
+}
+
+.plus,
+.num {
+  border: none;
+  border-radius: 10px;
+  width: 4em;
+  height: 2em;
+  background-color: #deccb8;
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  margin-bottom: 0;
+}
+
+.plus {
+  transition: all 0.15s ease-in-out;
+}
+
+.plus:active {
+  transform: scale(0.95);
+  background-color: #d4bfa6;
+}
+
+.num {
+  background-color: #f5e9dc;
+}
+
+.line {
+  background-color: #a76545;
+  height: 1rem;
+  border-radius: 15px;
+}
+
+.bi-trash-fill {
+  color: red;
+  width: 5rem;
+  margin-left: 4rem;
+}
+
+.payment-block {
+  background-color: #ffdf88;
+  padding: 3rem;
+  width: 25%;
+  height: 30rem;
+
+  border-radius: 15px;
+}
+
+.form {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  margin-bottom: 3rem;
+}
+
+.btn-checkout:link,
+.btn-checkout:visited {
+  background-color: #a76545;
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  color: #fff;
+}
+
+.btn-checkout:hover,
+.btn-checkout:active {
+  background-color: #b97555;
+  color: #fff;
+}
+
+.btn-checkout-mb:link,
+.btn-checkout-mb:visited {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  position: absolute;
+  bottom: 3rem;
+  right: 1rem;
+}
