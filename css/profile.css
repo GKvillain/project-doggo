@@ -65,16 +65,17 @@ button:hover{
 
 
 .info{
-    margin-left:em ;
+    margin-left:10em ;
     display: block;
 }
 .info h3{
     width: 65%;
     padding-left: 1em;
-    font-size: 3em;
+    font-size: 2.5em;
     background-color: rgb(219, 219, 219);
     border-radius: 0.1em;
 }
+
 .info i{
     font-size: 3em;
 }
@@ -129,6 +130,19 @@ span{
     font-size: 2em;
     margin-left: 3em;
 }
+.sm h1{
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
 .faq{
     margin-left: 10em;
+}
+.sm .row{
+    background-color: #ACC572;
+}
+.sm .row{
+    margin-top: 1em;
+}
+.sm .faq i{
+    margin-left: 3em;
 }
