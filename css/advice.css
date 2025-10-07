@@ -1,0 +1,148 @@
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.left-head,
+.left-left .left-left-top,
+.left-left .left-left-bottom,
+.left-right,
+.right {
+    border-radius: 1em;
+    background-color: #FFDF88;
+    border: 1px solid gray;
+}
+
+.advice {
+    /*align-items: center;
+  justify-content: center;*/
+    margin-left: 10%;
+}
+
+.left {
+
+    width: 60%;
+}
+
+.left-head {
+    width: 99.3%;
+}
+
+.left-left-top,
+.left-left-bottom {
+    width: 100%;
+}
+
+.left-foot {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.left-left {
+    margin-right: 1em;
+    width: 50%;
+}
+
+.left-right {
+    width: 48.5%;
+}
+
+/*------------------------------------------*/
+.right {
+    width: 30%;
+    margin-left: 0.5em;
+}
+
+/*-------------------------------------------------*/
+h2 {
+    margin-left: 1em;
+    padding-top: 0.2em;
+    font-size: 4em;
+}
+
+img {
+    width: 9em;
+    margin: 1em;
+}
+
+p {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 2em;
+}
+
+/*-----------------*/
+.tips {
+    background-color: #FFDF88;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.tips-left {
+    width: 60%;
+}
+
+h3 {
+    margin: 3em 2em 1em 5em;
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 3em;
+    padding: 0.2em 1em 0.2em 1em;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10em;
+    margin: 0em 0em 2em 20em;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#gang {
+    width: 125.2em;
+    margin-bottom: -0.01em;
+}
+.tips-right {
+    width: 40%;
+    background-color: #F2BF35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctor img{
+    width:15em;
+}
+.doc-name {
+    font-size: 1.2em;
+}
+.doctor1 ,.doctor2 {
+    width: 100%;
+    max-width:fit-content;
+    margin: 2em 0em;
+    border-radius: 2em;
+    width: 60em;
+    background-color: white;
+}
+.content-sm{
+  width: 90%;
+  background-color: #FFDF88;
+  margin: 1em 2em 1em 3em;
+  border-radius: 2em;
+}
+#tips{
+    margin-top: 1em;
+}
+.doctor1-sm,.doctor2-sm{
+    width: 90%;
+    border: 1px black solid;
+    margin: 2em 2em 2em 3em;
+    border-radius: 2em;
+}
