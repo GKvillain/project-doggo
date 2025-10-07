@@ -49,6 +49,7 @@
 .mb {
   height: 30%;
   font-size: clamp(1.1rem, 1.2999vw, 2.5rem);
+  padding: 2rem;
 }
 
 .box-category {
