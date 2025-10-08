@@ -2,11 +2,25 @@
   width: 100%;
   border-radius: 15px;
   object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.product-pic:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }
 
 .small-product-pic {
   width: 85%;
   border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.small-product-pic:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }
 
 .item-all-pic {
@@ -38,12 +52,6 @@
   font-size: clamp(2rem, 1.66666vw, 3.2rem);
   font-weight: bold;
 }
-
-/* .descrip-item-inside h4,
-.ori-price,
-.save-price {
-  width: 4rem;
-} */
 
 .ori-price {
   font-size: clamp(2rem, 1.66666vw, 3.2rem);
@@ -157,6 +165,7 @@ h4 {
 
 .reviews ul li {
   margin: 3rem;
+  padding-bottom: 1.5rem;
 }
 .profile-review {
   width: 4.7rem;
