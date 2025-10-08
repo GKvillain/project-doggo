@@ -121,6 +121,10 @@ input[name="password"] {
   padding: 2rem;
 }
 
-.logo-login {
+/* .logo-login {
   width: 5.1rem;
+} */
+
+.bi {
+  color: #000;
 }
