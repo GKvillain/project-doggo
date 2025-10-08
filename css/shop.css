@@ -2,6 +2,15 @@ header {
   margin-bottom: 0;
 }
 
+/* .bi-cart-dash-fill,
+.bi-bell-fill {
+  font-size: clamp(1.2rem, 1.2999vw, 3rem);
+} */
+
+.mb-bell {
+  font-size: 2.5rem;
+}
+
 .breadcrumb {
   margin: 20px;
   margin-top: 5px;
@@ -20,6 +29,15 @@ header {
   margin-bottom: 2rem;
 }
 
+.category ul {
+  list-style: none;
+}
+
+.category a:link,
+.category a:visited {
+  color: #000;
+  text-decoration: none;
+}
 .price {
   width: 45%;
 }
@@ -114,4 +132,13 @@ header {
 
 .pagi {
   margin: 2rem;
+}
+
+.off-canva {
+  width: 100%;
+}
+
+.btn-cate-fil {
+  background-color: #a76545;
+  color: #fff;
 }
