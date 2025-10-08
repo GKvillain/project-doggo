@@ -1,0 +1,143 @@
+.container {
+  min-height: 100vh;
+}
+
+.box {
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+  /* height: 40%; */
+  margin: 0 auto;
+  background-color: #fed463;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.pic-profile {
+  width: 12rem;
+  /* height: 12rem; */
+  height: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.box .text {
+  padding: 1rem;
+}
+
+.box h3 span {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+
+  color: #888;
+}
+
+.post-text {
+  font-size: clamp(1rem, 1.11113vw, 2.5rem);
+  padding: 2rem;
+  width: 100%;
+  max-height: 8rem;
+  overflow-y: auto;
+  margin: 1rem 0;
+}
+
+.mb {
+  height: 30%;
+  font-size: clamp(1.1rem, 1.2999vw, 2.5rem);
+}
+
+.all-post-comment {
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #ffdf88;
+  margin-bottom: 2rem;
+}
+
+.topic-comments {
+  font-size: clamp(1.5rem, 1.44444vw, 4rem);
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.comment-post {
+  width: 90%;
+}
+
+.comment {
+  margin-bottom: 5rem;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+}
+
+.comment img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: conver;
+}
+
+.name {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name h5 {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+}
+
+.name p {
+  color: #555;
+}
+
+.comment-write {
+  width: 90%;
+  background-color: #ffdf88;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.comment-write p {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+}
+
+#comment {
+  display: inline-block;
+  width: 100%;
+  border-radius: 15px;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.submit-comment {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  background-color: #a76545;
+  color: #fff;
+  width: 10rem;
+  margin-left: 90%;
+}
+
+.contain-mb {
+  background-color: #ffdf88;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#comment-mb {
+  margin-left: 1rem;
+  width: 70%;
+}
+
+.bi-send {
+  font-size: 2rem;
+  border: none;
+  background-color: #a76545;
+  padding: 1rem;
+  border-radius: 5px;
+}
