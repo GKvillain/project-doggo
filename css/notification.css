@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.topic {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 3rem;
+}
+
+.box {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #ffdf88;
+  width: 70%;
+  height: 50%;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.box img {
+  width: 100%;
+  height: 23rem;
+  /* height: %; */
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.img {
+  padding: 0;
+}
+
+.topic-noti {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  color: #333;
+}
+
+.shipping {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  background-color: #4caf50;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.flash-sale {
+  background-color: #ff0000;
+}
+
+.inside-detail {
+  font-size: clamp(1.1rem, 1.1999vw, 2.2rem);
+  padding: 1rem;
+  color: #000;
+}
