@@ -7,10 +7,14 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/track-order.css" />
-    <title>Track</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/review.css" />
+    <title>Review</title>
   </head>
   <body>
     <header>
@@ -177,71 +181,37 @@
     </header>
 
     <section class="container">
-      <h1 class="topic">Order tracking</h1>
-
-      <div class="box">
-        <h2 class="sub-topic">On the way</h2>
-        <div class="row detail-box">
-          <div class="col-md-3 img">
-            <img src="../img/flash-sale-2.webp" alt="" class="track-pic" />
-          </div>
-          <div class="col-md-9 text-detail-box">
-            <div class="d-flex flex-column inside-detail-order">
-              <div>
-                <h3>Zippypaws Zippy Burrow Watering Can</h3>
-                <h3>$25</h3>
-              </div>
-              <div class="d-flex group-order">
-                <div class="order-date">
-                  <p>Order ID : 4534234-D</p>
-                  <p>Order date : 5/09/2024</p>
-                </div>
-                <a
-                  href="#"
-                  class="btn btn-impor d-flex justify-content-center align-items-center"
-                  >More details</a
-                >
-              </div>
-            </div>
-          </div>
+      <h1 class="text-center text-sm-start topic">Review</h1>
+      <h3 class="text-center text-sm-start name-product">
+        ZippyPaws Hide & Seek Dog Toy, Milk and Cookies Design, Blue & White
+      </h3>
+      <div class="row content">
+        <div class="col-md-3">
+          <img src="../../img/dog-product-7.webp" alt="" class="product-pic" />
         </div>
-      </div>
-
-      <div class="box">
-        <h2 class="sub-topic">Delivered</h2>
-        <div class="row detail-box">
-          <div class="col-md-3 img">
-            <img src="../img/dog-product-7.webp" alt="" class="track-pic" />
+        <div class="col-md-9 form-review">
+          <div class="d-flex">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+            ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+            ><i class="bi bi-star-fill"></i>
           </div>
-          <div class="col-md-9 text-detail-box">
-            <div class="d-flex flex-column inside-detail-order">
-              <div>
-                <p class="order-complete">Delivered complete on 3/09/2024</p>
-                <h3>
-                  ZippyPaws Hide & Seek Dog Toy, Milk and Cookies Design, Blue &
-                  White
-                </h3>
-                <h3>$26.76</h3>
-              </div>
-              <div class="d-flex group-order">
-                <div class="order-date">
-                  <p>Order ID : 1849542-A</p>
-                  <p>Order date : 1/09/2024</p>
-                </div>
-                <div class="d-flex gap-2">
-                  <a
-                    href="#"
-                    class="btn btn-impor d-flex justify-content-center align-items-center"
-                    >Rate</a
-                  >
-                  <a
-                    href="#"
-                    class="btn btn-sub d-flex justify-content-center align-items-center"
-                    >More details</a
-                  >
-                </div>
-              </div>
-            </div>
+          <textarea
+            name="review"
+            id="review"
+            placeholder="type review"
+          ></textarea>
+          <div class="d-flex justify-content-end gap-2">
+            <label
+              for="file-upload"
+              class="btn-post d-flex justify-content-center align-items-center"
+              >Upload File</label
+            >
+            <input id="file-upload" type="file" accept="image/png, img/jpg" />
+            <a
+              href="#"
+              class="btn btn-post d-flex justify-content-center align-items-center"
+              >Post</a
+            >
           </div>
         </div>
       </div>
@@ -251,10 +221,10 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-6">
           <div class="row">
-            <img src="../img/logo-pic.png" alt="" class="logo-home col-6" />
+            <img src="../../img/logo-pic.png" alt="" class="logo-home col-6" />
             <div class="col-6 justify-content-center">
               <img
-                src="../img/logo-name-2.png"
+                src="../../img/logo-name-2.png"
                 alt=""
                 class="logo-home d-none d-md-block"
               />
@@ -292,7 +262,7 @@
       </div>
       <p class="text-center">&copy;</p>
       <hr class="line" />
-      <img src="../img/footer-pic.png" alt="" class="footer-pic" />
+      <img src="../../img/footer-pic.png" alt="" class="footer-pic" />
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
