@@ -29,12 +29,11 @@
             <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
             <i class="bi bi-bell-fill d-none d-md-block"></i>
             <i class="bi bi-search magnifie d-none d-md-block"></i>
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-              />
-            </svg>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
 
             <a href="profile.html"
               ><img
@@ -180,8 +179,6 @@
         </div>
       </nav>
     </header>
-
-    
     <section>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -193,6 +190,16 @@
 
       <div class="row">
         <div class="col-md-3 d-none d-md-block">
+          <div class="category row-input">
+            <h3>Category</h3>
+            <ul>
+              <li><a href="shop.html">Foods</a></li>
+              <li><a href="#">Treats & Biscuits</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+
           <div class="row-input">
             <h3>Brand</h3>
             <form action="#">
@@ -232,6 +239,84 @@
         </div>
 
         <div class="col-md-8 col-12">
+          <button
+            class="btn btn-cate-fil d-md-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop"
+            aria-controls="staticBackdrop"
+          >
+            Category & Filter
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            data-bs-backdrop="static"
+            tabindex="-1"
+            id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="category row-input">
+                <h3>Category</h3>
+                <ul>
+                  <li><a href="shop.html">Foods</a></li>
+                  <li><a href="#">Treats & Biscuits</a></li>
+                  <li><a href="#">Toys</a></li>
+                  <li><a href="#">Accessories</a></li>
+                </ul>
+              </div>
+
+              <div class="row-input">
+                <h3>Brand</h3>
+                <form action="#">
+                  <input type="checkbox" name="brand" /> Pedigree<br />
+                  <input type="checkbox" name="brand" /> Royal canin<br />
+                  <input type="checkbox" name="brand" /> SmartHeart<br />
+                  <input type="checkbox" name="brand" /> Jerhigh<br />
+                </form>
+              </div>
+
+              <div class="row-input">
+                <h3>Other</h3>
+                <form action="#">
+                  <input type="checkbox" name="other" /> Shipping in country<br />
+                  <input type="checkbox" name="other" /> Free shipping<br />
+                  <input type="checkbox" name="other" /> New<br />
+                  <input type="checkbox" name="other" /> Best sellers<br />
+                </form>
+              </div>
+
+              <div class="row-input">
+                <h3>Price</h3>
+                <form action="#">
+                  <input type="text" class="price" placeholder="min" /> -
+                  <input type="text" class="price" placeholder="max" />
+                </form>
+              </div>
+
+              <div class="star-rating row-input">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div class="d-flex justify-content-center">
+                <input type="submit" class="btn submit" />
+              </div>
+            </div>
+          </div>
+
           <div class="d-flex sort-search">
             <div class="d-flex justify-content-center align-items-center">
               <label for="sort-select">Sort by</label>
