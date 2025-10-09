@@ -25,17 +25,17 @@
   width: 80%;
   margin: 0 auto;
   color: #555555;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .btn-done:link,
 .btn-done:visited {
-  padding: 2rem;
+  padding: 1rem 3rem;
   width: 15rem;
   height: 7rem;
   margin: 0 auto;
   color: #fff;
-  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  font-size: clamp(1.5rem, 1.299999vw, 2.5rem);
   background-color: #45a754;
 }
 
