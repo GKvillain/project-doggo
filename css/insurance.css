@@ -1,0 +1,161 @@
+h1 {
+    margin: 1em 2em;
+}
+
+.topic {
+    width: 80%;
+}
+
+h1 span {
+    font-size: 0.em;
+    color: brown;
+}
+
+.why img {
+    max-width: 35%;
+}
+
+.why p {
+    font-size: 3em;
+}
+
+.why span {
+    font-weight: 900;
+}
+
+.type p {
+    font-size: 2.5em;
+    color: #5C5C5C;
+}
+
+.type h2 {
+    font-size: 3em;
+    margin: 1em 0em;
+}
+
+.type {
+    border-radius: 2em;
+    padding: 2em;
+    margin: 2em;
+    width: 70%;
+    height: 90%;
+    box-shadow: #b8b8b8 0px 15px 5px;
+}
+
+#red p,
+#orange p {
+    color: #B5B8B4;
+}
+
+#black h2 {
+    color: #ffffff;
+}
+
+#black p {
+    color: #5F655C;
+}
+
+#green {
+    background-color: #88E457;
+}
+
+#yellow {
+    background-color: #EDD134;
+}
+
+#orange {
+    background-color: #E56B00;
+}
+
+#red {
+    background-color: #BA0000;
+}
+
+#black {
+    background-color: #000000;
+}
+
+#green:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+#yellow:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+#orange:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+#red:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+#black:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+.all-type {
+    margin-left: 2%;
+    margin-bottom: 5em;
+}
+
+/*-------------------------------------------------*/
+.reccommended {
+    margin-bottom: 5em;
+}
+
+.rec {
+    height: 25em;
+    border-radius: 2em;
+    border: 2px black solid;
+    box-shadow: #b8b8b8 0px 15px 5px;
+}
+
+.lg img {
+    padding: 2em;
+
+}
+
+.rec p {
+    font-size: 2em;
+}
+
+span {
+    font-weight: 700;
+}
+
+a:hover {
+    scale: 1.01;
+    transition: 0.2s;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*-------------------*/
+.insurance-sm h1 {
+    margin-top: -1em;
+}
+
+.insurance-sm {
+    font-size: 0.7em;
+}
+
+.insurance-sm .all-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pet-insure .reccommended{
+    width: 60%;
+}
