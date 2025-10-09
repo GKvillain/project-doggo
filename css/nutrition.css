@@ -1,0 +1,187 @@
+header {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    padding-top: 0.5em;
+    left: 45%;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#head-cover {
+    position: relative;
+    margin-top: -7.8em;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+canvas {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    left: 0;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#intro {
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    color: rgb(105, 105, 105);
+    margin: 5em;
+}
+
+.banner {
+    overflow: auto;
+    height: 49vh;
+    background-color: #FFDF88;
+    margin-bottom: 4em;
+}
+
+.graphic {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    float: left;
+}
+
+#bannerfont {
+    margin-top: 6em;
+}
+
+.docter {
+    overflow: auto;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    margin: 4em 2em 0em 0em;
+    float: right;
+}
+
+#color {
+    background-color: #FFDF88;
+    position: absolute;
+    width: 40%;
+    height: 11%;
+}
+
+#docterGK {
+    position: relative;
+}
+
+.docter h3 {
+    font-size: 3em;
+}
+
+.docter p {
+    font-size: 1.9em;
+    padding: 0em 2em 2em 2em;
+}
+
+span {
+    font-weight: 800;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.nutrian,
+.foot {
+    margin: 10em;
+    position: static;
+}
+
+.nutrian h1 {
+
+}
+
+.row1 {
+    margin-top: 10em;
+}
+
+h4 {
+    font-size: 4em;
+}
+
+.balanced {
+    text-align: center;
+}
+
+.balanced p {
+    font-size: 2em;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot h2 {
+    font-size: 4em;
+}
+
+button {
+    padding: 1em;
+    font-size: 3em;
+    background-color: #E56B00;
+    border-radius: 2em;
+    color: white;
+}
+
+button:hover {
+    transition: 0.2s;
+    color: black;
+    background-color: #ffffff;
+}
+
+.foot span {
+    color: rgb(221, 40, 40);
+}
+
+.sm #head-cover {
+    margin-top: -4em;
+}
+
+.sm #intro {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-top: -1em;
+    padding-left: 5em;
+}
+
+.sm #bannerfont {
+    width: 100%;
+}
+
+.sm .docter {
+    margin-right: 7em;
+    width: 80%;
+}
+.sm .banner {
+    padding-bottom: 3em;
+    height: 70vh;
+}
+.sm .nutrian h1{
+    margin-left: -15%;
+}
+.sm .foot h2{
+font-size: 2em;
+}
+.sm button{
+    font-size: 2em;
+}
