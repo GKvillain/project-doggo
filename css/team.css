@@ -23,9 +23,9 @@ p{
     font-size: 3em;
     margin-top: 0.5em;
 }
-i{
+.bi{
     padding: 0.5em;
-    color: black;
+    color: #000000;
     font-size: 500%;
 }
 i:hover{

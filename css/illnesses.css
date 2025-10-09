@@ -7,17 +7,17 @@ h2{
     margin-bottom: 1em;
 }
 .content{
-
-    width: 50%;
+ width: 60%;
 }
 .lg p{
+       max-width: 95%;
     font-size: 2em;
 }
 .lg .row{
     align-items: center;
     justify-content: center;
     border-bottom: 0.5em #A76545 dashed;
-    margin: 0em 20em;
+    margin: 0em 10em; 
 }
 .solution,.solution-yellow{
         margin: 2em;
@@ -31,6 +31,7 @@ h2{
     background-color: #FFDF88;
 }
 .icon{
+    color: #000000;
     font-size: 3em;
 }
 .container-fluid{

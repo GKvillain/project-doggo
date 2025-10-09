@@ -4,25 +4,23 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 6em;
 }
 
 .content {
     overflow: auto;
     background-color: #FFDF88;
     width: 40%;
-    height: 30em;
+    height: 25em;
     margin: 1em;
     border-radius: 2em;
 
 }
 
 h2 {
-
     vertical-align: middle;
-    margin-top: 0.5em;
-    margin-left: 3em;
-    font-size: 4em;
+    margin-top: 1em;
+    margin-left: 5em;
+    font-size: 3em;
     font-weight: 200;
 }
 
@@ -32,12 +30,11 @@ span {
 
 p {
     clear: left;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 1em;
 }
 
 .row {
-
     align-items: center;
     justify-content: center;
 }
@@ -67,7 +64,7 @@ img {
 }
 
 .tips p {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-left: -7em;
 }
 
@@ -99,7 +96,7 @@ button {
 }
 
 button a {
-    font-size: 3em;
+    font-size: 2em;
     padding: 0.5em 1em;
     color: white;
     text-decoration: none;

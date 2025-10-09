@@ -1,7 +1,6 @@
 
 
 h1{
-    font-size: 7em;
     margin-left: 1em;
 }
 .bg-gray{
@@ -29,20 +28,23 @@ h1{
     width: 80%;
 }
 .pic-content p{
-    font-size: 3em;
+    font-size: 1.5em;
     margin: 0em 1em;
 }
 .pic-content h2{
     font-weight: 700;
     margin: 0em 0.7em;
-    font-size: 4em;
+    font-size: 2em;
 }
 .pic-content .date{
-    font-size: 2.5em;
+    font-size: 1em;
     margin: 1em 0em 0em 1.5em;
 }
 .index{
     font-size: 6em;
+}
+.bi{
+    color:#000000;
 }
 .index i:hover{
     color: #727272;
@@ -54,6 +56,7 @@ h3{
 .judy img{
     margin: 3em;
     border-radius: 1em;
+    max-width: 50%;
 }
 .judy h2,p{
 font-size: 4em;
