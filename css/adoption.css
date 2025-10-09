@@ -41,6 +41,10 @@
   color: #a76545;
 }
 
+.adopt-click {
+  text-decoration: none;
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
