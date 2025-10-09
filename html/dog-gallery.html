@@ -28,20 +28,14 @@
           /></a>
 
           <div class="d-flex justify-content-end profile-zone">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="magnifie d-none d-md-block"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-              />
-            </svg>
+            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
+            <i class="bi bi-bell-fill d-none d-md-block"></i>
+            <i class="bi bi-search magnifie d-none d-md-block"></i>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
 
             <a href="profile.html"
               ><img
@@ -52,6 +46,8 @@
           </div>
         </div>
         <div class="navbar-expand-sm d-flex justify-content-end">
+          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
           <button
             class="navbar-toggler"
             type="button"
@@ -73,6 +69,7 @@
         >
           <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
             <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="home.html">Home</a></li>
               <li class="nav-item dropdown">
                 <a
                   href="#"
@@ -94,7 +91,9 @@
                           >Breeds</a
                         >
                       </li>
-                      <li><a href="#" class="dropdown-item">Dog news</a></li>
+                      <li>
+                        <a href="news.html" class="dropdown-item">Dog news</a>
+                      </li>
                       <li>
                         <a href="#" class="dropdown-item">Pet insurance</a>
                       </li>
@@ -105,11 +104,6 @@
                       </li>
                       <li>
                         <a href="posion-food" class="dropdown-item">Poison</a>
-                      </li>
-                      <li>
-                        <a href="healthcare.html" class="dropdown-item"
-                          >Healthcare</a
-                        >
                       </li>
                     </ul>
                   </li>
