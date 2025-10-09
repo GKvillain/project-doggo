@@ -4,12 +4,8 @@
     margin-left: -2em;
 }
 
-h1 {
-    font-size: 3em;
-    padding: 1em 0em;
-}
-
 .left {
+      margin-top: 3.9em;
     background-color: #ACC572;
     width: 80%;
     height: 90vh;
@@ -40,109 +36,145 @@ img {
 }
 
 .menu h2:hover {
-    background-color: rgb(197, 197, 197);
+    background-color: #c5c5c5;
 }
 
 button {
-
     font-size: 2.5em;
     border-radius: 1em;
     background-color: #A76545;
 }
-a{
+
+a {
     text-decoration: none;
-    color: black;
+    color: #000000;
+}
+
+header{
+    margin-bottom: 0;
 }
 button a {
-    color: white;
+    color: #ffffff;
     padding: 1em;
 }
-button:hover{
+
+button:hover {
+    transition: all 0.5s ease;
     transform: scale(1.1);
     transition: 0.1s;
     background-color: #92593d;
 }
-
-
-.info{
-    margin-left:10em ;
+.info {
+    margin-left: 10em;
     display: block;
 }
-.info h3{
+
+.info h3 {
     width: 65%;
     padding-left: 1em;
     font-size: 2.5em;
-    background-color: rgb(219, 219, 219);
+    background-color: #dbdbdb;
     border-radius: 0.1em;
 }
 
-.info i{
+.info i {
     font-size: 3em;
+    color: black;
 }
-.info i:hover{
+
+.info i:hover {
     transform: scale(1.1);
 }
-span{
+
+span {
     font-weight: 100;
 }
 
-.faq{
-    text-align: center;
-    width: 65%;
-    margin-top: 5em;
-    
+.accordion {
+    width: 70%;
+    margin: 0 auto;
 }
-.q{
+
+.faq {
+    font-size: clamp(1.8rem, 1.5vw, 3.5rem);
+    margin-bottom: 3rem;
+    margin-top: 1em;
+}
+
+.accordion-button {
+    font-size: clamp(1.5rem, 1.3vw, 3rem);
+    background-color: #acc572;
+    padding: 15px;
+}
+
+.accordion-body {
+    font-size: clamp(1.2rem, 1vw, 3rem);
+}
+.accordion-button:not(.collapsed) {
+  background-color: #7b944f;
+  color: #fff;
+} 
+.q {
     margin-top: 1em;
     background-color: #ACC572;
     padding: 2.5em;
     border-radius: 0.5em;
 }
-.q h2{
- 
+
+.q h2 {
+
     float: left;
 }
-.q i{
+
+.q i {
     font-size: 2em;
     margin-left: 9em;
 }
-.q i:hover{
-    color: white;
+
+.q i:hover {
+    color: #ffffff;
 }
+
 /*-------------------------*/
-.profile{
+.profile {
     margin: -5em -1em 0em -1em;
     background-color: #ACC572;
 }
-.sm h3{
+
+.sm h3 {
     font-size: 3em;
 }
-.sm img{
+
+.sm img {
     width: 20%;
 }
-.sm button{
+
+.sm button {
     margin-bottom: 1em;
 }
-.sm .info{
+
+.sm .info {
     margin-top: 2em;
 }
-.sm .info h3{
+
+.sm .info h3 {
     font-size: 2em;
     margin-left: 3em;
 }
-.sm h1{
+
+.sm h1 {
     margin-bottom: 1em;
     margin-top: -2em;
 }
-.faq{
-    margin-left: 10em;
+
+.sm .row {
+    background-color: #acc572;
 }
-.sm .row{
-    background-color: #ACC572;
-}
-.sm .row{
+
+.sm .row {
     margin-top: 1em;
 }
-.sm .faq i{
+
+.sm .faq i {
     margin-left: 3em;
 }

@@ -1,450 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
 
-    <title>Dog gallery</title>
-  </head>
-  <body>
-    <header>
-      <div class="navbar d-block">
-        <div class="d-flex justify-content-center align-items-center logo-pic">
-          <a href="#" class="navbar-brand"
-            ><img src="../img/image 9.png" alt="" class="logo navbar-brand"
-          /></a>
+  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 
-          <div class="d-flex justify-content-end profile-zone">
-            <i class="bi bi-search magnifie d-none d-md-block"></i>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            />
+  <title>Dog gallery</title>
+</head>
 
-            <a href="profile.html"
-              ><img
-                src="../img/profile-pic-11.jpg"
-                alt=""
-                class="profile-pic-user"
-            /></a>
+<body>
+  <header>
+    <div class="navbar d-block">
+      <div class="d-flex justify-content-center align-items-center logo-pic">
+        <a href="#" class="navbar-brand"><img src="../img/image 9.png" alt="" class="logo navbar-brand" /></a>
+
+        <div class="d-flex justify-content-end profile-zone">
+          <i class="bi bi-search magnifie d-none d-md-block"></i>
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+
+          <a href="profile.html"><img src="../img/profile-pic-11.jpg" alt="" class="profile-pic-user" /></a>
+        </div>
+      </div>
+      <div class="navbar-expand-sm d-flex justify-content-end">
+        <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+        <i class="bi bi-bell-fill mb-bell d-md-none"></i>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
+        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                data-bs-target="dropdown">About dog</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="breeds-md.html" class="dropdown-item">Breeds</a>
+                    </li>
+                    <li>
+                      <a href="news.html" class="dropdown-item">Dog news</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Pet insurance</a>
+                    </li>
+                    <li>
+                      <a href="illnesses.html" class="dropdown-item">Common disease</a>
+                    </li>
+                    <li>
+                      <a href="posion-food" class="dropdown-item">Poison</a>
+                    </li>
+                  </ul>
+                </li>
+                tfasdf
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="community.html" class="dropdown-item">Dog community forum</a>
+                    </li>
+                    <li>
+                      <a href="dog-gallery.html" class="dropdown-item">Dog gallery</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="adoption.html">Adoption</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="product.html" class="dropdown-item">Shopping</a>
+                </li>
+                <li><a href="cart.html" class="dropdown-item">Cart</a></li>
+                <li>
+                  <a href="notification.html" class="dropdown-item">Notification</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Expert</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="advice.html" class="dropdown-item">Advice</a>
+                </li>
+                <li>
+                  <a href="training-basic.html" class="dropdown-item">Training</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">About us</a></li>
+                <li>
+                  <a href="feedback.html" class="dropdown-item">Contact</a>
+                </li>
+                <li><a href="team.html" class="dropdown-item">Team</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <article class="container-fluid">
+    <header class="post-header">
+      <h1>Dog Gallery</h1>
+      <p class="d-none d-md-block text-center">
+        Welcome to our Dog Gallery — a space full of wagging tails, goofy
+        smiles, and heartwarming moments. Here, our community shares snapshots
+        of their beloved dogs, from playful adventures to lazy nap times.
+        Browse through and feel the love that every picture tells.
+      </p>
+    </header>
+    <section class="gallery-pic-dog">
+      <div class="row text-center contain-row">
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1" id="pic-1" onclick="myFunction()">
+            <img src="../img/gallery-dog-1.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-1.jpg" alt="" class="pic-photographer" />
+              <p>Anoir Chafik</p>
+            </div>
           </div>
         </div>
-        <div class="navbar-expand-sm d-flex justify-content-end">
-          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
-          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1" id="pic-1">
+            <img src="../img/gallery-dog-2.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-2.jpg" alt="" class="pic-photographer" />
+              <p>Justin Aikin</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1">
+            <img src="../img/gallery-dog-3.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-3.jpg" alt="" class="pic-photographer" />
+              <p>Jesse Schoff</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg">
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center"
-          id="navbarToggleExternalContent"
-        >
-          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-            <ul class="navbar-nav gap-5">
-              <li class="nav-item"><a href="home.html">Home</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-bs-target="dropdown"
-                  >About dog</a
-                >
-                <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog info</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="breeds-md.html" class="dropdown-item"
-                          >Breeds</a
-                        >
-                      </li>
-                      <li>
-                        <a href="news.html" class="dropdown-item">Dog news</a>
-                      </li>
-                      <li>
-                        <a href="#" class="dropdown-item">Pet insurance</a>
-                      </li>
-                      <li>
-                        <a href="illnesses.html" class="dropdown-item"
-                          >Common disease</a
-                        >
-                      </li>
-                      <li>
-                        <a href="posion-food" class="dropdown-item">Poison</a>
-                      </li>
-                    </ul>
-                  </li>
-                  tfasdf
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog social</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="community.html" class="dropdown-item"
-                          >Dog community forum</a
-                        >
-                      </li>
-                      <li>
-                        <a href="dog-gallery.html" class="dropdown-item"
-                          >Dog gallery</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a href="adoption.html">Adoption</a></li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Shop</a
-                >
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="product.html" class="dropdown-item">Shopping</a>
-                  </li>
-                  <li><a href="cart.html" class="dropdown-item">Cart</a></li>
-                  <li>
-                    <a href="notification.html" class="dropdown-item"
-                      >Notification</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Expert</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="advice.html" class="dropdown-item">Advice</a>
-                  </li>
-                  <li>
-                    <a href="training-basic.html" class="dropdown-item"
-                      >Training</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >About us</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">About us</a></li>
-                  <li>
-                    <a href="feedback.html" class="dropdown-item">Contact</a>
-                  </li>
-                  <li><a href="team.html" class="dropdown-item">Team</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <article class="container-fluid">
-      <header class="post-header">
-        <h1>Dog Gallery</h1>
-        <p class="d-none d-md-block text-center">
-          Welcome to our Dog Gallery — a space full of wagging tails, goofy
-          smiles, and heartwarming moments. Here, our community shares snapshots
-          of their beloved dogs, from playful adventures to lazy nap times.
-          Browse through and feel the love that every picture tells.
-        </p>
-      </header>
-      <section class="gallery-pic-dog">
-        <div class="row text-center contain-row">
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1" id="pic-1" onclick="myFunction()">
-              <img
-                src="../img/gallery-dog-1.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-1.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Anoir Chafik</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1" id="pic-1">
-              <img
-                src="../img/gallery-dog-2.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-2.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Justin Aikin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1">
-              <img
-                src="../img/gallery-dog-3.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-3.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Jesse Schoff</p>
-              </div>
+      <div class="row text-center contain-row">
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1">
+            <img src="../img/gallery-dog-4.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-4.jpg" alt="" class="pic-photographer" />
+              <p>Christopher Ayme</p>
             </div>
           </div>
         </div>
 
-        <div class="row text-center contain-row">
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1">
-              <img
-                src="../img/gallery-dog-4.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-4.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Christopher Ayme</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="pic-1 col-sm-12 box">
-              <img
-                src="../img/gallery-dog-5.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-5.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Marcus Cramer</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="pic-1 col-sm-12 box">
-              <img
-                src="../img/gallery-dog-6.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-6.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Marcus Cramer</p>
-              </div>
+        <div class="col-lg-4">
+          <div class="pic-1 col-sm-12 box">
+            <img src="../img/gallery-dog-5.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-5.jpg" alt="" class="pic-photographer" />
+              <p>Marcus Cramer</p>
             </div>
           </div>
         </div>
 
-        <div class="row text-center contain-row">
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1">
-              <img
-                src="../img/gallery-dog-7.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer d-flex">
-                <img
-                  src="../img/profile-pic-9.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Joe Caione</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1">
-              <img
-                src="../img/gallery-dog-8.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-8.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Ron Fung</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-12 box">
-            <div class="pic-1">
-              <img
-                src="../img/gallery-dog-9.avif"
-                alt=""
-                class="pic-dog-gall"
-              />
-              <div class="photographer">
-                <img
-                  src="../img/profile-pic-10.jpg"
-                  alt=""
-                  class="pic-photographer"
-                />
-                <p>Patrick Hendry</p>
-              </div>
+        <div class="col-lg-4">
+          <div class="pic-1 col-sm-12 box">
+            <img src="../img/gallery-dog-6.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-6.jpg" alt="" class="pic-photographer" />
+              <p>Marcus Cramer</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- <div class="btn btn-more d-flex justify-content-center">
+      <div class="row text-center contain-row">
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1">
+            <img src="../img/gallery-dog-7.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer d-flex">
+              <img src="../img/profile-pic-9.jpg" alt="" class="pic-photographer" />
+              <p>Joe Caione</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1">
+            <img src="../img/gallery-dog-8.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-8.jpg" alt="" class="pic-photographer" />
+              <p>Ron Fung</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 box">
+          <div class="pic-1">
+            <img src="../img/gallery-dog-9.avif" alt="" class="pic-dog-gall" />
+            <div class="photographer">
+              <img src="../img/profile-pic-10.jpg" alt="" class="pic-photographer" />
+              <p>Patrick Hendry</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="btn btn-more d-flex justify-content-center">
         <a href="#">More</a>
       </div> -->
-      <nav aria-label="Page navigation example">
-        <ul
-          class="pagination pagination-lg justify-content-center pagination-dog"
-        >
-          <li class="page-item">
-            <a href="#" class="page-link">Previous</a>
-          </li>
-          <li class="page-item active">
-            <a href="#" class="page-link" aria-current="page">1</a>
-          </li>
-          <li class="page-item"><a href="#" class="page-link">2</a></li>
-          <li class="page-item"><a href="#" class="page-link">3</a></li>
-          <li class="page-item"><a href="#" class="page-link">Next</a></li>
-        </ul>
-      </nav>
-    </article>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination pagination-lg justify-content-center pagination-dog">
+        <li class="page-item">
+          <a href="#" class="page-link">Previous</a>
+        </li>
+        <li class="page-item active">
+          <a href="#" class="page-link" aria-current="page">1</a>
+        </li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">Next</a></li>
+      </ul>
+    </nav>
+  </article>
 
-    <footer>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-6">
-          <div class="row">
-            <img
-              src="../img/logo-pic.png"
-              alt=""
-              class="logo-home col-6 d-none d-md-block"
-            />
-            <div class="col-md-6 justify-content-center">
-              <img src="../img/logo-name-2.png" alt="" class="logo-home" />
-              <p>
-                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-                Khon Kaen 40002, Thailand
-              </p>
-              <p>Tel: +66 43 009700</p>
-              <div>
-                <i class="bi bi-github"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-              </div>
+  <footer>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 col-6">
+        <div class="row">
+          <img src="../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
+          <div class="col-md-6 justify-content-center">
+            <img src="../img/logo-name-2.png" alt="" class="logo-home" />
+            <p>
+              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+              Khon Kaen 40002, Thailand
+            </p>
+            <p>Tel: +66 43 009700</p>
+            <div>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-6">
-          <div class="d-flex justify-content-center">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Help</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">About dog</a></li>
-              <li><a href="#">Adoption</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Expert</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-          </div>
+      </div>
+      <div class="col-md-6 col-6">
+        <div class="d-flex justify-content-center">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">About dog</a></li>
+            <li><a href="#">Adoption</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Expert</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
         </div>
       </div>
-      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+    </div>
+    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
 
-      <hr class="line" />
-      <img src="../img/footer-pic.png" alt="" class="footer-pic" />
-    </footer>
+    <hr class="line" />
+    <img src="../img/footer-pic.png" alt="" class="footer-pic" />
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
+
 </html>
