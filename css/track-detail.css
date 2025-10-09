@@ -12,9 +12,13 @@ section {
   margin-bottom: 7rem;
 }
 
-.bi {
+.icon-status {
   margin-right: 0;
   margin-bottom: 1rem;
+  color: #000;
+}
+
+.icon-black {
   color: #000;
 }
 
@@ -50,6 +54,7 @@ section {
 
 .detail-box {
   background-color: #ffdf88;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   margin: 0 auto;
   margin-bottom: 3rem;
@@ -87,4 +92,20 @@ section {
 
 .status p {
   font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.detail-box,
+.status {
+  animation: fadeUp 0.8s ease-out;
 }

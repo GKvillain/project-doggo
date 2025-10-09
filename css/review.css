@@ -20,6 +20,7 @@
 .product-pic {
   width: 30rem;
   border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .form-review {
@@ -34,11 +35,12 @@ textarea {
   width: 100%;
   height: 40rem;
   border-radius: 15px;
-  border: none;
+  border: 2px solid #e0c9b6;
   padding: 2rem;
-  background-color: #f5e9dc;
+  background-color: #fffaf4;
   font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
   margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-post:link,
