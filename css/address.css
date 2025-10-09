@@ -30,6 +30,8 @@ input[type="email"] {
   border: none;
   margin-bottom: 1.5rem;
   padding: 1rem;
+  /* width: 60%; */
+  /* max-width: 40rem; */
 }
 
 label,
