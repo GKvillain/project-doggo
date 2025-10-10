@@ -33,15 +33,13 @@ canvas {
     height: 50%;
     background-color: rgb(255, 255, 255);
 }
-
 #intro {
     text-align: center;
     padding: 2em;
     font-size: 2em;
     color: rgb(105, 105, 105);
-    margin: 5em;
+    margin: 1em 5em;
 }
-
 .banner {
     overflow: auto;
     height: 62vh;
@@ -57,7 +55,8 @@ canvas {
 }
 
 #bannerfont {
-    margin-top: 6em;
+    padding-top: 15%;
+    margin: 0 auto;
 }
 
 .docter {
@@ -99,7 +98,7 @@ h2 {
 
 .nutrian,
 .foot {
-    margin: 10em;
+    margin: 0 auto ;
     position: static;
 }
 
@@ -113,7 +112,7 @@ h4 {
 }
 
 .balanced {
-    text-align: center;
+    text-align: start;
 }
 
 .balanced p {
@@ -132,10 +131,10 @@ h4 {
 
 button {
     padding: 1em;
-    font-size: 3em;
+    font-size: 2em;
     background-color: #E56B00;
     border-radius: 2em;
-    color: white;
+    color: #ffffff;
 }
 
 button:hover {
@@ -162,8 +161,8 @@ button:hover {
 }
 
 .sm #bannerfont {
-    width: 100%;
-    margin: 0;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .sm .docter {
