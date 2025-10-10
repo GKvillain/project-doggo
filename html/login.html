@@ -7,25 +7,22 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/general.css" />
-    <link rel="stylesheet" href="./css/login-style.css" />
+    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./../css/general.css" />
+    <link rel="stylesheet" href="./../css/login-style.css" />
+    <script src="../js/bootstrap.min.js"></script>
     <title>Login</title>
   </head>
   <body>
     <main class="container-fluid contain-section">
       <div class="top-right-logo">
-        <img src="./img/logo-pic.png" alt="logo-pic" class="logo-pic-1" />
-        <img src="./img/image 9.png" alt="logo-name" class="logo-text" />
+        <img src="./breeds-lg.html" alt="" class="logo-pic-1" />
+        <img src="./../img/image 9.png" alt="" class="logo-text" />
       </div>
 
       <div class="row">
         <div class="col-lg-8 col-md-7 d-none d-md-block img-section">
-          <img src="./img/login-pic-5.png" alt="Login Image" class="img-1" />
+          <img src="./../img/login-pic-5.png" alt="Login Image" class="img-1" />
         </div>
 
         <div
@@ -34,11 +31,11 @@
           <h1 class="fw-bolder">LOGIN</h1>
           <form class="form-section">
             <label for="username" class="username-label fw-bolder"
-              >USERNAME :</label
+              >USERNAME</label
             ><br />
             <input type="text" id="username" name="username" /><br />
             <label for="password" class="password-label fw-bolder"
-              >PASSWORD :</label
+              >PASSWORD</label
             ><br />
             <input
               type="password"
@@ -47,23 +44,29 @@
               class="password-field"
             /><br /><br />
             <p class="link">
-              <a href="./html/forget-password.html">FORGOT PASSWORD?</a>
+              <a href="./forget-password.html">FORGOT PASSWORD?</a>
             </p>
             <p class="link margin-bottom-4">
-              <a href="./html/register.html">DON'T HAVE AN ACCOUNT?</a>
+              <a href="./register.html">DON'T HAVE AN ACCOUNT?</a>
             </p>
             <div class="d-flex justify-content-center align-items-center">
               <a
-                href="./html/home.html"
+                href="./adoption.html"
                 class="btn submit d-flex justify-content-center align-items-center"
                 >LOGIN</a
               >
             </div>
           </form>
           <div class="d-flex gap-3">
-            <a href="#"><i class="bi bi-google"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"
+              ><img src="./../img/logo-google.webp" alt="" class="logo-login"
+            /></a>
+            <a href="#"
+              ><img src="./../img/logo-facebook.png" alt="" class="logo-login"
+            /></a>
+            <a href="#"
+              ><img src="./../img/logo-twitter.png" alt="" class="logo-login"
+            /></a>
           </div>
         </div>
       </div>

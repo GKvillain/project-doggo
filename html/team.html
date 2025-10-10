@@ -14,11 +14,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     />
 
-    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
-    <script src="../vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
+    <script src="./../vendor/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/team.css" />
+    <link rel="stylesheet" href="./../css/general.css" />
+    <link rel="stylesheet" href="./../css/team.css" />
   </head>
 
   <body>
@@ -30,29 +30,24 @@
           /></a>
 
           <div class="d-flex justify-content-end profile-zone">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="magnifie"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-              />
-            </svg>
-
-            <img
-              src="../img/profile-pic-11.jpg"
-              alt=""
-              class="profile-pic-user"
+            <i class="bi bi-search magnifie d-none d-md-block"></i>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
             />
+
+            <a href="./profile.html"
+              ><img
+                src="./../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
           </div>
         </div>
         <div class="navbar-expand-sm d-flex justify-content-end">
+          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
           <button
             class="navbar-toggler"
             type="button"
@@ -74,6 +69,7 @@
         >
           <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
             <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="./home.html">Home</a></li>
               <li class="nav-item dropdown">
                 <a
                   href="#"
@@ -90,15 +86,29 @@
                       >Dog info</a
                     >
                     <ul class="dropdown-menu dropdown-2">
-                      <li><a href="#" class="dropdown-item">Breeds</a></li>
-                      <li><a href="#" class="dropdown-item">Dog news</a></li>
                       <li>
-                        <a href="#" class="dropdown-item">Pet insurance</a>
+                        <a href="./breeds-md.html" class="dropdown-item"
+                          >Breeds</a
+                        >
                       </li>
                       <li>
-                        <a href="#" class="dropdown-item">Common disease</a>
+                        <a href="./news.html" class="dropdown-item">Dog news</a>
                       </li>
-                      <li><a href="#" class="dropdown-item">Poison</a></li>
+                      <li>
+                        <a href="./insurance.html" class="dropdown-item"
+                          >Pet insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./illnesses.html" class="dropdown-item"
+                          >Common disease</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./poison-food.html" class="dropdown-item"
+                          >Poison</a
+                        >
+                      </li>
                     </ul>
                   </li>
 
@@ -108,17 +118,21 @@
                     >
                     <ul class="dropdown-menu dropdown-2">
                       <li>
-                        <a href="#" class="dropdown-item"
+                        <a href="./community.html" class="dropdown-item"
                           >Dog community forum</a
                         >
                       </li>
-                      <li><a href="#" class="dropdown-item">Dog gallery</a></li>
+                      <li>
+                        <a href="./dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item"><a href="#">Adoption</a></li>
+              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
 
               <li class="nav-item dropdown">
                 <a
@@ -131,8 +145,15 @@
                 >
 
                 <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Shopping</a></li>
-                  <li><a href="#" class="dropdown-item">Cart</a></li>
+                  <li>
+                    <a href="./product.html" class="dropdown-item">Shopping</a>
+                  </li>
+                  <li><a href="./cart.html" class="dropdown-item">Cart</a></li>
+                  <li>
+                    <a href="./notification.html" class="dropdown-item"
+                      >Notification</a
+                    >
+                  </li>
                 </ul>
               </li>
 
@@ -146,8 +167,14 @@
                   >Expert</a
                 >
                 <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Advice</a></li>
-                  <li><a href="#" class="dropdown-item">Traning</a></li>
+                  <li>
+                    <a href="./advice.html" class="dropdown-item">Advice</a>
+                  </li>
+                  <li>
+                    <a href="./training-basic.html" class="dropdown-item"
+                      >Training</a
+                    >
+                  </li>
                 </ul>
               </li>
 
@@ -162,8 +189,10 @@
                 >
                 <ul class="dropdown-menu">
                   <li><a href="#" class="dropdown-item">About us</a></li>
-                  <li><a href="#" class="dropdown-item">Contact</a></li>
-                  <li><a href="#" class="dropdown-item">Team</a></li>
+                  <li>
+                    <a href="./feedback.html" class="dropdown-item">Contact</a>
+                  </li>
+                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
                 </ul>
               </li>
             </ul>
@@ -186,7 +215,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
-            <img src="../img/GK-profile.png" alt="" />
+            <img src="./../img/GK-profile.png" alt="" />
             <p>Hathaipat Wisutthitam</p>
             <p>673380297-5</p>
             <a href="https://github.com/GKvillain"
@@ -195,11 +224,13 @@
             <a href="https://www.facebook.com/hathaipat.wisutthtam?locale=th_TH"
               ><i class="bi bi-facebook"></i
             ></a>
-            <a href="https://www.instagram.com/toldmexmnr_"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/toldmexmnr_"
+              ><i class="bi bi-instagram"></i
+            ></a>
           </div>
 
           <div class="col-lg-6 col-sm-12">
-            <img src="../img/EVA-profile.png" alt="" />
+            <img src="./../img/EVA-profile.png" alt="" />
             <p>Pilaiphon Khamwaing</p>
             <p>673380286-0</p>
             <a href="https://github.com/evalalalaeva"
@@ -215,6 +246,54 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-6">
+          <div class="row">
+            <img
+              src="./../img/logo-pic.png"
+              alt=""
+              class="logo-home col-6 d-none d-md-block"
+            />
+            <div class="col-md-6 justify-content-center">
+              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+              <p>
+                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+                Khon Kaen 40002, Thailand
+              </p>
+              <p>Tel: +66 43 009700</p>
+              <div>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-6">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About dog</a></li>
+              <li><a href="#">Adoption</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Expert</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+      <hr class="line" />
+      <img src="./../img/footer-pic.png" alt="" class="footer-pic" />
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
