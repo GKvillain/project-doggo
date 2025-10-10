@@ -309,6 +309,10 @@ footer a:active {
   color: #333;
 }
 
+hr {
+  margin-bottom: 0;
+}
+
 .line {
   border: none;
   height: 5px;
