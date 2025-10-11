@@ -134,7 +134,7 @@
   <div class="lg d-none d-md-block">
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="padding: 0">
           <div class="left">
             <h1 class="topic">PROFILE</h1>
             <img src="./../img/profile.svg" alt="" />
@@ -149,9 +149,9 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="right">
-            <div class="info">
-              <div class="info-row d-flex">
+          <div class="right align-items-center justify-content-center">
+            <div class="info align-items-center justify-content-center">
+              <div class="info-row d-flex" style="width: 100%;">
                 <h3>Name : <span>Pilaiphon</span></h3>
                 <i class="bi bi-pencil-square"></i>
               </div>
@@ -239,6 +239,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -277,43 +278,79 @@
           <h3>Number : <span>121231212-1</span></h3>
           <i class="bi bi-pencil-square"></i>
         </div>
+      </div>
 
-        <div class="faq">
-          <h1 class="topic">FAQ</h1>
-          <div class="row d-flex">
-            <div class="col-sm-6">
-              <h2>How often should I bathe my dog?</h2>
-            </div>
-            <div class="col-sm-6">
-              <i class="bi bi-chevron-down"></i>
-            </div>
-          </div>
-          <div class="row d-flex">
-            <div class="col-sm-6">
-              <h2>What toys are safe for puppies?</h2>
-            </div>
-            <div class="col-sm-6">
-              <i class="bi bi-chevron-down"></i>
-            </div>
-          </div>
-          <div class="row d-flex">
-            <div class="col-sm-6">
-              <h2>Can I share photos of my dog on this site?</h2>
-            </div>
-            <div class="col-sm-6">
-              <i class="bi bi-chevron-down"></i>
+      <div class="accordion" id="accordionExample">
+        <h3 class="text-center faq">FAQ</h3>
+        <div class="accordion-item question">
+          <h5 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              How often should I bathe my dog?
+            </button>
+          </h5>
+
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Most dogs only need a bath once every 4-6 weeks, depending
+              on their breed, coat type, and lifestyle. Over-bathing can
+              dry out their skin, so use a gentle dog shampoo.
             </div>
           </div>
-          <div class="row d-flex">
-            <div class="col-sm-6">
-              <h2>How do I join the dog community forum?</h2>
+        </div>
+
+        <div class="accordion-item question">
+          <h5 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+              aria-expanded="true" aria-controls="collapseTwo">
+              What toys are safe for puppies?
+            </button>
+          </h5>
+
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Soft rubber chew toys, rope toys, and plush toys made
+              specifically for puppies are safe. Avoid very hard toys,
+              sharp edges, or anything small enough to be swallowed.
+              Always supervise playtime.
             </div>
-            <div class="col-sm-6">
-              <i class="bi bi-chevron-down"></i>
+          </div>
+        </div>
+
+        <div class="accordion-item question">
+          <h5 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+              aria-expanded="true" aria-controls="collapseThree">
+              Can I share photos of my dog on this site?
+            </button>
+          </h5>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Yes! We encourage you to share your dog's photos. Simply
+              upload them through your profile or the community gallery,
+              following our photo guidelines.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item question">
+          <h5 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+              aria-expanded="true" aria-controls="collapseFour">
+              How do I join the dog community forum?
+            </button>
+          </h5>
+
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Create an account on the site, then head to the “Community
+              Forum” page. Once registered, you can post, comment, and
+              connect with other dog lovers.
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 

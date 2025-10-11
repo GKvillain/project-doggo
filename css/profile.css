@@ -1,14 +1,8 @@
 body {
     background-color: #ffffff;
 }
-.row {
-    margin: 0;
-    margin-top: -3.9em;
-    margin-left: -2em;
-}
-
 .left {
-      margin-top: 3.9em;
+    
     background-color: #ACC572;
     width: 80%;
     height: 90vh;
@@ -52,7 +46,6 @@ a {
     text-decoration: none;
     color: #000000;
 }
-
 header{
     margin-bottom: 0;
 }
@@ -67,21 +60,23 @@ button:hover {
     transition: 0.1s;
     background-color: #92593d;
 }
+
 .info {
-    margin-left: 10em;
+    width: 70%;
+    margin: 0 auto;
     display: block;
 }
 
 .info h3 {
-    width: 65%;
+    width: 98%;
     padding-left: 1em;
-    font-size: 2.5em;
+     font-size: clamp(1.8rem, 2vw, 3.5rem);
     background-color: #dbdbdb;
     border-radius: 0.1em;
 }
 
 .info i {
-    font-size: 3em;
+      font-size: clamp(1.8rem, 1.5vw, 3.5rem);
     color: black;
 }
 
@@ -117,67 +112,20 @@ span {
   background-color: #7b944f;
   color: #fff;
 } 
-.q {
-    margin-top: 1em;
-    background-color: #ACC572;
-    padding: 2.5em;
-    border-radius: 0.5em;
-}
 
-.q h2 {
-
-    float: left;
-}
-
-.q i {
-    font-size: 2em;
-    margin-left: 9em;
-}
-
-.q i:hover {
-    color: #ffffff;
-}
 
 /*-------------------------*/
 .profile {
     margin: -5em -1em 0em -1em;
     background-color: #ACC572;
 }
-
-.sm h3 {
-    font-size: 3em;
-}
-
 .sm img {
     width: 20%;
-}
-
-.sm button {
-    margin-bottom: 1em;
 }
 
 .sm .info {
     margin-top: 2em;
 }
-
 .sm .info h3 {
-    font-size: 2em;
-    margin-left: 3em;
-}
-
-.sm h1 {
-    margin-bottom: 1em;
-    margin-top: -2em;
-}
-
-.sm .row {
-    background-color: #acc572;
-}
-
-.sm .row {
-    margin-top: 1em;
-}
-
-.sm .faq i {
-    margin-left: 3em;
+   font-size: clamp(1.2rem, 3vw, 3rem);
 }
