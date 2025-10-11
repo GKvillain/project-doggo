@@ -80,8 +80,8 @@ p {
   left: 50%;
   top: 50%;
   bottom: 0;
-  width: 1.5rem;
-  height: 90%;
+  width: 1.2rem;
+  height: 94%;
   background-color: #000;
   transform: translateX(-50%);
   z-index: 0;
@@ -98,8 +98,8 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   background-color: #000;
   z-index: 0;
@@ -111,8 +111,8 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   background-color: #fff;
   z-index: 1;
@@ -152,8 +152,8 @@ p {
   left: -2.5rem;
   top: 50%;
   bottom: 0;
-  width: 1.5rem;
-  height: 110%;
+  width: 1.3rem;
+  height: 120%;
   background-color: #000;
   transform: translateX(-50%);
   z-index: 0;
@@ -170,8 +170,8 @@ p {
   left: -2.5rem;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   background-color: #000;
   z-index: 0;
@@ -183,8 +183,8 @@ p {
   left: -2.5rem;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-color: #fff;
   z-index: 1;
@@ -207,9 +207,13 @@ p {
   width: 40rem;
 }
 
-.row-dog img {
+/* .row-dog img {
   width: 30rem;
   height: 20rem;
+} */
+.dog-pic-3 {
+  width: 80%;
+  margin-bottom: 1.5rem;
 }
 
 .row-dog p {

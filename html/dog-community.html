@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/successful.css" />
-    <title>Succesful payment</title>
+    <link rel="stylesheet" href="./../css/dog-community.css" />
+    <title>Dog community</title>
   </head>
   <body>
     <header>
@@ -25,8 +25,6 @@
           /></a>
 
           <div class="d-flex justify-content-end profile-zone">
-            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
-            <i class="bi bi-bell-fill d-none d-md-block"></i>
             <i class="bi bi-search magnifie d-none d-md-block"></i>
             <path
               stroke-linecap="round"
@@ -198,23 +196,83 @@
       </nav>
     </header>
 
-    <section
-      class="container d-flex flex-column justify-content-center align-items-center"
-    >
-      <h1 class="text-center">Payment succesful!</h1>
-      <i
-        class="bi bi-check-circle d-flex justify-content-center align-items-center"
-      ></i>
-      <p class="text-center">
-        Thank you for shopping with us! Your order is confirmed and a receipt
-        has been sent to your email. (dgvgvjv@gmail.com)
-      </p>
-      <a
-        href="./shop.html"
-        class="btn btn-done d-flex justify-content-center align-items-center"
-        >Done</a
-      >
-    </section>
+    <div class="container">
+      <h1 class="topic text-center">Dog community</h1>
+      <form class="d-flex contain-form">
+        <div>
+          <label for="category" class="category-label">Category </label>
+          <select name="categorys" id="category">
+            <option value="general">General talk</option>
+            <option value="story">Story</option>
+            <option value="nutrition">Nutrition</option>
+            <option value="advice">Advice</option>
+            <option value="training">Training</option>
+          </select>
+        </div>
+        <div class="search-bar d-flex">
+          <input type="search" class="search-forum" /><button
+            class="btn search-btn"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+
+      <div class="contain-post">
+        <a href="dog-community-detail.html" class="box-link">
+          <div class="post-box">
+            <div class="d-flex name-tag align-items-center gap-3">
+              <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+              <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+            </div>
+            <div class="d-flex contain-topic-icon align-items-center">
+              <h3>Show us your dog's funniest face!</h3>
+              <i class="bi bi-chat-dots"></i>
+            </div></div
+        ></a>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
+        </div>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
+        </div>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
+        </div>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <div class="row justify-content-center align-items-center">

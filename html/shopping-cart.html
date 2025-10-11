@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/successful.css" />
-    <title>Succesful payment</title>
+    <link rel="stylesheet" href="./../css/shopping-cart.css" />
+    <title>Shopping Cart</title>
   </head>
   <body>
     <header>
@@ -25,8 +25,6 @@
           /></a>
 
           <div class="d-flex justify-content-end profile-zone">
-            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
-            <i class="bi bi-bell-fill d-none d-md-block"></i>
             <i class="bi bi-search magnifie d-none d-md-block"></i>
             <path
               stroke-linecap="round"
@@ -198,22 +196,87 @@
       </nav>
     </header>
 
-    <section
-      class="container d-flex flex-column justify-content-center align-items-center"
-    >
-      <h1 class="text-center">Payment succesful!</h1>
-      <i
-        class="bi bi-check-circle d-flex justify-content-center align-items-center"
-      ></i>
-      <p class="text-center">
-        Thank you for shopping with us! Your order is confirmed and a receipt
-        has been sent to your email. (dgvgvjv@gmail.com)
-      </p>
-      <a
-        href="./shop.html"
-        class="btn btn-done d-flex justify-content-center align-items-center"
-        >Done</a
-      >
+    <section class="container">
+      <h1 class="topic">Shopping Cart</h1>
+      <div class="cart">
+        <div class="row contain-box">
+          <div class="col-md-3">
+            <input type="checkbox" /><img
+              src="../img/dog-product-2.webp"
+              alt=""
+              class="product-img"
+            />
+          </div>
+          <div class="col-md-9">
+            <h3>SmartHeart Dry Food for Puppies, Beef & Milk Flavor, 8 kg</h3>
+            <h2>$23.92</h2>
+            <div class="d-flex contain-button">
+              <div
+                class="d-flex gap-4 justify-content-center align-items-center"
+              >
+                <button class="btn btn-pm">-</button>
+                <p class="mb-0 num text-center">1</p>
+                <button class="btn btn-pm">+</button>
+              </div>
+              <i class="bi bi-trash3"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="row contain-box">
+          <div class="col-md-3">
+            <input type="checkbox" /><img
+              src="../img/flash-sale-3.webp"
+              alt=""
+              class="product-img"
+            />
+          </div>
+          <div class="col-md-9">
+            <h3>
+              ZippyPaws Dog Toy, Happy Hour Crusher, Champagne Bottle Design
+            </h3>
+            <h2>$10</h2>
+            <div class="d-flex contain-button">
+              <div
+                class="d-flex gap-4 justify-content-center align-items-center"
+              >
+                <button class="btn btn-pm">-</button>
+                <p class="mb-0 num text-center">1</p>
+                <button class="btn btn-pm">+</button>
+              </div>
+              <i class="bi bi-trash3"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="check-out">
+          <div class="row contain-checkout align-items-center">
+            <div class="col-md-3 col-6 d-flex first align-items-center gap-3">
+              <input type="checkbox" />
+              <p class="mb-0">All in cart</p>
+            </div>
+            <div class="col-md-5 d-none d-md-block">
+              <div class="d-flex flex-column payment-promotion">
+                <label for="payment">Payment</label>
+                <select name="payment" id="payment" class="mb-3">
+                  <option value="cash">Cash on delivery</option>
+                  <option value="cash">Credit card</option>
+                  <option value="cash">Mastercard</option>
+                </select>
+                <label for="code">Promotion Code</label>
+                <input type="text" placeholder="DOGG1235" />
+              </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex flex-column payment-checkout">
+              <p>Total</p>
+              <h3>$33.92</h3>
+              <a href="succesful-payment.html" class="btn btn-checkout"
+                >Checkout</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
