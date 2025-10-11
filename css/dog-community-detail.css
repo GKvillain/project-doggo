@@ -1,0 +1,111 @@
+.container {
+  width: 80%;
+  margin-bottom: 2.5rem;
+}
+
+.post-box {
+  width: 95%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+  border-radius: 15px;
+  margin-bottom: 2.5rem;
+}
+
+.profile-pic {
+  width: 8.2rem;
+  border-radius: 50%;
+}
+
+.name-tag {
+  align-items: center;
+}
+
+.post-box h2 {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+}
+
+.post-box p {
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+}
+
+.comment-topic {
+  font-size: clamp(2rem, 1.66666vw, 3.2rem);
+  margin-bottom: 2.5rem;
+}
+
+.comment-box {
+  width: 95%;
+  height: 30rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.comment-box h3 {
+  width: 90%;
+  color: #555;
+}
+
+.comment-post {
+  position: absolute;
+  width: 90%;
+  /* margin: 0 auto; */
+  bottom: 1rem;
+  left: 10%;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+}
+
+.send-icon {
+  width: 4rem;
+  height: 4rem;
+  padding: 2rem;
+  background-color: #a76545;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bi-send {
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.related-box {
+  width: 100%;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2.5rem;
+}
+
+.relate-topic {
+  font-size: clamp(1.1rem, 1.299999vw, 2.5rem);
+  margin-bottom: 1.5rem;
+}
+
+.related-box h4 {
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+}
+
+.name-author {
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+  color: #888;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+.name {
+  color: #000;
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+}

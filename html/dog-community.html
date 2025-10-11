@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/home.css" />
-    <title>Doggo</title>
+    <link rel="stylesheet" href="./../css/dog-community.css" />
+    <title>Dog community</title>
   </head>
   <body>
     <header>
@@ -202,198 +202,83 @@
       </nav>
     </header>
 
-    <section class="hero-section">
-      <img src="./../img/home-pic.png" alt="picture of dog" />
+    <div class="container">
+      <h1 class="topic text-center">Dog community</h1>
+      <form class="d-flex contain-form">
+        <div>
+          <label for="category" class="category-label">Category </label>
+          <select name="categorys" id="category">
+            <option value="general">General talk</option>
+            <option value="story">Story</option>
+            <option value="nutrition">Nutrition</option>
+            <option value="advice">Advice</option>
+            <option value="training">Training</option>
+          </select>
+        </div>
+        <div class="search-bar d-flex">
+          <input type="search" class="search-forum" /><button
+            class="btn search-btn"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
 
-      <div class="intro">
-        <h1 class="text-uppercase">Doggo</h1>
-        <p>Guide to the World of Dogs.</p>
-      </div>
-    </section>
-
-    <div class="container-fluid d-none d-md-block margin-bottom-15">
-      <div class="history-1 d-flex">
-        <div
-          class="block one text-center d-flex justify-content-center align-items-center"
-        >
-          <p>
-            Early humans and wolves likely developed a mutual relationship:
-            wolves scavenged near camps, while humans benefited from their
-            alertness and hunting skills.
-          </p>
+      <div class="contain-post">
+        <a href="dog-community-detail.html" class="box-link">
+          <div class="post-box">
+            <div class="d-flex name-tag align-items-center gap-3">
+              <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+              <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+            </div>
+            <div class="d-flex contain-topic-icon align-items-center">
+              <h3>Show us your dog's funniest face!</h3>
+              <i class="bi bi-chat-dots"></i>
+            </div></div
+        ></a>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
         </div>
-        <p class="years text-center">Over 30,000 years ago</p>
-      </div>
-
-      <div class="history-1 d-flex">
-        <p class="years text-center">20,000-15,000 years ago</p>
-        <div
-          class="block two text-center d-flex justify-content-center align-items-center"
-        >
-          <p>
-            Archaeological evidence shows humans began taming and selectively
-            breeding wolves. Dogs became companions, guards, and hunting
-            partners.
-          </p>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
         </div>
-      </div>
-
-      <div class="history-1 d-flex">
-        <div
-          class="block three text-center d-flex justify-content-center align-items-center"
-        >
-          <p>
-            In ancient civilizations, dogs spread worldwide with humans, serving
-            as hunters, protectors, and companions, with roles in Egypt,
-            Mesopotamia, and China shaping their importance in society.
-          </p>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
         </div>
-        <p class="years text-center">10,000-2,000 years ago</p>
-      </div>
-
-      <div class="history-1 d-flex">
-        <p class="years text-center">2,000 years ago - 1800s</p>
-        <div
-          class="block four text-center d-flex justify-content-center align-items-center"
-        >
-          <p>
-            Different roles led to specialized breeds such as Hunting dogs
-            (retrievers), Guard dogs (mastiffs), Companion dogs (toy breeds)
-            Herding dogs (sheepdogs)
-          </p>
-        </div>
-      </div>
-
-      <div class="history-1 d-flex">
-        <div
-          class="block five text-center d-flex justify-content-center align-items-center"
-        >
-          <p>
-            Dogs serve as companions, service animals, therapy dogs, and working
-            partners.Genetic studies confirm all dogs trace back to wolves, yet
-            they've evolved to live alongside humans more closely than any other
-            species.
-          </p>
-        </div>
-        <p class="years text-center">1800s - Today</p>
-      </div>
-    </div>
-
-    <div class="d-sm-none">
-      <div class="history-2 one">
-        <p class="years">Over 30,000 years ago</p>
-        <div class="two-one">
-          <p>
-            Early humans and wolves likely developed a mutual relationship:
-            wolves scavenged near camps, while humans benefited from their
-            alertness and hunting skills.
-          </p>
-        </div>
-      </div>
-      <div class="history-2 two">
-        <p class="years">20,000-15,000 years ago</p>
-        <div class="two-one">
-          <p>
-            Archaeological evidence shows humans began taming and selectively
-            breeding wolves. Dogs became companions, guards, and hunting
-            partners.
-          </p>
-        </div>
-      </div>
-      <div class="history-2 three">
-        <p class="years">10,000-2,000 years ago</p>
-        <div class="two-one">
-          <p>
-            In ancient civilizations, dogs spread worldwide with humans, serving
-            as hunters, protectors, and companions, with roles in Egypt,
-            Mesopotamia, and China shaping their importance in society.
-          </p>
-        </div>
-      </div>
-      <div class="history-2 four">
-        <p class="years">2,000 years ago - 1800s</p>
-        <div class="two-one">
-          <p>
-            Different roles led to specialized breeds such as Hunting dogs
-            (retrievers), Guard dogs (mastiffs), Companion dogs (toy breeds),
-            Herding dogs (sheepdogs)
-          </p>
-        </div>
-      </div>
-      <div class="history-2 five">
-        <p class="years">1800s - Today</p>
-        <div class="two-one">
-          <p>
-            Dogs serve as companions, service animals, therapy dogs, and working
-            partners.Genetic studies confirm all dogs trace back to wolves, yet
-            they've evolved to live alongside humans more closely than any other
-            species.
-          </p>
+        <div class="post-box">
+          <div class="d-flex name-tag align-items-center gap-3">
+            <img src="../img/profile-pic-8.jpg" alt="" class="profile-post" />
+            <h4>อ้วน ๆ เก่า <span>new user | general talk</span></h4>
+          </div>
+          <div class="d-flex contain-topic-icon align-items-center">
+            <h3>Show us your dog's funniest face!</h3>
+            <i class="bi bi-chat-dots"></i>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="container-fluid margin-bottom-15">
-      <div class="row row-dog justify-content-center align-items-center">
-        <div class="col-lg-4 three-dog">
-          <div class="text-center">
-            <img src="./../img/home-dog-1.png" alt="" class="dog-pic-3" />
-          </div>
-          <p class="text-center">
-            Dogs have been companions to humans for thousands of years. They are
-            loyal, intelligent, and play an important role in families and
-            communities.
-          </p>
-        </div>
-        <div class="col-lg-4 three-dog">
-          <div class="text-center">
-            <img src="./../img/home-dog-2.png" alt="" class="dog-pic-3" />
-          </div>
-          <p class="text-center">
-            Every dog needs proper nutrition, exercise, and regular veterinary
-            care. With the right attention, dogs can live long, healthy, and
-            happy lives.
-          </p>
-        </div>
-        <div class="col-lg-4 three-dog">
-          <div class="text-center">
-            <img src="./../img/home-dog-3.png" alt="" class="dog-pic-3" />
-          </div>
-          <p class="text-center">
-            Dogs communicate through body, barking, and even subtle tail
-            movements. Learning their signals helps strengthen the human-dog
-            bond.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <section class="margin-bottom-15">
-      <div class="row additional-dog justify-content-center align-items-center">
-        <div class="col-lg-5 text-center">
-          <img src="./../img/home-pic-4.png" alt="" />
-        </div>
-        <div class="col-lg-7">
-          <p>
-            Dogs thrive when they receive proper care, love, and attention.
-            Providing nutritious food, regular exercise, mental stimulation, and
-            routine veterinary checkups helps them stay healthy and happy.
-          </p>
-          <br /><br /><br />
-          <p>
-            Understanding their communication through body language, barking,
-            and tail movements strengthens the bond between dogs and their
-            humans, ensuring a joyful and fulfilling life together.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="post-footer d-flex justify-content-center align-items-center"
-    >
-      <h3 class="text-center">" TRIED DOG IS A HAPPY DOG "</h3>
-    </section>
 
     <footer>
       <div class="row justify-content-center align-items-center">
@@ -439,8 +324,10 @@
         </div>
       </div>
       <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+
       <hr class="line" />
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   </body>
