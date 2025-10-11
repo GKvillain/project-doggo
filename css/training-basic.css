@@ -74,6 +74,9 @@ img {
     font-size: 1.5em;
 }
 
+.name{
+    width: 60%;
+}
 .name p {
     margin-left: 1em;
     color: rgb(128, 128, 128);
@@ -115,8 +118,8 @@ button:active{
 button:visited{
     background-color: #686868;
 }
-.videos{
-    margin: 2em 5em;
+.clip{
+    margin: 2em 0em;
 }
 
 /*--------------------*/
