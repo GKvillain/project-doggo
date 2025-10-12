@@ -1,404 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
+    <script src="./../vendor/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
-  <script src="./../vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./../css/general.css" />
+    <link rel="stylesheet" href="./../css/illnesses.css" />
+  </head>
 
-  <link rel="stylesheet" href="./../css/general.css" />
-  <link rel="stylesheet" href="./../css/illnesses.css" />
-</head>
+  <body>
+    <header>
+      <div class="navbar d-block">
+        <div class="d-flex justify-content-center align-items-center logo-pic">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="./../img/header-logo-name.png"
+              alt=""
+              class="logo navbar-brand"
+          /></a>
 
-<body>
-  <header>
-    <div class="navbar d-block">
-      <div class="d-flex justify-content-center align-items-center logo-pic">
-        <a href="#" class="navbar-brand"><img src="./../img/image 9.png" alt="" class="logo navbar-brand" /></a>
+          <div class="d-flex justify-content-end profile-zone">
+            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
+            <i class="bi bi-bell-fill d-none d-md-block"></i>
+            <i class="bi bi-search magnifie d-none d-md-block"></i>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
 
-        <div class="d-flex justify-content-end profile-zone">
-          <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
-          <i class="bi bi-bell-fill d-none d-md-block"></i>
-          <i class="bi bi-search magnifie d-none d-md-block"></i>
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-
-          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="" class="profile-pic-user" /></a>
+            <a href="./profile.html"
+              ><img
+                src="./../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
+          </div>
+        </div>
+        <div class="navbar-expand-sm d-flex justify-content-end">
+          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
-      <div class="navbar-expand-sm d-flex justify-content-end">
-        <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
-        <i class="bi bi-bell-fill mb-bell d-md-none"></i>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarToggleExternalContent"
+        >
+          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="./home.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-target="dropdown"
+                  >About dog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog info</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./breeds-md.html" class="dropdown-item"
+                          >Breeds</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./news.html" class="dropdown-item">Dog news</a>
+                      </li>
+                      <li>
+                        <a href="./insurance.html" class="dropdown-item"
+                          >Pet insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./illnesses.html" class="dropdown-item"
+                          >Common disease</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./poison-food.html" class="dropdown-item"
+                          >Poison</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog social</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./dog-community.html" class="dropdown-item"
+                          >Dog community forum</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./home-shop.html" class="dropdown-item"
+                      >Shopping</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./shopping-cart.html" class="dropdown-item"
+                      >Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./notification.html" class="dropdown-item"
+                      >Notification</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Expert</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./advice.html" class="dropdown-item">Advice</a>
+                  </li>
+                  <li>
+                    <a href="./training-basic.html" class="dropdown-item"
+                      >Training</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">About us</a></li>
+                  <li>
+                    <a href="./feedback.html" class="dropdown-item">Contact</a>
+                  </li>
+                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="lg d-none d-md-block">
+      <div class="container-fluid">
+        <h1 class="topic text-center">Common Dog Illnesses</h1>
+        <div class="row d-block">
+          <div class="container">
+            <div
+              class="card__container d-flex align-items-center justify-content-center"
+            >
+              <div class="content">
+                <h2>Kennel Cough</h2>
+                <p>
+                  This respiratory infection, also known as Bordetella, is
+                  commonly referred to as Kennel cough. This condition is
+                  characterized by a barking cough and sneezing in dogs. Other
+                  symptoms include gagging, nasal discharge, and fever. Kennel
+                  cough is prevalent among dogs, and it typically spreads when
+                  they come into contact with many other dogs, such as at a
+                  kennel, daycare, or dog park.
+                </p>
+              </div>
+              <article class="card__article">
+                <div class="solution">
+                  <h2>What should you do?</h2>
+                  <i class="icon bi bi-question-diamond-fill"></i>
+                  <p>
+                    when your dog comes home from daycare with a loud, honking
+                    cough.
+                  </p>
+                </div>
+                <!-- <img src="../img/illness1.svg" alt=""> -->
+                <div class="card__data">
+                  <p class="card__title">
+                    Encourage your dog to rest for a few weeks.Keep your dog
+                    away from other dogs because it’s very contagious. Make sure
+                    they rest, stay hydrated, and eat soft food. Use a harness
+                    instead of a collar and avoid smoke or dust. Call your vet
+                    if your dog has trouble breathing, won’t eat, or doesn’t get
+                    better.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="card__container d-flex align-items-center justify-content-center"
+            >
+              <div class="content">
+                <h2>Ringworm</h2>
+                <p>
+                  Ringworm is a fungal infection that can affect a dog’s skin,
+                  nails, and hair. Ringworm will usually appear as skin lesions
+                  on the head and paws and patchy, circular bald spots on the
+                  body. Ringworm can be passed from dogs to humans, so you may
+                  notice symptoms of the disease in yourself as well.
+                </p>
+              </div>
+              <article class="card__article">
+                <div class="solution">
+                  <h2>What should you do?</h2>
+                  <i class="icon bi bi-question-diamond-fill"></i>
+                  <p>
+                    when You find circular, crusty bald patches on your dog's
+                    skin.
+                  </p>
+                </div>
+                <!-- <img src="../img/illness1.svg" alt=""> -->
+                <div class="card__data">
+                  <p class="card__title">
+                    Take them to the vet for diagnosis and antifungal treatment
+                    such as creams, shampoos, or oral medication. Keep your dog
+                    isolated because ringworm spreads easily to other pets and
+                    people. Clean and disinfect bedding, toys, and grooming
+                    tools often. Wear gloves when touching the infected areas.
+                    Continue treatment until your vet says the infection is
+                    gone.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="card__container d-flex align-items-center justify-content-center"
+            >
+              <div class="content">
+                <h2>Heartworm</h2>
+                <p>
+                  Heartworm is a parasitic infection that affects the
+                  cardiovascular system. Early symptoms of a heartworm infection
+                  are usually tough to spot, and they typically only consist of
+                  coughing and lethargy. Later stages of heartworm disease in
+                  dogs consists of symptoms associated with heart failure.
+                </p>
+              </div>
+              <article class="card__article">
+                <div class="solution">
+                  <h2>What should you do?</h2>
+                  <i class="icon bi bi-question-diamond-fill"></i>
+                  <p>
+                    when your dog seems lazy and has a occasional cough.
+                    Mosquito season is here.
+                  </p>
+                </div>
+                <!-- <img src="../img/illness1.svg" alt=""> -->
+                <div class="card__data">
+                  <p class="card__title">
+                    take them to the vet <span>immediately</span> for testing
+                    and treatment, as it can be very serious. Your vet will
+                    prescribe medication to kill the worms safely and may
+                    recommend limited activity during recovery. Do not try to
+                    treat heartworm at home.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="card__container d-flex align-items-center justify-content-center"
+            >
+              <div class="content">
+                <h2>Lyme Disease</h2>
+                <p>
+                  Lyme disease is a bacterial infection that is commonly
+                  transmitted to dogs through tick bites. It’s essential to
+                  contact your vet if you suspect that your dog has Lyme
+                  disease, as it can lead to more severe health problems if left
+                  untreated. Unlike some other diseases, dogs cannot pass Lyme
+                  disease to other dogs or humans. Symptoms of Lyme disease in
+                  dogs include fever, joint inflammation, lethargy, and
+                  decreased appetite.
+                </p>
+              </div>
+              <article class="card__article">
+                <div class="solution">
+                  <h2>What should you do?</h2>
+                  <i class="icon bi bi-question-diamond-fill"></i>
+                  <p>
+                    when your dog is limping and seems sore or feverish after a
+                    walk in the woods.
+                  </p>
+                </div>
+                <!-- <img src="../img/illness1.svg" alt=""> -->
+                <div class="card__data">
+                  <p class="card__title">
+                    Take your dog to the vet for antibiotic treatment and watch
+                    for symptoms like fever, swollen joints, or loss of
+                    appetite. Keep your dog comfortable and limit strenuous
+                    activity during recovery. After starting antibiotic
+                    treatment, most dogs start feeling better within one to two
+                    days. Lyme disease in dogs must be treated for at least 30
+                    days to get rid of the bacterial infection.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="card__container d-flex align-items-center justify-content-center"
+            >
+              <div class="content">
+                <h2>Parainfluenza</h2>
+                <p>
+                  Parainfluenza is a viral respiratory infection that can cause
+                  coughing and sneezing in dogs. While it’s typically not a
+                  life-threatening condition, it can be severe in young puppies,
+                  senior dogs, or dogs with weakened immune systems. In addition
+                  to coughing and sneezing, other symptoms of parainfluenza in
+                  dogs may include fever, lethargy, and nasal discharge.
+                  Treatment may involve supportive care, such as fluids and
+                  rest, as well as antiviral medication if necessary.
+                </p>
+              </div>
+              <article class="card__article">
+                <div class="solution">
+                  <h2>What should you do?</h2>
+                  <i class="icon bi bi-question-diamond-fill"></i>
+                  <p>
+                    when your dog has a dry cough, runny nose, and seems
+                    lethargic.
+                  </p>
+                </div>
+                <!-- <img src="../img/illness1.svg" alt=""> -->
+                <div class="card__data">
+                  <p class="card__title">
+                    Take your dog to the vet if symptoms like coughing,
+                    sneezing, or nasal discharge become severe or last more than
+                    a few days. Keep your dog rested, hydrated, and away from
+                    other dogs to prevent spreading the virus. Use a harness
+                    instead of a collar to avoid irritating the throat. Most
+                    dogs recover within one to two weeks with supportive care.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg">
-      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
-        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-          <ul class="navbar-nav gap-5">
-            <li class="nav-item"><a href="./home.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                data-bs-target="dropdown">About dog</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
-                    </li>
-                    <li>
-                      <a href="./news.html" class="dropdown-item">Dog news</a>
-                    </li>
-                    <li>
-                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
-                    </li>
-                    <li>
-                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
-                    </li>
-                    <li>
-                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
-                    </li>
-                    <li>
-                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./product.html" class="dropdown-item">Shopping</a>
-                </li>
-                <li><a href="./cart.html" class="dropdown-item">Cart</a></li>
-                <li>
-                  <a href="./notification.html" class="dropdown-item">Notification</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Expert</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./advice.html" class="dropdown-item">Advice</a>
-                </li>
-                <li>
-                  <a href="./training-basic.html" class="dropdown-item">Training</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
-                us</a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">About us</a></li>
-                <li>
-                  <a href="./feedback.html" class="dropdown-item">Contact</a>
-                </li>
-                <li><a href="./team.html" class="dropdown-item">Team</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="lg d-none d-md-block">
-    <div class="container-fluid">
+    <div class="sm d-block d-md-none">
       <h1 class="topic text-center">Common Dog Illnesses</h1>
-      <div class="row d-block">
-
-        <div class="container">
-          <div class="card__container d-flex align-items-center justify-content-center">
-            <div class="content">
-              <h2>Kennel Cough</h2>
-              <p>
-                This respiratory infection, also known as Bordetella, is commonly
-                referred to as Kennel cough. This condition is characterized by a
-                barking cough and sneezing in dogs. Other symptoms include
-                gagging, nasal discharge, and fever. Kennel cough is prevalent
-                among dogs, and it typically spreads when they come into contact
-                with many other dogs, such as at a kennel, daycare, or dog park.
-              </p>
-            </div>
-            <article class="card__article">
-              <div class="solution">
-                <h2>What should you do?</h2>
-                <i class="icon bi bi-question-diamond-fill"></i>
-                <p>when your dog comes home from daycare with a loud, honking cough.</p>
-              </div>
-              <!-- <img src="../img/illness1.svg" alt=""> -->
-              <div class="card__data">
-                <p class="card__title">
-                  Encourage your dog to rest for a few weeks.Keep your dog away from other dogs
-                  because it’s very contagious.
-                  Make sure they rest, stay hydrated, and eat soft food.
-                  Use a harness instead of a collar and avoid smoke or dust.
-                  Call your vet if your dog has trouble breathing, won’t eat, or doesn’t get better.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <div class="card__container d-flex align-items-center justify-content-center">
-            <div class="content">
-              <h2>Ringworm</h2>
-              <p>
-                Ringworm is a fungal infection that can affect a dog’s skin, nails, and hair. Ringworm will usually
-                appear as skin lesions on the head and paws and patchy, circular bald spots on the body. Ringworm can be
-                passed from dogs to humans, so you may notice symptoms of the disease in yourself as well.
-              </p>
-            </div>
-            <article class="card__article">
-              <div class="solution">
-                <h2>What should you do?</h2>
-                <i class="icon bi bi-question-diamond-fill"></i>
-                <p>when You find circular, crusty bald patches on your dog's skin.</p>
-              </div>
-              <!-- <img src="../img/illness1.svg" alt=""> -->
-              <div class="card__data">
-                <p class="card__title">
-                  Take them to the vet for diagnosis and antifungal treatment such as creams, shampoos, or oral
-                  medication. Keep your dog isolated because ringworm spreads easily to other pets and people.
-                  Clean and disinfect bedding, toys, and grooming tools often.
-                  Wear gloves when touching the infected areas.
-                  Continue treatment until your vet says the infection is gone.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <div class="card__container d-flex align-items-center justify-content-center">
-            <div class="content">
-              <h2>Heartworm</h2>
-              <p>
-                Heartworm is a parasitic infection that affects the cardiovascular system. Early symptoms of a heartworm
-                infection are usually tough to spot, and they typically only consist of coughing and lethargy. Later
-                stages of heartworm disease in dogs consists of symptoms associated with heart failure.
-              </p>
-            </div>
-            <article class="card__article">
-              <div class="solution">
-                <h2>What should you do?</h2>
-                <i class="icon bi bi-question-diamond-fill "></i>
-                <p>when your dog seems lazy and has a occasional cough. Mosquito season is here.</p>
-              </div>
-              <!-- <img src="../img/illness1.svg" alt=""> -->
-              <div class="card__data">
-                <p class="card__title">
-                  take them to the vet <span>immediately</span> for testing and treatment, as it can be very serious.
-                  Your vet will
-                  prescribe medication to kill the worms safely and may recommend limited activity during recovery. Do
-                  not try to treat heartworm at home.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <div class="card__container d-flex align-items-center justify-content-center">
-            <div class="content">
-              <h2>Lyme Disease</h2>
-              <p>
-                Lyme disease is a bacterial infection that is commonly transmitted to dogs through tick bites. It’s
-                essential to contact your vet if you suspect that your dog has Lyme disease, as it can lead to more
-                severe health problems if left untreated. Unlike some other diseases, dogs cannot pass Lyme disease to
-                other dogs or humans. Symptoms of Lyme disease in dogs include fever, joint inflammation, lethargy, and
-                decreased appetite.
-              </p>
-            </div>
-            <article class="card__article">
-              <div class="solution">
-                <h2>What should you do?</h2>
-                <i class="icon bi bi-question-diamond-fill"></i>
-                <p>when your dog is limping and seems sore or feverish after a walk in the woods.</p>
-              </div>
-              <!-- <img src="../img/illness1.svg" alt=""> -->
-              <div class="card__data">
-                <p class="card__title">
-                  Take your dog to the vet for antibiotic treatment and watch for symptoms like fever, swollen
-                  joints, or loss of appetite. Keep your dog comfortable and limit strenuous activity during recovery.
-                  After starting antibiotic treatment, most dogs start feeling better within one to two days. Lyme
-                  disease in dogs must be treated for at least 30 days to get rid of the bacterial infection.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <div class="card__container d-flex align-items-center justify-content-center">
-            <div class="content">
-              <h2>Parainfluenza</h2>
-              <p>
-                Parainfluenza is a viral respiratory infection that can cause coughing and sneezing in dogs. While it’s
-                typically not a life-threatening condition, it can be severe in young puppies, senior dogs, or dogs with
-                weakened immune systems. In addition to coughing and sneezing, other symptoms of parainfluenza in dogs
-                may include fever, lethargy, and nasal discharge. Treatment may involve supportive care, such as fluids
-                and rest, as well as antiviral medication if necessary.
-              </p>
-            </div>
-            <article class="card__article">
-              <div class="solution">
-                <h2>What should you do?</h2>
-                <i class="icon bi bi-question-diamond-fill"></i>
-                <p>when your dog has a dry cough, runny nose, and seems lethargic.</p>
-              </div>
-              <!-- <img src="../img/illness1.svg" alt=""> -->
-              <div class="card__data">
-                <p class="card__title">
-                  Take your dog to the vet if symptoms like coughing,
-                  sneezing, or nasal discharge become severe or last more than a few days. Keep your dog rested,
-                  hydrated, and away from other dogs to prevent spreading the virus. Use a harness instead of a collar
-                  to avoid irritating the throat. Most dogs recover within one to two weeks with supportive care.
-                </p>
-              </div>
-            </article>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="sm d-block d-md-none">
-    <h1 class="topic text-center">Common Dog Illnesses</h1>
-    <div class="row ">
-      <div class="card__container d-block align-items-center justify-content-center">
-        <div class="content text-center">
-          <h2 class="mt-5">Kennel Cough</h2>
-          <p>
-            This respiratory infection, also known as Bordetella, is commonly
-            referred to as Kennel cough. This condition is characterized by a
-            barking cough and sneezing in dogs. Other symptoms include
-            gagging, nasal discharge, and fever. Kennel cough is prevalent
-            among dogs, and it typically spreads when they come into contact
-            with many other dogs, such as at a kennel, daycare, or dog park.
-          </p>
-        </div>
-        <article class="card__article">
-          <div class="solution">
-            <h2>What should you do?</h2>
-            <i class="icon bi bi-question-diamond-fill"></i>
-            <p>when your dog comes home from daycare with a loud, honking cough.</p>
-          </div>
-          <!-- <img src="../img/illness1.svg" alt=""> -->
-          <div class="card__data">
-            <p class="card__title">
-              Encourage your dog to rest for a few weeks.Keep your dog away from other dogs
-              because it’s very contagious.
-              Make sure they rest, stay hydrated, and eat soft food.
-              Use a harness instead of a collar and avoid smoke or dust.
-              Call your vet if your dog has trouble breathing, won’t eat, or doesn’t get better.
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="card__container d-block align-items-center justify-content-center">
-        <div class="content text-center">
-          <h2 class="mt-5">Ringworm</h2>
-          <p>
-            Ringworm is a fungal infection that can affect a dog’s skin, nails, and hair. Ringworm will usually
-            appear as skin lesions on the head and paws and patchy, circular bald spots on the body. Ringworm can be
-            passed from dogs to humans, so you may notice symptoms of the disease in yourself as well.
-          </p>
-        </div>
-        <article class="card__article">
-          <div class="solution">
-            <h2>What should you do?</h2>
-            <i class="icon bi bi-question-diamond-fill"></i>
-            <p>when You find circular, crusty bald patches on your dog's skin.</p>
-          </div>
-          <!-- <img src="../img/illness1.svg" alt=""> -->
-          <div class="card__data">
-            <p class="card__title">
-              Take them to the vet for diagnosis and antifungal treatment such as creams, shampoos, or oral
-              medication. Keep your dog isolated because ringworm spreads easily to other pets and people.
-              Clean and disinfect bedding, toys, and grooming tools often.
-              Wear gloves when touching the infected areas.
-              Continue treatment until your vet says the infection is gone.
-            </p>
-          </div>
-        </article>
-      </div>
-
-    </div>
-  </div>
-
-
-  <footer>
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-6 col-6">
-        <div class="row">
-          <img src="./../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
-          <div class="col-md-6 justify-content-center">
-            <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+      <div class="row">
+        <div
+          class="card__container d-block align-items-center justify-content-center"
+        >
+          <div class="content text-center">
+            <h2 class="mt-5">Kennel Cough</h2>
             <p>
-              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-              Khon Kaen 40002, Thailand
+              This respiratory infection, also known as Bordetella, is commonly
+              referred to as Kennel cough. This condition is characterized by a
+              barking cough and sneezing in dogs. Other symptoms include
+              gagging, nasal discharge, and fever. Kennel cough is prevalent
+              among dogs, and it typically spreads when they come into contact
+              with many other dogs, such as at a kennel, daycare, or dog park.
             </p>
-            <p>Tel: +66 43 009700</p>
-            <div>
-              <i class="bi bi-github"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-            </div>
           </div>
+          <article class="card__article">
+            <div class="solution">
+              <h2>What should you do?</h2>
+              <i class="icon bi bi-question-diamond-fill"></i>
+              <p>
+                when your dog comes home from daycare with a loud, honking
+                cough.
+              </p>
+            </div>
+            <!-- <img src="../img/illness1.svg" alt=""> -->
+            <div class="card__data">
+              <p class="card__title">
+                Encourage your dog to rest for a few weeks.Keep your dog away
+                from other dogs because it’s very contagious. Make sure they
+                rest, stay hydrated, and eat soft food. Use a harness instead of
+                a collar and avoid smoke or dust. Call your vet if your dog has
+                trouble breathing, won’t eat, or doesn’t get better.
+              </p>
+            </div>
+          </article>
         </div>
-      </div>
-      <div class="col-md-6 col-6">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Legal</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <ul>
-            <li><a href="#">About dog</a></li>
-            <li><a href="#">Adoption</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Expert</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
+
+        <div
+          class="card__container d-block align-items-center justify-content-center"
+        >
+          <div class="content text-center">
+            <h2 class="mt-5">Ringworm</h2>
+            <p>
+              Ringworm is a fungal infection that can affect a dog’s skin,
+              nails, and hair. Ringworm will usually appear as skin lesions on
+              the head and paws and patchy, circular bald spots on the body.
+              Ringworm can be passed from dogs to humans, so you may notice
+              symptoms of the disease in yourself as well.
+            </p>
+          </div>
+          <article class="card__article">
+            <div class="solution">
+              <h2>What should you do?</h2>
+              <i class="icon bi bi-question-diamond-fill"></i>
+              <p>
+                when You find circular, crusty bald patches on your dog's skin.
+              </p>
+            </div>
+            <!-- <img src="../img/illness1.svg" alt=""> -->
+            <div class="card__data">
+              <p class="card__title">
+                Take them to the vet for diagnosis and antifungal treatment such
+                as creams, shampoos, or oral medication. Keep your dog isolated
+                because ringworm spreads easily to other pets and people. Clean
+                and disinfect bedding, toys, and grooming tools often. Wear
+                gloves when touching the infected areas. Continue treatment
+                until your vet says the infection is gone.
+              </p>
+            </div>
+          </article>
         </div>
       </div>
     </div>
-    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-    <hr class="line" />
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-</body>
+    <footer>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-6">
+          <div class="row">
+            <img
+              src="./../img/logo-pic.png"
+              alt=""
+              class="logo-home col-6 d-none d-md-block"
+            />
+            <div class="col-md-6 justify-content-center">
+              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+              <p>
+                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+                Khon Kaen 40002, Thailand
+              </p>
+              <p>Tel: +66 43 009700</p>
+              <div>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-6">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About dog</a></li>
+              <li><a href="#">Adoption</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Expert</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+      <hr class="line" />
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
 </html>

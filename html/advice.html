@@ -1,381 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expert Advice</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Expert Advice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
+    <script src="../vendor/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
-  <script src="../vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./../css/general.css" />
+    <link rel="stylesheet" href="./../css/advice.css" />
+  </head>
 
-  <link rel="stylesheet" href="./../css/general.css" />
-  <link rel="stylesheet" href="./../css/advice.css" />
-</head>
+  <body>
+    <header>
+      <div class="navbar d-block">
+        <div class="d-flex justify-content-center align-items-center logo-pic">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="./../img/header-logo-name.png"
+              alt=""
+              class="logo navbar-brand"
+          /></a>
 
-<body>
-  <header>
-    <div class="navbar d-block">
-      <div class="d-flex justify-content-center align-items-center logo-pic">
-        <a href="#" class="navbar-brand"><img src="./../img/image 9.png" alt="" class="logo navbar-brand" /></a>
+          <div class="d-flex justify-content-end profile-zone">
+            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
+            <i class="bi bi-bell-fill d-none d-md-block"></i>
+            <i class="bi bi-search magnifie d-none d-md-block"></i>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
 
-        <div class="d-flex justify-content-end profile-zone">
-          <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
-          <i class="bi bi-bell-fill d-none d-md-block"></i>
-          <i class="bi bi-search magnifie d-none d-md-block"></i>
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-
-          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="" class="profile-pic-user" /></a>
+            <a href="./profile.html"
+              ><img
+                src="./../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
+          </div>
+        </div>
+        <div class="navbar-expand-sm d-flex justify-content-end">
+          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
-      <div class="navbar-expand-sm d-flex justify-content-end">
-        <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
-        <i class="bi bi-bell-fill mb-bell d-md-none"></i>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
 
-    <nav class="navbar navbar-expand-lg">
-      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
-        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-          <ul class="navbar-nav gap-5">
-            <li class="nav-item"><a href="./home.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                data-bs-target="dropdown">About dog</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
-                    </li>
-                    <li>
-                      <a href="./news.html" class="dropdown-item">Dog news</a>
-                    </li>
-                    <li>
-                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
-                    </li>
-                    <li>
-                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
-                    </li>
-                    <li>
-                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
-                    </li>
-                  </ul>
-                </li>
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarToggleExternalContent"
+        >
+          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="./home.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-target="dropdown"
+                  >About dog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog info</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./breeds-md.html" class="dropdown-item"
+                          >Breeds</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./news.html" class="dropdown-item">Dog news</a>
+                      </li>
+                      <li>
+                        <a href="./insurance.html" class="dropdown-item"
+                          >Pet insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./illnesses.html" class="dropdown-item"
+                          >Common disease</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./poison-food.html" class="dropdown-item"
+                          >Poison</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
 
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
-                    </li>
-                    <li>
-                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog social</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./dog-community.html" class="dropdown-item"
+                          >Dog community forum</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
 
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
 
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./product.html" class="dropdown-item">Shopping</a>
-                </li>
-                <li><a href="./cart.html" class="dropdown-item">Cart</a></li>
-                <li>
-                  <a href="./notification.html" class="dropdown-item">Notification</a>
-                </li>
-              </ul>
-            </li>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./home-shop.html" class="dropdown-item"
+                      >Shopping</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./shopping-cart.html" class="dropdown-item"
+                      >Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./notification.html" class="dropdown-item"
+                      >Notification</a
+                    >
+                  </li>
+                </ul>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Expert</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./advice.html" class="dropdown-item">Advice</a>
-                </li>
-                <li>
-                  <a href="./training-basic.html" class="dropdown-item">Training</a>
-                </li>
-              </ul>
-            </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Expert</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./advice.html" class="dropdown-item">Advice</a>
+                  </li>
+                  <li>
+                    <a href="./training-basic.html" class="dropdown-item"
+                      >Training</a
+                    >
+                  </li>
+                </ul>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
-                us</a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">About us</a></li>
-                <li>
-                  <a href="./feedback.html" class="dropdown-item">Contact</a>
-                </li>
-                <li><a href="./team.html" class="dropdown-item">Team</a></li>
-              </ul>
-            </li>
-          </ul>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">About us</a></li>
+                  <li>
+                    <a href="./feedback.html" class="dropdown-item">Contact</a>
+                  </li>
+                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <div class="advice-lg d-none d-md-block">
-    <h1 class="topic text-center">Expert Advice</h1>
-    <div class="advice">
-      <div class="row d-flex">
-        <div class="left col-lg-6">
-          <div class="row d-block">
-            <div class="left-head col-lg-6">
-              <h2>Nutrition</h2>
-              <div class="content d-flex">
-                <img src="./../img/advice-nutrian.svg" alt="" />
-                <p>
-                  Feed a balanced, high-quality diet appropriate for your
-                  dog's age, size, and breed. Avoid harmful foods like
-                  chocolate, grapes/raisins, onions, and cooked bones. Always
-                  provide fresh water.
-                </p>
-              </div>
-            </div>
-
-            <div class="left-foot col-lg-6">
-              <div class="row d-flex">
-                <div class="left-left col-lg-6">
-                  <div class="row d-block">
-                    <div class="left-left-top col-lg-6 mb-3">
-                      <h2>Exercise</h2>
-                      <div class="content d-flex">
-                        <img src="./../img/advice-exercise.svg" alt="" />
-                        <p>
-                          Dogs need daily physical and mental stimulation Mix
-                          walks, play, and puzzle toys to keep them engaged.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="left-left-bottom col-lg-6">
-                      <h2>Safety & Comfort</h2>
-                      <div class="content d-flex">
-                        <img src="./../img/advice-safty.svg" alt="" />
-                        <p>Provide a safe space where your dog can relax.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="left-right col-lg-6 ml-3">
-                  <h2>Training & Behavior</h2>
-                  <div class="content d-flex">
-                    <img src="./../img/advice-behavior.svg" alt="" />
-                    <p>
-                      Use positive reinforcement (praise, treats, play)
-                      instead of punishment.
-                    </p>
-                  </div>
+    <div class="advice-lg d-none d-md-block">
+      <h1 class="topic text-center">Expert Advice</h1>
+      <div class="advice">
+        <div class="row d-flex">
+          <div class="left col-lg-6">
+            <div class="row d-block">
+              <div class="left-head col-lg-6">
+                <h2>Nutrition</h2>
+                <div class="content d-flex">
+                  <img src="./../img/advice-nutrian.svg" alt="" />
                   <p>
-                    Socialize your dog early with people, other dogs, and
-                    different environments. and be consistent with commands
-                    and rules.
+                    Feed a balanced, high-quality diet appropriate for your
+                    dog's age, size, and breed. Avoid harmful foods like
+                    chocolate, grapes/raisins, onions, and cooked bones. Always
+                    provide fresh water.
                   </p>
                 </div>
               </div>
+
+              <div class="left-foot col-lg-6">
+                <div class="row d-flex">
+                  <div class="left-left col-lg-6">
+                    <div class="row d-block">
+                      <div class="left-left-top col-lg-6 mb-3">
+                        <h2>Exercise</h2>
+                        <div class="content d-flex">
+                          <img src="./../img/advice-exercise.svg" alt="" />
+                          <p>
+                            Dogs need daily physical and mental stimulation Mix
+                            walks, play, and puzzle toys to keep them engaged.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="left-left-bottom col-lg-6">
+                        <h2>Safety & Comfort</h2>
+                        <div class="content d-flex">
+                          <img src="./../img/advice-safty.svg" alt="" />
+                          <p>Provide a safe space where your dog can relax.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="left-right col-lg-6 ml-3">
+                    <h2>Training & Behavior</h2>
+                    <div class="content d-flex">
+                      <img src="./../img/advice-behavior.svg" alt="" />
+                      <p>
+                        Use positive reinforcement (praise, treats, play)
+                        instead of punishment.
+                      </p>
+                    </div>
+                    <p>
+                      Socialize your dog early with people, other dogs, and
+                      different environments. and be consistent with commands
+                      and rules.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right col-lg-6">
+            <h2>Health</h2>
+            <div class="content d-flex">
+              <img src="./../img/adavice-healt.svg" alt="" />
+              <p>Keep vaccinations, prevention, and deworming up to date.</p>
+            </div>
+            <p>
+              Regular Check-ups - Take your dog to the vet at least once a year
+              for a full health examination. Older dogs may need visits every 6
+              months. and watch for red flags such as vomiting, diarrhea,
+              coughing, excessive scratching, limping, sudden weight loss, or
+              behavioral changes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tips container-fluid">
+        <div class="row d-flex">
+          <div class="tips-left col-lg-6 d-block">
+            <h3>
+              Caring for a dog means more than food and play it's about ensuring
+              their long-term health, happiness, and safety.
+            </h3>
+            <button>
+              <h4>Read More</h4>
+            </button>
+            <img id="gang" src="./../img/advice-gang.svg" alt="" />
+          </div>
+
+          <div class="tips-right col-lg-6">
+            <h3>Expert Tips</h3>
+            <div class="row d-block">
+              <div class="doctor1 col-lg-6 d-flex">
+                <div class="doc-pic d-block text-center">
+                  <img src="./../img/advice-doctor1.svg" alt="" />
+                  <p class="doc-name">
+                    Dr. Pancake <br />
+                    Canine Behavior Specialist
+                  </p>
+                </div>
+                <p>
+                  “ Many dogs rarely have their collars taken off, it's
+                  important to keep proper identification on your dog at all
+                  times.”
+                </p>
+              </div>
+              <div class="doctor2 col-lg-6 d-flex">
+                <div class="doc-pic text-center">
+                  <img src="./../img/advice-doctor2.svg" alt="" />
+                  <p class="doc-name">
+                    Dr. Lookkaew <br />
+                    Canine Health Specialist
+                  </p>
+                </div>
+                <p>
+                  “ When checking your dog, make sure to look deep into the ear,
+                  because the ticks can get attached and go unnoticed for a long
+                  time. ”
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="right col-lg-6">
+    <div class="advice-sm container-fluid d-block d-md-none">
+      <div class="row text-center">
+        <h1 class="topic">Expert Advice</h1>
+        <div class="content-sm col-sm-12 text-center">
+          <h2>Nutrition</h2>
+          <p>
+            Feed a balanced, high-quality diet appropriate for your dog's age,
+            size, and breed. Avoid harmful foods like chocolate, grapes/raisins,
+            onions, and cooked bones. Always provide fresh water.
+          </p>
+        </div>
+        <div class="content-sm col-sm-12 text-center">
+          <h2>Exercise</h2>
+          <p>
+            Dogs need daily physical and mental stimulation Mix walks, play, and
+            puzzle toys to keep them engaged.
+          </p>
+        </div>
+        <div class="content-sm col-sm-12 text-center">
+          <h2>Safety & Comfort</h2>
+          <p>Provide a safe space where your dog can relax.</p>
+        </div>
+        <div class="content-sm col-sm-12 text-center">
+          <h2>Training & Behavior</h2>
+          <p>
+            Use positive reinforcement (praise, treats, play) instead of
+            punishment.
+          </p>
+        </div>
+        <div class="content-sm col-sm-12 text-center">
           <h2>Health</h2>
-          <div class="content d-flex">
-            <img src="./../img/adavice-healt.svg" alt="" />
-            <p>Keep vaccinations, prevention, and deworming up to date.</p>
-          </div>
           <p>
             Regular Check-ups - Take your dog to the vet at least once a year
             for a full health examination. Older dogs may need visits every 6
             months. and watch for red flags such as vomiting, diarrhea,
             coughing, excessive scratching, limping, sudden weight loss, or
-            behavioral changes.
+            behavioral changes.00
+          </p>
+        </div>
+
+        <h1 class="topic" id="tips">Expert Tips</h1>
+        <div class="doctor1-sm col-sm-12 text-center">
+          <img src="./../img/advice-doctor1.svg" alt="" />
+          <p>
+            “ Many dogs rarely have their collars taken off, it's important to
+            keep proper identification on your dog at all times.”
+          </p>
+          <p class="doc-name">
+            Dr. Pancake <br />
+            Canine Behavior Specialist
+          </p>
+        </div>
+        <div class="doctor2-sm col-sm-12 text-center">
+          <img src="./../img/advice-doctor2.svg" alt="" />
+          <p>
+            “ “ When checking your dog, make sure to look deep into the ear,
+            because the ticks can get attached and go unnoticed for a long time.
+            ”
+          </p>
+          <p class="doc-name">
+            Dr. Lookkaew <br />
+            Canine Health Specialist
           </p>
         </div>
       </div>
     </div>
 
-    <div class="tips container-fluid">
-      <div class="row d-flex">
-        <div class="tips-left col-lg-6 d-block">
-          <h3>
-            Caring for a dog means more than food and play it's about ensuring
-            their long-term health, happiness, and safety.
-          </h3>
-          <button>
-            <h4>Read More</h4>
-          </button>
-          <img id="gang" src="./../img/advice-gang.svg" alt="" />
-        </div>
-
-        <div class="tips-right col-lg-6">
-          <h3>Expert Tips</h3>
-          <div class="row d-block">
-            <div class="doctor1 col-lg-6 d-flex">
-              <div class="doc-pic d-block text-center">
-                <img src="./../img/advice-doctor1.svg" alt="" />
-                <p class="doc-name">
-                  Dr. Pancake <br />
-                  Canine Behavior Specialist
-                </p>
-              </div>
+    <footer>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-6">
+          <div class="row">
+            <img
+              src="./../img/logo-pic.png"
+              alt=""
+              class="logo-home col-6 d-none d-md-block"
+            />
+            <div class="col-md-6 justify-content-center">
+              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
               <p>
-                “ Many dogs rarely have their collars taken off, it's
-                important to keep proper identification on your dog at all
-                times.”
+                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+                Khon Kaen 40002, Thailand
               </p>
-            </div>
-            <div class="doctor2 col-lg-6 d-flex">
-              <div class="doc-pic text-center">
-                <img src="./../img/advice-doctor2.svg" alt="" />
-                <p class="doc-name">
-                  Dr. Lookkaew <br />
-                  Canine Health Specialist
-                </p>
+              <p>Tel: +66 43 009700</p>
+              <div>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
               </div>
-              <p>
-                “ When checking your dog, make sure to look deep into the ear,
-                because the ticks can get attached and go unnoticed for a long
-                time. ”
-              </p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="advice-sm container-fluid d-block d-md-none">
-    <div class="row text-center">
-      <h1 class="topic">Expert Advice</h1>
-      <div class="content-sm col-sm-12 text-center">
-        <h2>Nutrition</h2>
-        <p>
-          Feed a balanced, high-quality diet appropriate for your dog's age,
-          size, and breed. Avoid harmful foods like chocolate, grapes/raisins,
-          onions, and cooked bones. Always provide fresh water.
-        </p>
-      </div>
-      <div class="content-sm col-sm-12 text-center">
-        <h2>Exercise</h2>
-        <p>
-          Dogs need daily physical and mental stimulation Mix walks, play, and
-          puzzle toys to keep them engaged.
-        </p>
-      </div>
-      <div class="content-sm col-sm-12 text-center">
-        <h2>Safety & Comfort</h2>
-        <p>Provide a safe space where your dog can relax.</p>
-      </div>
-      <div class="content-sm col-sm-12 text-center">
-        <h2>Training & Behavior</h2>
-        <p>
-          Use positive reinforcement (praise, treats, play) instead of
-          punishment.
-        </p>
-      </div>
-      <div class="content-sm col-sm-12 text-center">
-        <h2>Health</h2>
-        <p>
-          Regular Check-ups - Take your dog to the vet at least once a year
-          for a full health examination. Older dogs may need visits every 6
-          months. and watch for red flags such as vomiting, diarrhea,
-          coughing, excessive scratching, limping, sudden weight loss, or
-          behavioral changes.00
-        </p>
-      </div>
-
-      <h1 class="topic" id="tips">Expert Tips</h1>
-      <div class="doctor1-sm col-sm-12 text-center">
-        <img src="./../img/advice-doctor1.svg" alt="" />
-        <p>
-          “ Many dogs rarely have their collars taken off, it's important to
-          keep proper identification on your dog at all times. ”
-        </p>
-        <p class="doc-name">
-          Dr. Pancake <br />
-          Canine Behavior Specialist
-        </p>
-      </div>
-      <div class="doctor2-sm col-sm-12 text-center">
-        <img src="./../img/advice-doctor2.svg" alt="" />
-        <p>
-          “ “ When checking your dog, make sure to look deep into the ear,
-          because the ticks can get attached and go unnoticed for a long time.
-          ”
-        </p>
-        <p class="doc-name">
-          Dr. Lookkaew <br />
-          Canine Health Specialist
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-6 col-6">
-        <div class="row">
-          <img src="./../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
-          <div class="col-md-6 justify-content-center">
-            <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
-            <p>
-              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-              Khon Kaen 40002, Thailand
-            </p>
-            <p>Tel: +66 43 009700</p>
-            <div>
-              <i class="bi bi-github"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-            </div>
+        <div class="col-md-6 col-6">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+              <li><a href="./home.html">About dog</a></li>
+              <li><a href="./adoption.html">Adoption</a></li>
+              <li><a href="./product.html">Shop</a></li>
+              <li><a href="./advice.html">Expert</a></li>
+              <li><a href="./team.html">About Us</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-6">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Legal</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <ul>
-            <li><a href="./home.html">About dog</a></li>
-            <li><a href="./adoption.html">Adoption</a></li>
-            <li><a href="./product.html">Shop</a></li>
-            <li><a href="./advice.html">Expert</a></li>
-            <li><a href="./team.html">About Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-    <hr class="line" />
-  </footer>
+      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+      <hr class="line" />
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
 </html>

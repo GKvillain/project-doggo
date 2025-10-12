@@ -1,385 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Nutrition</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dog Nutrition</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
+    <script src="./../vendor/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
-  <script src="./../vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./../css/general.css" />
+    <link rel="stylesheet" href="./../css/nutrition.css" />
+  </head>
 
-  <link rel="stylesheet" href="./../css/general.css" />
-  <link rel="stylesheet" href="./../css/nutrition.css" />
-</head>
+  <body>
+    <header>
+      <div class="navbar d-block">
+        <div class="d-flex justify-content-center align-items-center logo-pic">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="./../img/header-logo-name.png"
+              alt=""
+              class="logo navbar-brand"
+          /></a>
 
-<body>
-   <header>
-    <div class="navbar d-block">
-      <div class="d-flex justify-content-center align-items-center logo-pic">
-        <a href="#" class="navbar-brand"><img src="./../img/image 9.png" alt="" class="logo navbar-brand" /></a>
+          <div class="d-flex justify-content-end profile-zone">
+            <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
+            <i class="bi bi-bell-fill d-none d-md-block"></i>
+            <i class="bi bi-search magnifie d-none d-md-block"></i>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
 
-        <div class="d-flex justify-content-end profile-zone">
-          <i class="bi bi-cart-dash-fill d-none d-md-block"></i>
-          <i class="bi bi-bell-fill d-none d-md-block"></i>
-          <i class="bi bi-search magnifie d-none d-md-block"></i>
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-
-          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="" class="profile-pic-user" /></a>
-        </div>
-      </div>
-      <div class="navbar-expand-sm d-flex justify-content-end">
-        <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
-        <i class="bi bi-bell-fill mb-bell d-md-none"></i>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-expand-lg">
-      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
-        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-          <ul class="navbar-nav gap-5">
-            <li class="nav-item"><a href="./home.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                data-bs-target="dropdown">About dog</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
-                    </li>
-                    <li>
-                      <a href="./news.html" class="dropdown-item">Dog news</a>
-                    </li>
-                    <li>
-                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
-                    </li>
-                    <li>
-                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
-                    </li>
-                    <li>
-                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
-                    </li>
-                    <li>
-                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./product.html" class="dropdown-item">Shopping</a>
-                </li>
-                <li><a href="./cart.html" class="dropdown-item">Cart</a></li>
-                <li>
-                  <a href="./notification.html" class="dropdown-item">Notification</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Expert</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./advice.html" class="dropdown-item">Advice</a>
-                </li>
-                <li>
-                  <a href="./training-basic.html" class="dropdown-item">Training</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
-                us</a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">About us</a></li>
-                <li>
-                  <a href="./feedback.html" class="dropdown-item">Contact</a>
-                </li>
-                <li><a href="./team.html" class="dropdown-item">Team</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="d-none d-md-block">
-    <div class="head">
-      <h1 class="topic text-center">Nutrition</h1>
-      <img id="head-cover" src="./../img/nutrian.png" alt="" />
-      <canvas></canvas>
-    </div>
-
-    <p id="intro">
-      "Every dog deserves a healthy, happy life and it starts with proper
-      nutrition. From understanding the basics of balanced diets to exploring
-      homemade recipes, we’re here to guide you through every step of your
-      dog’s wellness journey."
-    </p>
-    <div class="content">
-      <div class="banner">
-        <div class="graphic">
-          <img id="bannerfont" src="./../img/bannerr-font.png" alt="" />
-          <!-- <img id="bannerdog" src="./../img/banner-dog.png" alt="" /> -->
-        </div>
-
-        <div class="docter">
-          <!--<p id="color"></p>!-->
-          <img id="docterGK" src="./../img/docter GK.svg" alt="" />
-          <h3>Dr.GK</h3>
-          <p>
-            <span> " </span> A specialist in bones and teeth plays a crucial
-            role in maintaining skeletal and dental health. They provide
-            expert guidance on nutrition, supplements, and lifestyle habits
-            that strengthen bones, prevent fractures, and support healthy
-            teeth and gums. Their advice is especially important for growing
-            puppies, or breeds prone to joint issues, ensuring long-term
-            mobility and overall well-being. <span> " </span>
-          </p>
-          <h2>Bone and dental specialist</h2>
-        </div>
-      </div>
-    </div>
-    <div class="nutrian">
-      <h1>Balanced your dog nutrients</h1>
-      <div class="balanced container-fluid">
-        <div class="row">
-          <div class="row1 col-lg-6">
-            <h4>WATER</h4>
-            <p>
-              Regulating body temperature <br />
-              Breaking down carbohydrates, proteins, and fats <br />
-              Protecting the nervous system <br />
-              Lubricating joints <br />
-              Providing shape and structure to the body <br />
-            </p>
-          </div>
-
-          <div class="row1 col-lg-6">
-            <h4>Vitamins</h4>
-            <p>
-              Vitamin A for normal growth <br />
-              Vitamin D Increase blood calcium and maintenance healthy bones
-              <br />
-              Vitamin E antioxidant in the body <br />
-              Lubricating joints <br />
-              Vitamin K Involved in blood clotting and bone development <br />
-            </p>
+            <a href="./profile.html"
+              ><img
+                src="./../img/profile-pic-11.jpg"
+                alt=""
+                class="profile-pic-user"
+            /></a>
           </div>
         </div>
-
-        <div class="row">
-          <div class="row1 col-lg-6">
-            <h4>Fat</h4>
-            <p>
-              The AAFCO minimum levels for fat in dog foods are 8.5% DM for
-              growth and reproduction and 5.5% for adult maintenance.Fat has
-              many roles in the body <br />
-              Providing energy: Fat is the most concentrated form of energy
-              <br />
-              Helping with the absorption of fat-soluble vitamins <br />
-            </p>
-          </div>
-
-          <div class="row1 col-lg-6">
-            <h4>Minerals</h4>
-            <p>
-              Calcium (Ca) teeth and bones to maintain their shape <br />
-              Phosphorus (P) cell growth, cell energy use, and amino acid and
-              protein formation <br />
-              Magnesium (Mg) metabolism of carbohydrates and fats <br />
-              Potassium (K) maintaining acid-base balance and osmotic balance
-              <br />
-            </p>
-          </div>
-
-          
+        <div class="navbar-expand-sm d-flex justify-content-end">
+          <i class="bi bi-cart-dash-fill mb-bell d-md-none"></i>
+          <i class="bi bi-bell-fill mb-bell d-md-none"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
 
-      <div class="foot">
-        <h2>
-          Food manufacturers' diets that meet <span> AAFCO </span> standards
-          brands
-        </h2>
-        <button>SHOP NOW !</button>
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarToggleExternalContent"
+        >
+          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="./home.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-target="dropdown"
+                  >About dog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog info</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./breeds-md.html" class="dropdown-item"
+                          >Breeds</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./news.html" class="dropdown-item">Dog news</a>
+                      </li>
+                      <li>
+                        <a href="./insurance.html" class="dropdown-item"
+                          >Pet insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./illnesses.html" class="dropdown-item"
+                          >Common disease</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./poison-food.html" class="dropdown-item"
+                          >Poison</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog social</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./dog-community.html" class="dropdown-item"
+                          >Dog community forum</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./home-shop.html" class="dropdown-item"
+                      >Shopping</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./shopping-cart.html" class="dropdown-item"
+                      >Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./notification.html" class="dropdown-item"
+                      >Notification</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Expert</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./advice.html" class="dropdown-item">Advice</a>
+                  </li>
+                  <li>
+                    <a href="./training-basic.html" class="dropdown-item"
+                      >Training</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">About us</a></li>
+                  <li>
+                    <a href="./feedback.html" class="dropdown-item">Contact</a>
+                  </li>
+                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="d-none d-md-block">
+      <div class="head">
+        <h1 class="topic text-center">Nutrition</h1>
+        <img id="head-cover" src="./../img/nutrian.png" alt="" />
+        <canvas></canvas>
       </div>
-    </div>
-  </div>
 
-  <div class="sm d-block d-md-none container-fluid">
-    <div class="head">
-      <h1>Nutrition</h1>
-      <img id="head-cover" src="./../img/nutrian.png" alt="" />
-    </div>
-    <p id="intro">
-      "Every dog deserves a healthy, happy life and it starts with proper
-      nutrition. From understanding the basics of balanced diets to exploring
-      homemade recipes, we’re here to guide you through every step of your
-      dog’s wellness journey."
-    </p>
-
-    <div class="content">
-      <div class="banner d-block align-items-center justify-content-center">
-        <div class="graphic">
-          <img id="bannerfont" src="./../img/bannerr-font.png" alt="" />
-        </div>
-        <div class="docter">
-          <img id="docterGK" src="./../img/docter GK.svg" alt="" />
-          <h3>Dr.GK</h3>
-          <p>
-            <span> " </span> A specialist in bones and teeth plays a crucial
-            role in maintaining skeletal and dental health. They provide
-            expert guidance on nutrition, supplements, and lifestyle habits
-            that strengthen bones, prevent fractures, and support healthy
-            teeth and gums. Their advice is especially important for growing
-            puppies, or breeds prone to joint issues, ensuring long-term
-            mobility and overall well-being. <span> " </span>
-          </p>
-          <h2>Bone and dental specialist</h2>
-        </div>
-      </div>
-    </div>
-
-    <div class="nutrian">
-      <h2 class="text-center">Balanced your dog nutrients</h2>
-      <div class="balanced container-fluid">
-        <div class="row">
-          <div class="row1 col-lg-6">
-            <h4>WATER</h4>
-            <p>
-              Regulating body temperature <br />
-              Breaking down carbohydrates, proteins, and fats <br />
-              Protecting the nervous system <br />
-              Lubricating joints <br />
-              Providing shape and structure to the body <br />
-            </p>
+      <p id="intro">
+        "Every dog deserves a healthy, happy life and it starts with proper
+        nutrition. From understanding the basics of balanced diets to exploring
+        homemade recipes, we’re here to guide you through every step of your
+        dog’s wellness journey."
+      </p>
+      <div class="content">
+        <div class="banner">
+          <div class="graphic">
+            <img id="bannerfont" src="./../img/bannerr-font.png" alt="" />
+            <!-- <img id="bannerdog" src="./../img/banner-dog.png" alt="" /> -->
           </div>
 
-          <div class="row1 col-lg-6">
-            <h4>Vitamins</h4>
+          <div class="docter">
+            <!--<p id="color"></p>!-->
+            <img id="docterGK" src="./../img/docter GK.svg" alt="" />
+            <h3>Dr.GK</h3>
             <p>
-              Vitamin A for normal growth <br />
-              Vitamin D Increase blood calcium and maintenance healthy bones
-              <br />
-              Vitamin E antioxidant in the body <br />
-              Lubricating joints <br />
-              Vitamin K Involved in blood clotting and bone development <br />
+              <span> " </span> A specialist in bones and teeth plays a crucial
+              role in maintaining skeletal and dental health. They provide
+              expert guidance on nutrition, supplements, and lifestyle habits
+              that strengthen bones, prevent fractures, and support healthy
+              teeth and gums. Their advice is especially important for growing
+              puppies, or breeds prone to joint issues, ensuring long-term
+              mobility and overall well-being. <span> " </span>
             </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="row1 col-lg-6">
-            <h4>Fat</h4>
-            <p>
-              The AAFCO minimum levels for fat in dog foods are 8.5% DM for
-              growth and reproduction and 5.5% for adult maintenance.Fat has
-              many roles in the body <br />
-              Providing energy: Fat is the most concentrated form of energy
-              <br />
-              Helping with the absorption of fat-soluble vitamins <br />
-            </p>
-          </div>
-
-          <div class="row1 col-lg-6">
-            <h4>Minerals</h4>
-            <p>
-              Calcium (Ca) teeth and bones to maintain their shape <br />
-              Phosphorus (P) cell growth, cell energy use, and amino acid and
-              protein formation <br />
-              Magnesium (Mg) metabolism of carbohydrates and fats <br />
-              Potassium (K) maintaining acid-base balance and osmotic balance
-              <br />
-            </p>
+            <h2>Bone and dental specialist</h2>
           </div>
         </div>
       </div>
+      <div class="nutrian">
+        <h1>Balanced your dog nutrients</h1>
+        <div class="balanced container-fluid">
+          <div class="row">
+            <div class="row1 col-lg-6">
+              <h4>WATER</h4>
+              <p>
+                Regulating body temperature <br />
+                Breaking down carbohydrates, proteins, and fats <br />
+                Protecting the nervous system <br />
+                Lubricating joints <br />
+                Providing shape and structure to the body <br />
+              </p>
+            </div>
 
-      <div class="foot">
-        <h2 class="text-center">
-          Food manufacturers' diets that meet <span> AAFCO </span> standards
-          brands
-        </h2>
-        <button>SHOP NOW !</button>
-      </div>
-    </div>
-  </div>
+            <div class="row1 col-lg-6">
+              <h4>Vitamins</h4>
+              <p>
+                Vitamin A for normal growth <br />
+                Vitamin D Increase blood calcium and maintenance healthy bones
+                <br />
+                Vitamin E antioxidant in the body <br />
+                Lubricating joints <br />
+                Vitamin K Involved in blood clotting and bone development <br />
+              </p>
+            </div>
+          </div>
 
-  <footer>
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-6 col-6">
-        <div class="row">
-          <img src="./../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
-          <div class="col-md-6 justify-content-center">
-            <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
-            <p>
-              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-              Khon Kaen 40002, Thailand
-            </p>
-            <p>Tel: +66 43 009700</p>
-            <div>
-              <i class="bi bi-github"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
+          <div class="row">
+            <div class="row1 col-lg-6">
+              <h4>Fat</h4>
+              <p>
+                The AAFCO minimum levels for fat in dog foods are 8.5% DM for
+                growth and reproduction and 5.5% for adult maintenance.Fat has
+                many roles in the body <br />
+                Providing energy: Fat is the most concentrated form of energy
+                <br />
+                Helping with the absorption of fat-soluble vitamins <br />
+              </p>
+            </div>
+
+            <div class="row1 col-lg-6">
+              <h4>Minerals</h4>
+              <p>
+                Calcium (Ca) teeth and bones to maintain their shape <br />
+                Phosphorus (P) cell growth, cell energy use, and amino acid and
+                protein formation <br />
+                Magnesium (Mg) metabolism of carbohydrates and fats <br />
+                Potassium (K) maintaining acid-base balance and osmotic balance
+                <br />
+              </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-6 col-6">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Legal</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <ul>
-            <li><a href="#">About dog</a></li>
-            <li><a href="#">Adoption</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Expert</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
+
+        <div class="foot">
+          <h2>
+            Food manufacturers' diets that meet <span> AAFCO </span> standards
+            brands
+          </h2>
+          <button>SHOP NOW !</button>
         </div>
       </div>
     </div>
-    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-    <hr class="line" />
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-</body>
 
+    <div class="sm d-block d-md-none container-fluid">
+      <div class="head">
+        <h1>Nutrition</h1>
+        <img id="head-cover" src="./../img/nutrian.png" alt="" />
+      </div>
+      <p id="intro">
+        "Every dog deserves a healthy, happy life and it starts with proper
+        nutrition. From understanding the basics of balanced diets to exploring
+        homemade recipes, we’re here to guide you through every step of your
+        dog’s wellness journey."
+      </p>
+
+      <div class="content">
+        <div class="banner d-block align-items-center justify-content-center">
+          <div class="graphic">
+            <img id="bannerfont" src="./../img/bannerr-font.png" alt="" />
+          </div>
+          <div class="docter">
+            <img id="docterGK" src="./../img/docter GK.svg" alt="" />
+            <h3>Dr.GK</h3>
+            <p>
+              <span> " </span> A specialist in bones and teeth plays a crucial
+              role in maintaining skeletal and dental health. They provide
+              expert guidance on nutrition, supplements, and lifestyle habits
+              that strengthen bones, prevent fractures, and support healthy
+              teeth and gums. Their advice is especially important for growing
+              puppies, or breeds prone to joint issues, ensuring long-term
+              mobility and overall well-being. <span> " </span>
+            </p>
+            <h2>Bone and dental specialist</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="nutrian">
+        <h2 class="text-center">Balanced your dog nutrients</h2>
+        <div class="balanced container-fluid">
+          <div class="row">
+            <div class="row1 col-lg-6">
+              <h4>WATER</h4>
+              <p>
+                Regulating body temperature <br />
+                Breaking down carbohydrates, proteins, and fats <br />
+                Protecting the nervous system <br />
+                Lubricating joints <br />
+                Providing shape and structure to the body <br />
+              </p>
+            </div>
+
+            <div class="row1 col-lg-6">
+              <h4>Vitamins</h4>
+              <p>
+                Vitamin A for normal growth <br />
+                Vitamin D Increase blood calcium and maintenance healthy bones
+                <br />
+                Vitamin E antioxidant in the body <br />
+                Lubricating joints <br />
+                Vitamin K Involved in blood clotting and bone development <br />
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row1 col-lg-6">
+              <h4>Fat</h4>
+              <p>
+                The AAFCO minimum levels for fat in dog foods are 8.5% DM for
+                growth and reproduction and 5.5% for adult maintenance.Fat has
+                many roles in the body <br />
+                Providing energy: Fat is the most concentrated form of energy
+                <br />
+                Helping with the absorption of fat-soluble vitamins <br />
+              </p>
+            </div>
+
+            <div class="row1 col-lg-6">
+              <h4>Minerals</h4>
+              <p>
+                Calcium (Ca) teeth and bones to maintain their shape <br />
+                Phosphorus (P) cell growth, cell energy use, and amino acid and
+                protein formation <br />
+                Magnesium (Mg) metabolism of carbohydrates and fats <br />
+                Potassium (K) maintaining acid-base balance and osmotic balance
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot">
+          <h2 class="text-center">
+            Food manufacturers' diets that meet <span> AAFCO </span> standards
+            brands
+          </h2>
+          <button>SHOP NOW !</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-6">
+          <div class="row">
+            <img
+              src="./../img/logo-pic.png"
+              alt=""
+              class="logo-home col-6 d-none d-md-block"
+            />
+            <div class="col-md-6 justify-content-center">
+              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+              <p>
+                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+                Khon Kaen 40002, Thailand
+              </p>
+              <p>Tel: +66 43 009700</p>
+              <div>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-6">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About dog</a></li>
+              <li><a href="#">Adoption</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Expert</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+      <hr class="line" />
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
 </html>
