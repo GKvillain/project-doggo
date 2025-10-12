@@ -1,436 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dog News</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog News</title>
 
-    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
-    <script src="./../vendor/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 
-    <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/news.css" />
-  </head>
+  <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
+  <script src="./../vendor/js/bootstrap.min.js"></script>
 
-  <body>
-    <header>
-      <div class="navbar d-block">
-        <div class="d-flex justify-content-center align-items-center logo-pic">
-          <a href="#" class="navbar-brand"
-            ><img
-              src="./../img/header-logo-name.png"
-              alt="logo-doggo-name"
-              class="logo navbar-brand"
-          /></a>
+  <link rel="stylesheet" href="./../css/general.css" />
+  <link rel="stylesheet" href="./../css/news.css" />
+</head>
 
-          <div class="d-flex justify-content-end profile-zone">
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./shopping-cart.html">
-                <i class="bi bi-cart-dash d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./notification.html">
-                <i class="bi bi-bell d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="#">
-                <i class="bi bi-search magnifie d-none d-md-block"></i
-              ></a>
-            </div>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            />
+<body>
+  <header>
+    <div class="navbar d-block">
+      <div class="d-flex justify-content-center align-items-center logo-pic">
+        <a href="#" class="navbar-brand"><img src="./../img/header-logo-name.png" alt="logo-doggo-name"
+            class="logo navbar-brand" /></a>
 
-            <a href="./profile.html"
-              ><img
-                src="./../img/profile-pic-11.jpg"
-                alt="picture profile user"
-                class="profile-pic-user"
-            /></a>
-          </div>
-        </div>
-        <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-end profile-zone">
           <div class="d-flex justify-content-center align-items-center">
             <a href="./shopping-cart.html">
-              <i class="bi bi-cart-dash mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-cart-dash d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="./notification.html">
-              <i class="bi bi-bell mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-bell d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="#">
-              <i class="bi bi-search magnifie mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-search magnifie d-none d-md-block"></i></a>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+
+          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="picture profile user"
+              class="profile-pic-user" /></a>
         </div>
       </div>
-
-      <nav class="navbar navbar-expand-lg">
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center"
-          id="navbarToggleExternalContent"
-        >
-          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-            <ul class="navbar-nav gap-5">
-              <li class="nav-item"><a href="./home.html">Home</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-bs-target="dropdown"
-                  >About dog</a
-                >
-                <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog info</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./breeds-md.html" class="dropdown-item"
-                          >Breeds</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./news.html" class="dropdown-item">Dog news</a>
-                      </li>
-                      <li>
-                        <a href="./insurance.html" class="dropdown-item"
-                          >Pet insurance</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./illnesses.html" class="dropdown-item"
-                          >Common disease</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./poison-food.html" class="dropdown-item"
-                          >Poison</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog social</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./dog-community.html" class="dropdown-item"
-                          >Dog community forum</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./dog-gallery.html" class="dropdown-item"
-                          >Dog gallery</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Shop</a
-                >
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./home-shop.html" class="dropdown-item"
-                      >Shopping</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./shopping-cart.html" class="dropdown-item"
-                      >Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./notification.html" class="dropdown-item"
-                      >Notification</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Expert</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./advice.html" class="dropdown-item">Advice</a>
-                  </li>
-                  <li>
-                    <a href="./training-basic.html" class="dropdown-item"
-                      >Training</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >About us</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">About us</a></li>
-                  <li>
-                    <a href="./feedback.html" class="dropdown-item">Contact</a>
-                  </li>
-                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./shopping-cart.html">
+            <i class="bi bi-cart-dash mb-bell d-md-none"></i></a>
         </div>
-      </nav>
-    </header>
-
-    <div class="d-none d-md-block">
-      <h1 class="topic">Breaking News</h1>
-      <div class="container-fluid">
-        <div class="news row d-block">
-          <div class="bg-gray pic-content row d-flex">
-            <div class="pic">
-              <img src="./../img/news1.svg" alt="" />
-            </div>
-            <div class="content">
-              <h2>Annual lido swim for dogs ends summer 'on a high'</h2>
-              <p>
-                Hundreds of dogs and their owners have a paddle before the pool
-                closes for the winter.
-              </p>
-              <p class="date">2 days ago</p>
-            </div>
-          </div>
-
-          <div class="bckg-white pic-content row d-flex">
-            <div class="pic">
-              <img src="./../img/news2.svg" alt="" />
-            </div>
-            <div class="content">
-              <h2>Moment missing dog is reunited with family</h2>
-              <p>
-                The search effort to find Molly the cockpoo gained a huge
-                following on social media.
-              </p>
-              <p class="date">4 days ago</p>
-            </div>
-          </div>
-
-          <div class="bg-gray pic-content row d-flex">
-            <div class="pic">
-              <img src="./../img/news3.svg" alt="" />
-            </div>
-            <div class="content">
-              <h2>Woman who starved dogs banned from keeping animals</h2>
-              <p>
-                Sylvia Woodward receives a suspended prison sentence after
-                admitting an animal Welfare Act offence.
-              </p>
-              <p class="date">4 days ago</p>
-            </div>
-          </div>
-
-          <div class="bckg-white pic-content row d-flex">
-            <div class="pic">
-              <img src="./../img/news4.svg" alt="" />
-            </div>
-            <div class="content">
-              <h2>MP's pooch crowned Westminster Dog of the Year</h2>
-              <p>
-                Poykee, a 13-year-old Keeshond, took the crown as the
-                competition's 2025 winner.
-              </p>
-              <p class="date">5 days ago</p>
-            </div>
-          </div>
-
-          <div class="bg-gray pic-content row d-flex">
-            <div class="pic">
-              <img src="./../img/news5.svg" alt="" />
-            </div>
-            <div class="content">
-              <h2>Police dog and handler bonds 'unbreakable'</h2>
-              <p>
-                PC Carl Woodall is retiring after 23 years with West Midlands
-                Police's dog unit.
-              </p>
-              <p class="date">6 days ago</p>
-            </div>
-          </div>
-          <div class="index text-center">
-            <i class="bi bi-1-square-fill"></i>
-            <i class="bi bi-2-square"></i>
-            <i class="bi bi-3-square"></i>
-          </div>
-
-          <div class="judy text-center">
-            <h3>Dog of the day !</h3>
-            <div class="wrap">
-              <img src="./../img/judy.svg" alt="" />
-              <h2>Judy</h2>
-              <p>owner : Miss Maprang</p>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./notification.html">
+            <i class="bi bi-bell mb-bell d-md-none"></i></a>
         </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="#">
+            <i class="bi bi-search magnifie mb-bell d-md-none"></i></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </div>
 
-    <div class="sm d-block d-md-none">
-      <h1 class="topic">Breaking News</h1>
-      <div class="container-fluid">
-        <div class="row d-block">
-          <div class="ct col-sm-12 text-center">
-            <div class="banner">
-              <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
-              <p>
-                Hundreds of dogs and their owners have a paddle before the pool
-                closes for the winter
-              </p>
-            </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
+        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item"><a href="./home.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                data-bs-target="dropdown">About dog</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
+                    </li>
+                    <li>
+                      <a href="./news.html" class="dropdown-item">Dog news</a>
+                    </li>
+                    <li>
+                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
+                    </li>
+                    <li>
+                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
+                    </li>
+                    <li>
+                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
+                    </li>
+                    <li>
+                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./home-shop.html" class="dropdown-item">Shopping</a>
+                </li>
+                <li>
+                  <a href="./shopping-cart.html" class="dropdown-item">Cart</a>
+                </li>
+                <li>
+                  <a href="./notification.html" class="dropdown-item">Notification</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Expert</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./advice.html" class="dropdown-item">Advice</a>
+                </li>
+                <li>
+                  <a href="./training-basic.html" class="dropdown-item">Training</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">About us</a></li>
+                <li>
+                  <a href="./feedback.html" class="dropdown-item">Contact</a>
+                </li>
+                <li><a href="./team.html" class="dropdown-item">Team</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="d-none d-md-block">
+    <h1 class="topic">Breaking News</h1>
+    <div class="container-fluid">
+      <div class="news row d-block">
+        <div class="bg-gray pic-content row d-flex">
+          <div class="pic">
             <img src="./../img/news1.svg" alt="" />
           </div>
+          <div class="content">
+            <h2>Annual lido swim for dogs ends summer 'on a high'</h2>
+            <p>
+              Hundreds of dogs and their owners have a paddle before the pool
+              closes for the winter.
+            </p>
+            <p class="date">2 days ago</p>
+          </div>
+        </div>
 
-          <div class="ct col-sm-12 text-center">
-            <div class="banner">
-              <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
-              <p>
-                Hundreds of dogs and their owners have a paddle before the pool
-                closes for the winter
-              </p>
-            </div>
+        <div class="bckg-white pic-content row d-flex">
+          <div class="pic">
             <img src="./../img/news2.svg" alt="" />
           </div>
+          <div class="content">
+            <h2>Moment missing dog is reunited with family</h2>
+            <p>
+              The search effort to find Molly the cockpoo gained a huge
+              following on social media.
+            </p>
+            <p class="date">4 days ago</p>
+          </div>
+        </div>
 
-          <div class="ct col-sm-12 text-center">
-            <div class="banner">
-              <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
-              <p>
-                Hundreds of dogs and their owners have a paddle before the pool
-                closes for the winter
-              </p>
-            </div>
+        <div class="bg-gray pic-content row d-flex">
+          <div class="pic">
             <img src="./../img/news3.svg" alt="" />
           </div>
-
-          <div class="index text-center">
-            <i class="bi bi-1-square-fill"></i>
-            <i class="bi bi-2-square"></i>
-            <i class="bi bi-3-square"></i>
+          <div class="content">
+            <h2>Woman who starved dogs banned from keeping animals</h2>
+            <p>
+              Sylvia Woodward receives a suspended prison sentence after
+              admitting an animal Welfare Act offence.
+            </p>
+            <p class="date">4 days ago</p>
           </div>
+        </div>
 
-          <div class="judy-sm text-center">
-            <h3>Dog of the day !</h3>
-            <div class="wrap">
-              <img src="./../img/judy.svg" alt="" />
-              <h2>Judy</h2>
-              <p>owner : Miss Maprang</p>
-            </div>
+        <div class="bckg-white pic-content row d-flex">
+          <div class="pic">
+            <img src="./../img/news4.svg" alt="" />
+          </div>
+          <div class="content">
+            <h2>MP's pooch crowned Westminster Dog of the Year</h2>
+            <p>
+              Poykee, a 13-year-old Keeshond, took the crown as the
+              competition's 2025 winner.
+            </p>
+            <p class="date">5 days ago</p>
+          </div>
+        </div>
+
+        <div class="bg-gray pic-content row d-flex">
+          <div class="pic">
+            <img src="./../img/news5.svg" alt="" />
+          </div>
+          <div class="content">
+            <h2>Police dog and handler bonds 'unbreakable'</h2>
+            <p>
+              PC Carl Woodall is retiring after 23 years with West Midlands
+              Police's dog unit.
+            </p>
+            <p class="date">6 days ago</p>
+          </div>
+        </div>
+        <div class="index text-center">
+          <i class="bi bi-1-square-fill"></i>
+          <i class="bi bi-2-square"></i>
+          <i class="bi bi-3-square"></i>
+        </div>
+
+        <div class="judy text-center">
+          <h1 class="topic">Dog of the day !</h1>
+          <div class="wrap">
+            <img src="./../img/judy.svg" alt="" />
+            <h2>Judy</h2>
+            <p>owner : Miss Maprang</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-6">
-          <div class="row">
-            <img
-              src="./../img/logo-pic.png"
-              alt=""
-              class="logo-home col-6 d-none d-md-block"
-            />
-            <div class="col-md-6 justify-content-center">
-              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
-              <p>
-                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-                Khon Kaen 40002, Thailand
-              </p>
-              <p>Tel: +66 43 009700</p>
-              <div>
-                <i class="bi bi-github"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-              </div>
-            </div>
+  <div class="sm d-block d-md-none">
+    <h1 class="topic">Breaking News</h1>
+    <div class="container-fluid">
+      <div class="row d-block">
+        <div class="ct col-sm-12 text-center">
+          <div class="banner">
+            <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
+            <p>
+              Hundreds of dogs and their owners have a paddle before the pool
+              closes for the winter
+            </p>
           </div>
+          <img src="./../img/news1.svg" alt="" />
         </div>
-        <div class="col-md-6 col-6">
-          <div class="d-flex justify-content-center">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Help</a></li>
-            </ul>
-            <ul>
-              <li><a href="./home.html">About dog</a></li>
-              <li><a href="./adoption.html">Adoption</a></li>
-              <li><a href="./product.html">Shop</a></li>
-              <li><a href="./advice.html">Expert</a></li>
-              <li><a href="./team.html">About Us</a></li>
-            </ul>
+
+        <div class="ct col-sm-12 text-center">
+          <div class="banner">
+            <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
+            <p>
+              Hundreds of dogs and their owners have a paddle before the pool
+              closes for the winter
+            </p>
+          </div>
+          <img src="./../img/news2.svg" alt="" />
+        </div>
+
+        <div class="ct col-sm-12 text-center">
+          <div class="banner">
+            <h3>Annual lido swim for dogs ends summer 'on a high'</h3>
+            <p>
+              Hundreds of dogs and their owners have a paddle before the pool
+              closes for the winter
+            </p>
+          </div>
+          <img src="./../img/news3.svg" alt="" />
+        </div>
+
+        <div class="index text-center">
+          <i class="bi bi-1-square-fill"></i>
+          <i class="bi bi-2-square"></i>
+          <i class="bi bi-3-square"></i>
+        </div>
+
+        <div class="judy-sm text-center">
+          <h3>Dog of the day !</h3>
+          <div class="wrap">
+            <img src="./../img/judy.svg" alt="" />
+            <h2>Judy</h2>
+            <p>owner : Miss Maprang</p>
           </div>
         </div>
       </div>
-      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-      <hr class="line" />
-    </footer>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  </body>
+  <footer>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 col-6">
+        <div class="row">
+          <img src="./../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
+          <div class="col-md-6 justify-content-center">
+            <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+            <p>
+              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+              Khon Kaen 40002, Thailand
+            </p>
+            <p>Tel: +66 43 009700</p>
+            <div>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-6">
+        <div class="d-flex justify-content-center">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <ul>
+            <li><a href="./home.html">About dog</a></li>
+            <li><a href="./adoption.html">Adoption</a></li>
+            <li><a href="./product.html">Shop</a></li>
+            <li><a href="./advice.html">Expert</a></li>
+            <li><a href="./team.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+    <hr class="line" />
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
+
 </html>
