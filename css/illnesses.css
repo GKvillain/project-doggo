@@ -116,18 +116,23 @@ h2 {
 .solution h2 {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
     margin: 0;
 }
 
 .solution p {
     text-align: center;
     padding: 1em 0.5em;
+    margin-top: 0.5em;
 }
 
-.solution,
-icon {
+.solution i{
+   color: black;
+   text-align: center;
+}
+.solution{
     text-align: center;
+
 }
 
 span {
