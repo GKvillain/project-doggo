@@ -227,7 +227,7 @@ p {
 
 .additional-dog img {
   min-width: 30rem;
-  width: 40rem;
+  /* width: 40rem; */
   max-width: 50rem;
   max-height: 95vh;
 }
