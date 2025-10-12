@@ -40,7 +40,7 @@ body {
   background-color: #ebdaaf;
   color: #a76545;
   font-weight: 400;
-  padding: 10px 15px;
+  padding: 15px 20px;
   font-size: clamp(1.5rem, 1.155vw, 2.4rem);
   border-radius: 15px;
 }

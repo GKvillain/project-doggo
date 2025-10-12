@@ -1,81 +1,80 @@
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .map-container {
   width: 100%;
 }
 
-.search,.search-sm{
-   display: flex;
-   justify-content: center;
+.search,
+.search-sm {
+  display: flex;
+  justify-content: center;
 }
-input{
-    margin-top: -1.5em;
-    padding-left: 1.5em;
-    margin-bottom: 0.5em;
-    width: 40%;
-    height: 3em;
-    font-size: 2em;
-    border-radius: 1em;
+input {
+  /* margin-top: -1.5em; */
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+  width: 40%;
+  height: 3em;
+  font-size: 2em;
+  border-radius: 1em;
 }
-input:focus{
-    background-color: #ACC572;
+input:focus {
+  background-color: #acc572;
 }
-h1{
-    margin-left: 4em;
-    font-size: 3em;
-    margin-bottom: -0.5em;
+h1 {
+  margin-left: 4em;
+  font-size: 3em;
+  margin-bottom: -0.5em;
 }
-.find{
-    display: flex;
-    background-color: #ACC572;
-    margin: 2em 10em;
-    border-radius: 2em;
+.find {
+  display: flex;
+  background-color: #acc572;
+  margin: 2em 10em;
+  border-radius: 2em;
 }
-img{
-    margin: 2em;
+img {
+  margin: 2em;
 }
-.location{
-    margin-top: 2em;
+.location {
+  margin-top: 2em;
 }
-h2{
-    font-size: 2.5em;
+h2 {
+  font-size: 2.5em;
 }
-p{
-    font-size: 2em;
+p {
+  font-size: 2em;
 }
-.find:hover{
-transform: scale(1.02);
-transition: 0.2s;
+.find:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+.search-sm {
+  width: 100%;
+}
+.search-sm input {
+  font-size: 2em;
+}
 
-
+.find-sm {
+  display: flex;
+  margin: 2em;
+  border-radius: 1em;
+  background-color: #acc572;
+  font-size: 0.5em;
 }
-.search-sm{
-    width: 100%;
+.find-sm img {
+  width: 30em;
 }
-.search-sm input{
-    font-size: 2em
+.location-sm {
+  margin: 2em;
 }
-
-.find-sm{
-    display: flex;
-    margin: 2em;
-    border-radius: 1em;
-    background-color: #ACC572;
-    font-size: 0.5em;
+#near-sm {
+  font-size: 2em;
+  margin-top: 1.5em;
+  margin-left: 1em;
 }
-.find-sm img{
-    width: 30em;
-}
-.location-sm{
-    margin:2em ;
-}
-#near-sm{
-    font-size: 2em;
-    margin-top: 1.5em;
-    margin-left: 1em;
-}
-.find-sm:hover{
-    transform: scale(1.01);
-    transition: 0.1s;
+.find-sm:hover {
+  transform: scale(1.01);
+  transition: 0.1s;
 }
