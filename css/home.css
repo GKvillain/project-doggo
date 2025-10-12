@@ -23,17 +23,18 @@ p {
   position: absolute;
   left: 5rem;
   bottom: 5rem;
-
   color: #fff;
 }
 
 .intro h1 {
   font-size: clamp(2.4rem, 5vw, 9.6rem);
+  font-family: "Neuton", serif;
   font-weight: bold;
 }
 
 .intro p {
   font-size: clamp(2rem, 2.5vw, 4rem);
+  font-family: "Neuton", serif;
   font-weight: bold;
 }
 
