@@ -6,6 +6,11 @@ body {
   background-color: #ebdaaf;
 }
 
+.sub-topic {
+  margin-top: 2.5rem;
+  font-family: "Neuton", serif;
+}
+
 .hero-section {
   background-color: #c2e4ff;
 }

@@ -233,7 +233,7 @@ p {
   max-height: 95vh;
 }
 
-.additional-dog p {
+.additional-dog h5 {
   font-size: clamp(1.5rem, 1.5vw, 3rem);
   font-weight: 400;
   text-indent: 4rem;
