@@ -36,7 +36,9 @@ img {
     background-color: #c5c5c5;
 }
 
-button {
+.button {
+    margin: 0 auto;
+    width: 20%;
     font-size: 2.5em;
     border-radius: 1em;
     background-color: #A76545;
@@ -49,12 +51,12 @@ a {
 header{
     margin-bottom: 0;
 }
-button a {
+.button a {
     color: #ffffff;
     padding: 1em;
 }
 
-button:hover {
+.button:hover {
     transition: all 0.5s ease;
     transform: scale(1.1);
     transition: 0.1s;
@@ -115,14 +117,22 @@ span {
 
 
 /*-------------------------*/
+.sm .container-fluid{
+    padding: 0;
+}
 .profile {
-    margin: -5em -1em 0em -1em;
+    height: 45vh;
     background-color: #ACC572;
 }
 .sm img {
     width: 20%;
 }
-
+.sm .button{
+    margin-bottom: 1em;
+}
+.sm .button a{
+    font-size: 0.5em;
+}
 .sm .info {
     margin-top: 2em;
 }
