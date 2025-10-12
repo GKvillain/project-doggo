@@ -47,6 +47,7 @@
 
 input[type="search"] {
   width: 90%;
+  padding: 0.5rem;
 }
 
 .search-btn {
@@ -107,7 +108,7 @@ input[type="search"] {
   justify-content: space-between;
 }
 
-.bi {
+.bi-chat-dots {
   color: #000;
   font-size: 3rem;
 }
