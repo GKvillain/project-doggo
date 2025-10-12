@@ -60,12 +60,12 @@ img:hover {
     transition: 0.1s;
 }
 
-.bi {
-    color: black;
+.button .bi {
+    color: #000000;
     font-size: 6em;
 }
 
-.bi:hover {
+.button .bi:hover {
     text-shadow: #568637 2px 2px 10px;
     color: #ACC572;
 }
