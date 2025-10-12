@@ -97,32 +97,32 @@ h4 {
     margin-top: 2em;
 }
 
-button {
+.button {
     background-color: brown;
     border-radius: 2em;
     float: right;
 }
 
-button a {
+.button a {
     font-size: 2em;
     padding: 0.5em 1em;
     color: white;
     text-decoration: none;
 }
 
-button a:hover {
+.button a:hover {
     color: black;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-button:active {
+.button:active {
     background-color: #ACC572;
 }
 
-button:visited {
+.button:visited {
     background-color: #686868;
 }
 
