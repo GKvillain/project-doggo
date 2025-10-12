@@ -19,7 +19,7 @@ body {
 
 }
 
-#head-cover {
+#head-cover,#sm-head-cover {
     position: relative;
     margin-top: -7.8em;
     left: 50%;
@@ -28,6 +28,10 @@ body {
     height: auto;
     z-index: 1;
 }
+#sm-head-cover{
+    margin-top: -3.9em;
+}
+
 
 canvas {
     position: absolute;
@@ -37,7 +41,7 @@ canvas {
     height: 50%;
     background-color: rgb(255, 255, 255);
 }
-#intro {
+#intro,#sm-intro {
     text-align: center;
     padding: 2em;
     font-size: 2em;
@@ -63,6 +67,7 @@ canvas {
     margin: 0 auto;
 }
 
+
 .docter {
     overflow: auto;
     background-color: white;
@@ -79,7 +84,7 @@ canvas {
     height: 11%;
 }
 
-#docterGK {
+#docterGK,#sm-docterGK {
     position: relative;
 }
 

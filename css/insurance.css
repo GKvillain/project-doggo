@@ -58,23 +58,23 @@ h1 span {
     color: #5F655C;
 }
 
-#green {
+#green,#sm-green {
     background-color: #88E457;
 }
 
-#yellow {
+#yellow,#sm-yellow {
     background-color: #EDD134;
 }
 
-#orange {
+#orange,#sm-orange {
     background-color: #E56B00;
 }
 
-#red {
+#red,#sm-red {
     background-color: #BA0000;
 }
 
-#black {
+#black ,#sm-black{
     background-color: #000000;
 }
 
