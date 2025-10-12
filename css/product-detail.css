@@ -111,7 +111,9 @@
 
 .buy-btn:link,
 .buy-btn:visited {
-  background-color: #acc572;
+  background-color: #fff;
+  color: #a76545;
+  border: 2px solid #a76545;
 }
 
 .cart-btn:link,
