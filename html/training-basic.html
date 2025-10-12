@@ -1,585 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
-    <script src="../vendor/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/training-basic.css" />
-  </head>
+  <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+  <script src="../vendor/js/bootstrap.min.js"></script>
 
-  <body>
-    <header>
-      <div class="navbar d-block">
-        <div class="d-flex justify-content-center align-items-center logo-pic">
-          <a href="#" class="navbar-brand"
-            ><img
-              src="./../img/header-logo-name.png"
-              alt="logo-doggo-name"
-              class="logo navbar-brand"
-          /></a>
+  <link rel="stylesheet" href="./../css/general.css">
+  <link rel="stylesheet" href="./../css/training-basic.css">
+</head>
 
-          <div class="d-flex justify-content-end profile-zone">
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./shopping-cart.html">
-                <i class="bi bi-cart-dash d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./notification.html">
-                <i class="bi bi-bell d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="#">
-                <i class="bi bi-search magnifie d-none d-md-block"></i
-              ></a>
-            </div>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            />
+<body>
+  <header>
+    <div class="navbar d-block">
+      <div class="d-flex justify-content-center align-items-center logo-pic">
+        <a href="#" class="navbar-brand"><img src="./../img/header-logo-name.png" alt="logo-doggo-name"
+            class="logo navbar-brand" /></a>
 
-            <a href="./profile.html"
-              ><img
-                src="./../img/profile-pic-11.jpg"
-                alt="picture profile user"
-                class="profile-pic-user"
-            /></a>
-          </div>
-        </div>
-        <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-end profile-zone">
           <div class="d-flex justify-content-center align-items-center">
             <a href="./shopping-cart.html">
-              <i class="bi bi-cart-dash mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-cart-dash d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="./notification.html">
-              <i class="bi bi-bell mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-bell d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="#">
-              <i class="bi bi-search magnifie mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-search magnifie d-none d-md-block"></i></a>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+
+          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="picture profile user"
+              class="profile-pic-user" /></a>
+        </div>
+      </div>
+      <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./shopping-cart.html">
+            <i class="bi bi-cart-dash mb-bell d-md-none"></i></a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./notification.html">
+            <i class="bi bi-bell mb-bell d-md-none"></i></a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="#">
+            <i class="bi bi-search magnifie mb-bell d-md-none"></i></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
+        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item"><a href="./home.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                data-bs-target="dropdown">About dog</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
+                    </li>
+                    <li>
+                      <a href="./news.html" class="dropdown-item">Dog news</a>
+                    </li>
+                    <li>
+                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
+                    </li>
+                    <li>
+                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
+                    </li>
+                    <li>
+                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
+                    </li>
+                    <li>
+                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./home-shop.html" class="dropdown-item">Shopping</a>
+                </li>
+                <li>
+                  <a href="./shopping-cart.html" class="dropdown-item">Cart</a>
+                </li>
+                <li>
+                  <a href="./notification.html" class="dropdown-item">Notification</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Expert</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./advice.html" class="dropdown-item">Advice</a>
+                </li>
+                <li>
+                  <a href="./training-basic.html" class="dropdown-item">Training</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">About us</a></li>
+                <li>
+                  <a href="./feedback.html" class="dropdown-item">Contact</a>
+                </li>
+                <li><a href="./team.html" class="dropdown-item">Team</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="training-lg d-none d-md-block">
+    <h1 class="topic mb-5">Dog Basic training</h1>
+    <div class="container-fluid">
+      <div class="all-content">
+        <div class="row align-items-center justify-content-center">
+          <div class="content col-lg-6">
+            <div class="sq">
+              <h3>1</h3>
+            </div>
+            <h2>Train your dog to <span>sit</span></h2>
+            <p>
+              Teaching your dog to sit is one of the easiest commands. Start
+              by holding a treat close to their nose, then slowly move it
+              upward and backward over their head. say “sit” and give the
+              treat along with praise. Repeat consistently, and soon your dog
+              will sit on command without needing a treat every time.
+            </p>
+          </div>
+
+          <div class="content col-lg-6">
+            <div class="sq">
+              <h3>2</h3>
+            </div>
+            <h2>Train your dog to <span>spin</span></h2>
+            <p>
+              Hold a treat near your dog's nose and slowly move it in a
+              circle, guiding your dog to turn in a full circle. As your dog
+              completes the spin, say “spin” and reward with the treat and
+              praise. Repeat several times until your dog can spin on command
+              without needing the treat as a guide.
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center">
+          <div class="content col-lg-6">
+            <div class="sq">
+              <h3>3</h3>
+            </div>
+            <h2>Train your dog to <span>come</span></h2>
+            <p>
+              Start in a quiet, distraction-free area. Say your dog's name
+              followed by “come” in a happy, encouraging tone. When your dog
+              comes to you, reward immediately with treats, praise, or play.
+              Practice short distances first, then gradually increase distance
+              and distractions until your dog reliably comes when called.
+            </p>
+          </div>
+
+          <div class="content col-lg-6">
+            <div class="sq">
+              <h3>4</h3>
+            </div>
+            <h2>Train your dog to <span>speak</span></h2>
+            <p>
+              Choose a cue, like “speak,” and get your dog excited with a toy
+              or treat. When your dog barks naturally, immediately say “speak”
+              and reward with a treat and praise. Repeat consistently, and
+              soon your dog will bark on command. You can also teach “quiet”
+              afterward to control barking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ti container-fluid">
+      <div class="tips row d-flex">
+        <div class="col-lg-4">
+          <img src="./../img/tips.png" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <h1 class="topic" style="margin: 3em 0em;">Tips</h1>
+        </div>
+        <div class="col-lg-4 d-block">
+          <p>
+            <span>Patience is key</span> when training your dog, as every dog
+            learns at a different pace. Avoid punishment or showing
+            frustration, and focus on gentle guidance.
+          </p>
+          <p>
+            <span>Make training enjoyable</span> by turning exercises into fun
+            games, rewarding successes, and celebrating small achievements, so
+            both you and your dog look forward to each session.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rec container-fluid">
+      <h1 class="topic">Recommended videos</h1>
+      <div class="videos row justify-content-center align-items-center">
+        <div class="clip col-lg-6 d-flex justify-content-center">
+          <iframe width="350" height="215" src="https://www.youtube.com/embed/DPNz6reMVXY"
+            title="Train your dog to sit video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="name d-block">
+            <h4>How to Teach your Puppy to Sit and Stay</h4>
+            <p>by : Zak George's Dog Training Revolution</p>
+            <button>
+              <a href="https://youtu.be/DPNz6reMVXY?si=4HGE3tPsYxwKu03C" target="_blank">WATCH</a>
+            </button>
+          </div>
+        </div>
+        <div class="clip col-lg-6 d-flex justify-content-center">
+          <iframe width="350" height="215" src="https://www.youtube.com/embed/67x0EhX7Wto"
+            title="Train your dog to sit video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="name d-block">
+            <h4>How to Teach Your Dog to Spin | Dog Tricks</h4>
+            <p>by : Howcast</p>
+            <button>
+              <a href="https://youtu.be/67x0EhX7Wto?si=wBP3kfYVJxgaSjKy" target="_blank">WATCH</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="clip col-lg-6 d-flex justify-content-center">
+          <iframe width="350" height="215" src="https://www.youtube.com/embed/nO-p8-85Qp0?si=n4an9ObpASgTr8-P"
+            title="Train your dog to sit video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="name d-block">
+            <h4>How To Train Your Dog To “Come When Called” in 1 Minute!</h4>
+            <p>by : Zak George's Dog Training Revolution</p>
+            <button>
+              <a href="https://youtu.be/nO-p8-85Qp0?si=P6XANSsCMwMpm37I" target="_blank">WATCH</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="clip col-lg-6 d-flex justify-content-center">
+          <iframe width="350" height="215" src="https://www.youtube.com/embed/gQjX09OQS9c?si=_V6pLbyeCJpTQd-j"
+            title="Train your dog to sit video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="name d-block">
+            <h4>HOW TO TEACH YOUR DOG TO SPEAK (and be QUIET!)</h4>
+            <p>by : Skaya Siberian</p>
+            <button>
+              <a href="https://youtu.be/gQjX09OQS9c?si=_V6pLbyeCJpTQd-j" target="_blank">WATCH</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------------------------->
+  <div class="training-sm d-block d-md-none">
+    <h1 class="topic">Dog Basic training</h1>
+    <div class="row content-sm">
+      <div class="col-sm-12">
+        <div class="sq">
+          <h3>1</h3>
+        </div>
+        <h2>Train your dog to <span>sit</span></h2>
+        <p>
+          Teaching your dog to sit is one of the easiest commands. Start by
+          holding a treat close to their nose, then slowly move it upward and
+          backward over their head. say “sit” and give the treat along with
+          praise. Repeat consistently, and soon your dog will sit on command
+          without needing a treat every time.
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <div class="sq">
+          <h3>2</h3>
+        </div>
+        <h2>Train your dog to <span>spin</span></h2>
+        <p>
+          Hold a treat near your dog's nose and slowly move it in a circle,
+          guiding your dog to turn in a full circle. As your dog completes the
+          spin, say “spin” and reward with the treat and praise. Repeat
+          several times until your dog can spin on command without needing the
+          treat as a guide.
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <div class="sq">
+          <h3>3</h3>
+        </div>
+        <h2>Train your dog to <span>cocme</span></h2>
+        <p>
+          Start in a quiet, distraction-free area. Say your dog's name
+          followed by “come” in a happy, encouraging tone. When your dog comes
+          to you, reward immediately with treats, praise, or play. Practice
+          short distances first, then gradually increase distance and
+          distractions until your dog reliably comes when called.
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <div class="sq">
+          <h3>4</h3>
+        </div>
+        <h2>Train your dog to <span>speak</span></h2>
+        <p>
+          Choose a cue, like “speak,” and get your dog excited with a toy or
+          treat. When your dog barks naturally, immediately say “speak” and
+          reward with a treat and praise. Repeat consistently, and soon your
+          dog will bark on command. You can also teach “quiet” afterward to
+          control barking.
+        </p>
+      </div>
+    </div>
+
+    <div class="rec-sm container-fluid">
+      <h1 class="mt-5">Recommended video</h1>
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-4 d-flex flex-column align-items-center mb-4">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/DPNz6reMVXY" title="Train your dog to sit video" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <button>
+            <a href="https://youtu.be/DPNz6reMVXY?si=4HGE3tPsYxwKu03C" target="_blank" class="watch-btn mt-2">WATCH</a>
+          </button>
+        </div>
+
+        <div class="col-sm-6 col-md-4 d-flex flex-column align-items-center mb-4">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/nO-p8-85Qp0?si=n4an9ObpASgTr8-P"
+              title="Train your dog to come video" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <button>
+            <a href="https://youtu.be/nO-p8-85Qp0?si=P6XANSsCMwMpm37I" target="_blank" class="watch-btn mt-2">WATCH</a>
           </button>
         </div>
       </div>
+    </div>
+  </div>
 
-      <nav class="navbar navbar-expand-lg">
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center"
-          id="navbarToggleExternalContent"
-        >
-          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-            <ul class="navbar-nav gap-5">
-              <li class="nav-item"><a href="./home.html">Home</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-bs-target="dropdown"
-                  >About dog</a
-                >
-                <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog info</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./breeds-md.html" class="dropdown-item"
-                          >Breeds</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./news.html" class="dropdown-item">Dog news</a>
-                      </li>
-                      <li>
-                        <a href="./insurance.html" class="dropdown-item"
-                          >Pet insurance</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./illnesses.html" class="dropdown-item"
-                          >Common disease</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./poison-food.html" class="dropdown-item"
-                          >Poison</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog social</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./dog-community.html" class="dropdown-item"
-                          >Dog community forum</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./dog-gallery.html" class="dropdown-item"
-                          >Dog gallery</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Shop</a
-                >
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./home-shop.html" class="dropdown-item"
-                      >Shopping</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./shopping-cart.html" class="dropdown-item"
-                      >Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./notification.html" class="dropdown-item"
-                      >Notification</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Expert</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./advice.html" class="dropdown-item">Advice</a>
-                  </li>
-                  <li>
-                    <a href="./training-basic.html" class="dropdown-item"
-                      >Training</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >About us</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">About us</a></li>
-                  <li>
-                    <a href="./feedback.html" class="dropdown-item">Contact</a>
-                  </li>
-                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <div class="training-lg d-none d-md-block">
-      <h1 class="topic mb-5">Dog Basic training</h1>
-      <div class="container-fluid">
-        <div class="all-content">
-          <div class="row align-items-center justify-content-center">
-            <div class="content col-lg-6">
-              <div class="sq">
-                <h3>1</h3>
-              </div>
-              <h2>Train your dog to <span>sit</span></h2>
-              <p>
-                Teaching your dog to sit is one of the easiest commands. Start
-                by holding a treat close to their nose, then slowly move it
-                upward and backward over their head. say “sit” and give the
-                treat along with praise. Repeat consistently, and soon your dog
-                will sit on command without needing a treat every time.
-              </p>
-            </div>
-
-            <div class="content col-lg-6">
-              <div class="sq">
-                <h3>2</h3>
-              </div>
-              <h2>Train your dog to <span>spin</span></h2>
-              <p>
-                Hold a treat near your dog's nose and slowly move it in a
-                circle, guiding your dog to turn in a full circle. As your dog
-                completes the spin, say “spin” and reward with the treat and
-                praise. Repeat several times until your dog can spin on command
-                without needing the treat as a guide.
-              </p>
-            </div>
-          </div>
-
-          <div class="row align-items-center justify-content-center">
-            <div class="content col-lg-6">
-              <div class="sq">
-                <h3>3</h3>
-              </div>
-              <h2>Train your dog to <span>come</span></h2>
-              <p>
-                Start in a quiet, distraction-free area. Say your dog's name
-                followed by “come” in a happy, encouraging tone. When your dog
-                comes to you, reward immediately with treats, praise, or play.
-                Practice short distances first, then gradually increase distance
-                and distractions until your dog reliably comes when called.
-              </p>
-            </div>
-
-            <div class="content col-lg-6">
-              <div class="sq">
-                <h3>4</h3>
-              </div>
-              <h2>Train your dog to <span>speak</span></h2>
-              <p>
-                Choose a cue, like “speak,” and get your dog excited with a toy
-                or treat. When your dog barks naturally, immediately say “speak”
-                and reward with a treat and praise. Repeat consistently, and
-                soon your dog will bark on command. You can also teach “quiet”
-                afterward to control barking.
-              </p>
+  <footer>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 col-6">
+        <div class="row">
+          <img src="./../img/logo-pic.png" alt="" class="logo-home col-6 d-none d-md-block" />
+          <div class="col-md-6 justify-content-center text-in-footer">
+            <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
+            <p>
+              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+              Khon Kaen 40002, Thailand
+            </p>
+            <p>Tel: +66 43 009700</p>
+            <div>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="ti container-fluid">
-        <div class="tips row d-flex">
-          <div class="col-lg-4">
-            <img src="./../img/tips.png" alt="" />
-          </div>
-          <div class="col-lg-4">
-            <h1 class="topic" style="margin: 3em 0em;">Tips</h1>
-          </div>
-          <div class="col-lg-4 d-block">
-            <p>
-              <span>Patience is key</span> when training your dog, as every dog
-              learns at a different pace. Avoid punishment or showing
-              frustration, and focus on gentle guidance.
-            </p>
-            <p>
-              <span>Make training enjoyable</span> by turning exercises into fun
-              games, rewarding successes, and celebrating small achievements, so
-              both you and your dog look forward to each session.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="rec container-fluid">
-        <h1 class="topic">Recommended video</h1>
-        <div class="videos row justify-content-center align-items-center">
-          <div class="clip col-lg-6 d-flex justify-content-center">
-            <iframe
-              width="350"
-              height="215"
-              src="https://www.youtube.com/embed/DPNz6reMVXY"
-              title="Train your dog to sit video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="name d-block">
-              <h4>How to Teach your Puppy to Sit and Stay</h4>
-              <p>by : Zak George's Dog Training Revolution</p>
-              <button>
-                <a
-                  href="https://youtu.be/DPNz6reMVXY?si=4HGE3tPsYxwKu03C"
-                  target="_blank"
-                  >WATCH</a
-                >
-              </button>
-            </div>
-          </div>
-          <div class="clip col-lg-6 d-flex justify-content-center">
-            <iframe
-              width="350"
-              height="215"
-              src="https://www.youtube.com/embed/67x0EhX7Wto"
-              title="Train your dog to sit video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="name d-block">
-              <h4>How to Teach Your Dog to Spin | Dog Tricks</h4>
-              <p>by : Howcast</p>
-              <button>
-                <a
-                  href="https://youtu.be/67x0EhX7Wto?si=wBP3kfYVJxgaSjKy"
-                  target="_blank"
-                  >WATCH</a
-                >
-              </button>
-            </div>
-          </div>
-
-          <div class="clip col-lg-6 d-flex justify-content-center">
-            <iframe
-              width="350"
-              height="215"
-              src="https://www.youtube.com/embed/nO-p8-85Qp0?si=n4an9ObpASgTr8-P"
-              title="Train your dog to sit video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="name d-block">
-              <h4>How To Train Your Dog To “Come When Called” in 1 Minute!</h4>
-              <p>by : Zak George's Dog Training Revolution</p>
-              <button>
-                <a
-                  href="https://youtu.be/nO-p8-85Qp0?si=P6XANSsCMwMpm37I"
-                  target="_blank"
-                  >WATCH</a
-                >
-              </button>
-            </div>
-          </div>
-
-          <div class="clip col-lg-6 d-flex justify-content-center">
-            <iframe
-              width="350"
-              height="215"
-              src="https://www.youtube.com/embed/gQjX09OQS9c?si=_V6pLbyeCJpTQd-j"
-              title="Train your dog to sit video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="name d-block">
-              <h4>HOW TO TEACH YOUR DOG TO SPEAK (and be QUIET!)</h4>
-              <p>by : Skaya Siberian</p>
-              <button>
-                <a
-                  href="https://youtu.be/gQjX09OQS9c?si=_V6pLbyeCJpTQd-j"
-                  target="_blank"
-                  >WATCH</a
-                >
-              </button>
-            </div>
-          </div>
+      <div class="col-md-6 col-6">
+        <div class="d-flex justify-content-center">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <ul>
+            <li><a href="./home.html">About dog</a></li>
+            <li><a href="./adoption.html">Adoption</a></li>
+            <li><a href="./product.html">Shop</a></li>
+            <li><a href="./advice.html">Expert</a></li>
+            <li><a href="./team.html">About Us</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <!--------------------------------------------------------->
-    <div class="training-sm d-block d-md-none">
-      <h1 class="topic">Dog Basic training</h1>
-      <div class="row content-sm">
-        <div class="col-sm-12">
-          <div class="sq">
-            <h3>1</h3>
-          </div>
-          <h2>Train your dog to <span>sit</span></h2>
-          <p>
-            Teaching your dog to sit is one of the easiest commands. Start by
-            holding a treat close to their nose, then slowly move it upward and
-            backward over their head. say “sit” and give the treat along with
-            praise. Repeat consistently, and soon your dog will sit on command
-            without needing a treat every time.
-          </p>
-        </div>
-        <div class="col-sm-12">
-          <div class="sq">
-            <h3>2</h3>
-          </div>
-          <h2>Train your dog to <span>spin</span></h2>
-          <p>
-            Hold a treat near your dog's nose and slowly move it in a circle,
-            guiding your dog to turn in a full circle. As your dog completes the
-            spin, say “spin” and reward with the treat and praise. Repeat
-            several times until your dog can spin on command without needing the
-            treat as a guide.
-          </p>
-        </div>
-        <div class="col-sm-12">
-          <div class="sq">
-            <h3>3</h3>
-          </div>
-          <h2>Train your dog to <span>cocme</span></h2>
-          <p>
-            Start in a quiet, distraction-free area. Say your dog's name
-            followed by “come” in a happy, encouraging tone. When your dog comes
-            to you, reward immediately with treats, praise, or play. Practice
-            short distances first, then gradually increase distance and
-            distractions until your dog reliably comes when called.
-          </p>
-        </div>
-        <div class="col-sm-12">
-          <div class="sq">
-            <h3>4</h3>
-          </div>
-          <h2>Train your dog to <span>speak</span></h2>
-          <p>
-            Choose a cue, like “speak,” and get your dog excited with a toy or
-            treat. When your dog barks naturally, immediately say “speak” and
-            reward with a treat and praise. Repeat consistently, and soon your
-            dog will bark on command. You can also teach “quiet” afterward to
-            control barking.
-          </p>
-        </div>
-      </div>
+    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+    <hr class="line" />
+  </footer>
 
-      <div class="rec-sm container-fluid">
-        <h1 class="mt-5">Recommended video</h1>
-        <div class="row justify-content-center">
-          <div
-            class="col-sm-6 col-md-4 d-flex flex-column align-items-center mb-4"
-          >
-            <div class="video-wrapper">
-              <iframe
-                src="https://www.youtube.com/embed/DPNz6reMVXY"
-                title="Train your dog to sit video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <button>
-              <a
-                href="https://youtu.be/DPNz6reMVXY?si=4HGE3tPsYxwKu03C"
-                target="_blank"
-                class="watch-btn mt-2"
-                >WATCH</a
-              >
-            </button>
-          </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
 
-          <div
-            class="col-sm-6 col-md-4 d-flex flex-column align-items-center mb-4"
-          >
-            <div class="video-wrapper">
-              <iframe
-                src="https://www.youtube.com/embed/nO-p8-85Qp0?si=n4an9ObpASgTr8-P"
-                title="Train your dog to come video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <button>
-              <a
-                href="https://youtu.be/nO-p8-85Qp0?si=P6XANSsCMwMpm37I"
-                target="_blank"
-                class="watch-btn mt-2"
-                >WATCH</a
-              >
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-6">
-          <div class="row">
-            <img
-              src="./../img/logo-pic.png"
-              alt=""
-              class="logo-home col-6 d-none d-md-block"
-            />
-            <div class="col-md-6 justify-content-center text-in-footer">
-              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
-              <p>
-                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-                Khon Kaen 40002, Thailand
-              </p>
-              <p>Tel: +66 43 009700</p>
-              <div>
-                <i class="bi bi-github"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-6">
-          <div class="d-flex justify-content-center">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Help</a></li>
-            </ul>
-            <ul>
-              <li><a href="./home.html">About dog</a></li>
-              <li><a href="./adoption.html">Adoption</a></li>
-              <li><a href="./product.html">Shop</a></li>
-              <li><a href="./advice.html">Expert</a></li>
-              <li><a href="./team.html">About Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-      <hr class="line" />
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  </body>
 </html>
