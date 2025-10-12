@@ -198,6 +198,7 @@ h5 {
 
 .topic {
   font-size: clamp(3.5rem, 3.3vw, 5.2rem);
+  font-family: "Neuton", serif;
 }
 
 #menu {
