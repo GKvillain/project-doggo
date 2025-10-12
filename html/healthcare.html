@@ -1,357 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dog Health Care</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-    />
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Dog Health Care</title>
 
-    <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" />
-    <script src="./../vendor/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" >
 
-    <link rel="stylesheet" href="./../css/general.css" />
-    <link rel="stylesheet" href="./../css/healthcare.css" />
-  </head>
+  <link rel="stylesheet" href="./../vendor/css/bootstrap.min.css" >
+  <script src="./../vendor/js/bootstrap.min.js"></script>
 
-  <body>
-    <header>
-      <div class="navbar d-block">
-        <div class="d-flex justify-content-center align-items-center logo-pic">
-          <a href="#" class="navbar-brand"
-            ><img
-              src="./../img/header-logo-name.png"
-              alt="logo-doggo-name"
-              class="logo navbar-brand"
-          /></a>
+  <link rel="stylesheet" href="./../css/general.css" >
+  <link rel="stylesheet" href="./../css/healthcare.css" >
+</head>
 
-          <div class="d-flex justify-content-end profile-zone">
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./shopping-cart.html">
-                <i class="bi bi-cart-dash d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="./notification.html">
-                <i class="bi bi-bell d-none d-md-block"></i
-              ></a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <a href="#">
-                <i class="bi bi-search magnifie d-none d-md-block"></i
-              ></a>
-            </div>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            />
+<body>
+<header>
+    <div class="navbar d-block">
+      <div class="d-flex justify-content-center align-items-center logo-pic">
+        <a href="#" class="navbar-brand"><img src="./../img/header-logo-name.png" alt="logo-doggo-name"
+            class="logo navbar-brand"></a>
 
-            <a href="./profile.html"
-              ><img
-                src="./../img/profile-pic-11.jpg"
-                alt="picture profile user"
-                class="profile-pic-user"
-            /></a>
-          </div>
-        </div>
-        <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-end profile-zone">
           <div class="d-flex justify-content-center align-items-center">
             <a href="./shopping-cart.html">
-              <i class="bi bi-cart-dash mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-cart-dash d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="./notification.html">
-              <i class="bi bi-bell mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-bell d-none d-md-block"></i></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="#">
-              <i class="bi bi-search magnifie mb-bell d-md-none"></i
-            ></a>
+              <i class="bi bi-search magnifie d-none d-md-block"></i></a>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="picture profile user"
+              class="profile-pic-user"></a>
         </div>
       </div>
-
-      <nav class="navbar navbar-expand-lg">
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center"
-          id="navbarToggleExternalContent"
-        >
-          <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
-            <ul class="navbar-nav gap-5">
-              <li class="nav-item"><a href="./home.html">Home</a></li>
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-bs-target="dropdown"
-                  >About dog</a
-                >
-                <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog info</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./breeds-md.html" class="dropdown-item"
-                          >Breeds</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./news.html" class="dropdown-item">Dog news</a>
-                      </li>
-                      <li>
-                        <a href="./insurance.html" class="dropdown-item"
-                          >Pet insurance</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./illnesses.html" class="dropdown-item"
-                          >Common disease</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./poison-food.html" class="dropdown-item"
-                          >Poison</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-item dropdown-toggle"
-                      >Dog social</a
-                    >
-                    <ul class="dropdown-menu dropdown-2">
-                      <li>
-                        <a href="./dog-community.html" class="dropdown-item"
-                          >Dog community forum</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./dog-gallery.html" class="dropdown-item"
-                          >Dog gallery</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Shop</a
-                >
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./home-shop.html" class="dropdown-item"
-                      >Shopping</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./shopping-cart.html" class="dropdown-item"
-                      >Cart</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./notification.html" class="dropdown-item"
-                      >Notification</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Expert</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./advice.html" class="dropdown-item">Advice</a>
-                  </li>
-                  <li>
-                    <a href="./training-basic.html" class="dropdown-item"
-                      >Training</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >About us</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">About us</a></li>
-                  <li>
-                    <a href="./feedback.html" class="dropdown-item">Contact</a>
-                  </li>
-                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      <div class="navbar-expand-sm d-flex justify-content-end">
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./shopping-cart.html">
+            <i class="bi bi-cart-dash mb-bell d-md-none"></i></a>
         </div>
-      </nav>
-    </header>
-
-    <div class="d-none d-md-block">
-      <div class="search">
-        <input type="text" placeholder="Location" />
-      </div>
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799142447!2d-74.25986770845436!3d40.69767006717343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b3b0a61d1f%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sth!4v1696488351459!5m2!1sen!2sth"
-          width="100%"
-          height="400"
-          style="border: 0"
-          loading=""
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </div>
-
-      <h1 class="topic">Nearest Location</h1>
-      <div class="find">
-        <div class="pic">
-          <img src="./../img/location-dog.png" alt="" />
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="./notification.html">
+            <i class="bi bi-bell mb-bell d-md-none"></i></a>
         </div>
-        <div class="location">
-          <h2>Tula Farm - Veterinary Medicine & Animal Feed</h2>
-          <p>
-            197, 199 Maliwan Road, Nai Mueang Subdistrict, Mueang Khon Kaen
-            District, Khon Kaen 40000, Thailand
-          </p>
-          <p>5.0 ★ ★ ★ ★ ★ (72)</p>
-          <p>0.7 km</p>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="#">
+            <i class="bi bi-search magnifie mb-bell d-md-none"></i></a>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </div>
 
-    <div class="d-block d-md-none">
-      <div class="search-sm">
-        <input type="text" placeholder="Location" />
-      </div>
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799142447!2d-74.25986770845436!3d40.69767006717343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b3b0a61d1f%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sth!4v1696488351459!5m2!1sen!2sth"
-          width="100%"
-          height="700"
-          style="border: 0"
-          loading=""
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
+        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent-2">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item"><a href="./home.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                data-bs-target="dropdown">About dog</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
+                    </li>
+                    <li>
+                      <a href="./news.html" class="dropdown-item">Dog news</a>
+                    </li>
+                    <li>
+                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
+                    </li>
+                    <li>
+                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
+                    </li>
+                    <li>
+                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
+                    </li>
+                  </ul>
+                </li>
 
-      <h1 class="topic" id="near-sm">Nearest Location</h1>
-      <div class="find-sm">
-        <div class="pic-sm">
-          <img src="./../img/location-dog.png" alt="" />
-        </div>
-        <div class="location-sm">
-          <h2>Tula Farm - Veterinary Medicine & Animal Feed</h2>
-          <p>
-            197, 199 Maliwan Road, Nai Mueang Subdistrict, Mueang Khon Kaen
-            District, Khon Kaen 40000, Thailand
-          </p>
-          <p>5.0 ★ ★ ★ ★ ★ (72)</p>
-          <p>0.7 km</p>
+                <li class="dropdown-submenu">
+                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
+                  <ul class="dropdown-menu dropdown-2">
+                    <li>
+                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
+                    </li>
+                    <li>
+                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./home-shop.html" class="dropdown-item">Shopping</a>
+                </li>
+                <li>
+                  <a href="./shopping-cart.html" class="dropdown-item">Cart</a>
+                </li>
+                <li>
+                  <a href="./notification.html" class="dropdown-item">Notification</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Expert</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./advice.html" class="dropdown-item">Advice</a>
+                </li>
+                <li>
+                  <a href="./training-basic.html" class="dropdown-item">Training</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">About us</a></li>
+                <li>
+                  <a href="./feedback.html" class="dropdown-item">Contact</a>
+                </li>
+                <li><a href="./team.html" class="dropdown-item">Team</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </header>
+
+
+  <div class="d-none d-md-block">
+    <div class="search">
+      <input type="text" placeholder="Location" >
+    </div>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799142447!2d-74.25986770845436!3d40.69767006717343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b3b0a61d1f%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sth!4v1696488351459!5m2!1sen!2sth"
+        style="width: 100%;height: 400px;"  referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
 
-    <footer>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-6">
-          <div class="row">
-            <img
-              src="./../img/logo-pic.png"
-              alt=""
-              class="logo-home col-6 d-none d-md-block"
-            />
-            <div class="col-md-6 justify-content-center text-in-footer">
-              <img src="./../img/logo-name-2.png" alt="" class="logo-home" />
-              <p>
-                123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
-                Khon Kaen 40002, Thailand
-              </p>
-              <p>Tel: +66 43 009700</p>
-              <div>
-                <i class="bi bi-github"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-              </div>
+    <h1 class="topic">Nearest Location</h1>
+    <div class="find">
+      <div class="pic">
+        <img src="../img/location-dog.png" alt="dog" title="puppy" >
+      </div>
+      <div class="location">
+        <h2>Tula Farm - Veterinary Medicine & Animal Feed</h2>
+        <p>
+          197, 199 Maliwan Road, Nai Mueang Subdistrict, Mueang Khon Kaen
+          District, Khon Kaen 40000, Thailand
+        </p>
+        <p>5.0 ★ ★ ★ ★ ★ (72)</p>
+        <p>0.7 km</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block d-md-none">
+    <div class="search-sm">
+      <input type="text" placeholder="Location" >
+    </div>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799142447!2d-74.25986770845436!3d40.69767006717343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b3b0a61d1f%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sth!4v1696488351459!5m2!1sen!2sth"
+        style="width: 100%;height: 400px;"  referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <h1 class="topic" id="near-sm">Nearest Location</h1>
+    <div class="find-sm">
+      <div class="pic-sm">
+        <img src="../img/location-dog.png" alt="dog" title="puppy" >
+      </div>
+      <div class="location-sm">
+        <h2>Tula Farm - Veterinary Medicine & Animal Feed</h2>
+        <p>
+          197, 199 Maliwan Road, Nai Mueang Subdistrict, Mueang Khon Kaen
+          District, Khon Kaen 40000, Thailand
+        </p>
+        <p>5.0 ★ ★ ★ ★ ★ (72)</p>
+        <p>0.7 km</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 col-6">
+        <div class="row">
+          <img src="../img/logo-pic.png" alt="logo" class="logo-home col-6 d-none d-md-block" >
+          <div class="col-md-6 justify-content-center text-in-footer">
+            <img src="../img/logo-name-2.png" alt="logo name" class="logo-home" >
+            <p>
+              123 Mittraphap Road, Nai-Mueang Sub-district, Mueang District,
+              Khon Kaen 40002, Thailand
+            </p>
+            <p>Tel: +66 43 009700</p>
+            <div>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-6">
-          <div class="d-flex justify-content-center">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Help</a></li>
-            </ul>
-            <ul>
-              <li><a href="./home.html">About dog</a></li>
-              <li><a href="./adoption.html">Adoption</a></li>
-              <li><a href="./product.html">Shop</a></li>
-              <li><a href="./advice.html">Expert</a></li>
-              <li><a href="./team.html">About Us</a></li>
-            </ul>
-          </div>
+      </div>
+      <div class="col-md-6 col-6">
+        <div class="d-flex justify-content-center">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <ul>
+            <li><a href="./home.html">About dog</a></li>
+            <li><a href="./adoption.html">Adoption</a></li>
+            <li><a href="./product.html">Shop</a></li>
+            <li><a href="./advice.html">Expert</a></li>
+            <li><a href="./team.html">About Us</a></li>
+          </ul>
         </div>
       </div>
-      <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
-      <hr class="line" />
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-  </body>
+    </div>
+    <p class="text-center">&copy; 2025 Doggo. All rights reserved.</p>
+    <hr class="line" >
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
+
 </html>
