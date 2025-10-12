@@ -20,7 +20,10 @@ h1 {
     background-color: #FFDF88;
     border: 1px solid gray;
 }
-
+.advice-lg p,
+.advice-sm p{
+    font-size: 2em;
+}
 .advice {
     /*align-items: center;
   justify-content: center;*/
@@ -133,8 +136,10 @@ button:hover {
     border-top-left-radius:3em ;
     border-bottom-left-radius:3em ;
 }
-.doctor img{
-    width:15em;
+.doctor1 img,
+.doctor2 img{
+    width:80%;
+    margin: 1em;
 }
 .doc-name {
     font-size: 1.2em;
