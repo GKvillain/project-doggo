@@ -286,6 +286,10 @@ footer {
   background-color: #acc572;
 }
 
+.text-in-footer {
+  margin-left: 1rem;
+}
+
 footer p {
   font-size: clamp(1.1rem, 1.1vw, 2.5rem);
   color: #fff;
