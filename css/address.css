@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 65%;
   margin: 3rem auto;
 }
 
@@ -31,7 +31,7 @@ input[type="email"] {
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #d9d9d9;
-  /* width: 60%; */
+  width: 75%;
   /* max-width: 40rem; */
 }
 
@@ -63,4 +63,17 @@ p {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
   border-radius: 15px;
+}
+
+.payment-promotion {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.select,
+.promotion {
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+  border-radius: 10px;
+  height: 3rem;
+  border: none;
 }

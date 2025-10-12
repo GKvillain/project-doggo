@@ -266,27 +266,16 @@
         </div>
         <div class="d-block d-sm-none payment-block">
           <div
-            action="#"
-            class="d-flex flex-column justify-content-center align-center"
+            class="d-flex flex-column payment-promotion justify-content-center align-items-center"
           >
-            <div>
-              <input type="radio" name="payment" /><img
-                src="./../img/payment-1.png"
-                alt=""
-              />
-            </div>
-            <div>
-              <input type="radio" name="payment" />
-              <img src="./../img/payment-2.png" alt="" /><img
-                src="./../img/payment-3.png"
-                alt=""
-              />
-            </div>
-            <div>
-              <input type="radio" name="payment" /><label for="payment"
-                >Cash on delivery</label
-              >
-            </div>
+            <label for="payment">Payment</label>
+            <select name="payment" id="payment" class="mb-3 select">
+              <option value="cash">Cash on delivery</option>
+              <option value="cash">Credit card</option>
+              <option value="cash">Mastercard</option>
+            </select>
+            <label for="code">Promotion Code</label>
+            <input type="text" placeholder="DOGG1235" class="promotion" />
           </div>
         </div>
         <div class="d-flex justify-content-center align-items-center">
