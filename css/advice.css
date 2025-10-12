@@ -111,14 +111,16 @@ h4 {
 
 }
 
-button {
+.button {
+    width: 20%;
     background-color: black;
     color: white;
     border-radius: 10em;
+    padding: 0.5em 0em;
     margin: 0em 0em 2em 20em;
 }
 
-button:hover {
+.button:hover {
     background-color: white;
     color: black;
 }
@@ -141,9 +143,7 @@ button:hover {
     width:80%;
     margin: 1em;
 }
-.doc-name {
-    font-size: 1.2em;
-}
+
 .doctor1 ,.doctor2 {
     width: 100%;
     max-width:fit-content;
