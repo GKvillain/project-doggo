@@ -16,7 +16,6 @@ body {
     left: 45%;
     position: absolute;
     z-index: 2;
-
 }
 
 #head-cover,#sm-head-cover {
@@ -31,15 +30,13 @@ body {
 #sm-head-cover{
     margin-top: -3.9em;
 }
-
-
 canvas {
     position: absolute;
     z-index: 0;
     width: 100%;
     left: 0;
     height: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 #intro,#sm-intro {
     text-align: center;
