@@ -114,6 +114,7 @@
   background-color: #fff;
   color: #a76545;
   border: 2px solid #a76545;
+  box-shadow: 0 6px 12px rgba(185, 94, 49, 0.274);
 }
 
 .cart-btn:link,
