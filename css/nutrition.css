@@ -47,8 +47,9 @@ canvas {
 }
 
 .banner {
+    padding: 5em 0em;
     overflow: auto;
-    height: 62vh;
+    /* height: 62vh; */
     background-color: #FFDF88;
     margin-bottom: 4em;
 }
