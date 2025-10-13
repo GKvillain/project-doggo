@@ -104,10 +104,10 @@ h5 {
   top: 1rem;
 }
 
-.vertical-menu {
+/* .vertical-menu {
   display: flex;
   list-style: none;
-  /* gap: 4rem; */
+  gap: 4rem;
   font-size: 2.1rem;
   justify-content: center;
   align-items: center;
@@ -121,7 +121,7 @@ h5 {
   color: #fff;
   padding: 1.8rem;
   transition: all 0.5s ease;
-}
+} */
 
 .navigation-menu li a:hover,
 .navigation-menu li a:active {
@@ -148,7 +148,7 @@ h5 {
   position: relative;
 }
 
-.menu-mobile {
+/* .menu-mobile {
   list-style: none;
   background-color: #cc8866;
   width: 50%;
@@ -157,9 +157,9 @@ h5 {
   position: fixed;
   right: 0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+} */
 
-.menu-mobile a {
+/* .menu-mobile a {
   display: block;
 }
 
@@ -173,7 +173,7 @@ h5 {
 .menu-mobile a:hover,
 .menu-mobile a:active {
   background-color: #cc8866;
-}
+} */
 
 .dropdown-menu {
   background-color: #a76545;
@@ -207,7 +207,7 @@ h5 {
   padding: 0;
 }
 
-.dropdown-submenu-mb {
+/* .dropdown-submenu-mb {
   position: relative;
 }
 
@@ -221,7 +221,7 @@ h5 {
 
 .dropdown-submenu-mb:hover .dropdown-menu {
   display: block;
-}
+} */
 
 .about-dog {
   background: #cc8866;
