@@ -10,8 +10,7 @@ header {
 body {
     background-color: white;
 }
-
-.head h1 {
+.head-pic h1 {
     padding-top: 0.5em;
     left: 45%;
     position: absolute;
@@ -20,7 +19,8 @@ body {
 
 #head-cover,#sm-head-cover {
     position: relative;
-    margin-top: -7.8em;
+    /* margin-top: -6em; */
+    height: 50%;
     left: 50%;
     transform: translateX(-50%);
     max-width: 100%;
