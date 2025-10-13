@@ -22,141 +22,219 @@
 
 <body>
   <header>
-    <div class="navbar d-block">
-      <div class="d-flex justify-content-center align-items-center logo-pic">
-        <a href="#" class="navbar-brand"><img src="./../img/header-logo-name.png" alt="logo-doggo-name"
-            class="logo navbar-brand" ></a>
+      <div class="navbar d-block">
+        <div class="d-flex justify-content-center align-items-center logo-pic">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="./../img/header-logo-name.png"
+              alt="logo-doggo-name"
+              class="logo navbar-brand"
+          ></a>
 
-        <div class="d-flex justify-content-end profile-zone">
+          <div class="d-flex justify-content-end profile-zone">
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="./shopping-cart.html">
+                <i class="bi bi-cart-dash d-none d-md-block"></i
+              ></a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="./notification.html">
+                <i class="bi bi-bell d-none d-md-block"></i
+              ></a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="#">
+                <i class="bi bi-search magnifie d-none d-md-block"></i
+              ></a>
+            </div>
+
+            <a href="./profile.html"
+              ><img
+                src="./../img/profile-pic-11.jpg"
+                alt="picture profile user"
+                class="profile-pic-user"
+            ></a>
+          </div>
+        </div>
+        <div class="navbar-expand-sm d-flex justify-content-end">
           <div class="d-flex justify-content-center align-items-center">
             <a href="./shopping-cart.html">
-              <i class="bi bi-cart-dash d-none d-md-block"></i></a>
+              <i class="bi bi-cart-dash mb-bell d-md-none"></i
+            ></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="./notification.html">
-              <i class="bi bi-bell d-none d-md-block"></i></a>
+              <i class="bi bi-bell mb-bell d-md-none"></i
+            ></a>
           </div>
           <div class="d-flex justify-content-center align-items-center">
             <a href="#">
-              <i class="bi bi-search magnifie d-none d-md-block"></i></a>
+              <i class="bi bi-search magnifie mb-bell d-md-none"></i
+            ></a>
           </div>
-
-          <a href="./profile.html"><img src="./../img/profile-pic-11.jpg" alt="picture profile user"
-              class="profile-pic-user" ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
-      <div class="navbar-expand-sm d-flex justify-content-end">
-        <div class="d-flex justify-content-center align-items-center">
-          <a href="./shopping-cart.html">
-            <i class="bi bi-cart-dash mb-bell d-md-none"></i></a>
+
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarToggleExternalContent"
+        >
+          <div
+            class="navbar navbar-expand-lg"
+            id="navbarToggleExternalContent-2"
+          >
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item"><a href="./home.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-target="dropdown"
+                  >About dog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog info</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./breeds-md.html" class="dropdown-item"
+                          >Breeds</a
+                        >
+                      </li>
+                      
+                      <li>
+                        <a href="./insurance.html" class="dropdown-item"
+                          >Pet insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./illnesses.html" class="dropdown-item"
+                          >Common disease</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./poison-food.html" class="dropdown-item"
+                          >Poison</a
+                        >
+                      </li>
+                      <li><a href="./nutrition.html" class="dropdown-item">Nutrition</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-item dropdown-toggle"
+                      >Dog social</a
+                    >
+                    <ul class="dropdown-menu dropdown-2">
+                      <li>
+                        <a href="./dog-community.html" class="dropdown-item"
+                          >Dog community forum</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./dog-gallery.html" class="dropdown-item"
+                          >Dog gallery</a
+                        >
+                      </li>
+                      <li><a href="./healthcare.html" class="dropdown-item">Healthcare</a></li>
+                      <li>
+                        <a href="./news.html" class="dropdown-item">Dog news</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./home-shop.html" class="dropdown-item"
+                      >Shopping</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./shopping-cart.html" class="dropdown-item"
+                      >Cart</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./notification.html" class="dropdown-item"
+                      >Notification</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Expert</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./advice.html" class="dropdown-item">Advice</a>
+                  </li>
+                  <li>
+                    <a href="./training-basic.html" class="dropdown-item"
+                      >Training</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About us</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./feedback.html" class="dropdown-item">Contact</a>
+                  </li>
+                  <li><a href="./team.html" class="dropdown-item">Team</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <a href="./notification.html">
-            <i class="bi bi-bell mb-bell d-md-none"></i></a>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <a href="#">
-            <i class="bi bi-search magnifie mb-bell d-md-none"></i></a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-expand-lg">
-      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarToggleExternalContent">
-        <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent-2">
-          <ul class="navbar-nav gap-5">
-            <li class="nav-item"><a href="./home.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                data-bs-target="dropdown">About dog</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./breeds-md.html" class="dropdown-item">Breeds</a>
-                    </li>
-                    <li>
-                      <a href="./news.html" class="dropdown-item">Dog news</a>
-                    </li>
-                    <li>
-                      <a href="./insurance.html" class="dropdown-item">Pet insurance</a>
-                    </li>
-                    <li>
-                      <a href="./illnesses.html" class="dropdown-item">Common disease</a>
-                    </li>
-                    <li>
-                      <a href="./poison-food.html" class="dropdown-item">Poison</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="dropdown-submenu">
-                  <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
-                  <ul class="dropdown-menu dropdown-2">
-                    <li>
-                      <a href="./dog-community.html" class="dropdown-item">Dog community forum</a>
-                    </li>
-                    <li>
-                      <a href="./dog-gallery.html" class="dropdown-item">Dog gallery</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item"><a href="./adoption.html">Adoption</a></li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./home-shop.html" class="dropdown-item">Shopping</a>
-                </li>
-                <li>
-                  <a href="./shopping-cart.html" class="dropdown-item">Cart</a>
-                </li>
-                <li>
-                  <a href="./notification.html" class="dropdown-item">Notification</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Expert</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="./advice.html" class="dropdown-item">Advice</a>
-                </li>
-                <li>
-                  <a href="./training-basic.html" class="dropdown-item">Training</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
-                us</a>
-              <ul class="dropdown-menu">
-              
-                <li>
-                  <a href="./feedback.html" class="dropdown-item">Contact</a>
-                </li>
-                <li><a href="./team.html" class="dropdown-item">Team</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
   <div class="lg d-none d-md-block">
     <div class="container-fluid">

@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .content {
     overflow: auto;
     background-color: #FFDF88;
