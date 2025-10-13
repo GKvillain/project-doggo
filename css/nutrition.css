@@ -45,6 +45,7 @@ canvas {
     color: rgb(105, 105, 105);
     margin: 1em 5em;
 }
+
 .banner {
     overflow: auto;
     height: 62vh;
@@ -57,10 +58,12 @@ canvas {
     flex-direction: column;
     align-items: start;
     float: left;
+    max-width: 25%;
 }
 
 #bannerfont {
-    padding-top: 15%;
+    max-width: 75em;
+   padding-top: 20em;
     margin: 0 auto;
 }
 
