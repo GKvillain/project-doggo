@@ -20,24 +20,20 @@ h2 {
     max-width: 95%;
     font-size: 2em;
 }
-.lg .card__container{
+
+.lg .card__container {
     border-bottom: 2px dashed black;
     padding-top: 1em;
     width: 80%;
 }
-/****************************************/
 
-.card__content {
-    width: 100%;
-    border: 2px black solid;
-}
+/****************************************/
 
 .container {
     width: 100%;
     margin: auto;
-    display: grid;
+
     place-items: center;
-    margin-inline: 1.5rem;
     padding-block: 5rem;
 }
 
@@ -45,19 +41,16 @@ h2 {
     display: grid;
     row-gap: 3.5rem;
 }
-
 .card__article {
     width: 500px;
     position: relative;
 }
-
 .card__data {
     font-size: 0.8em;
-
     width: 96%;
     height: 190px;
     padding: 1.5rem 2rem;
-    box-shadow: 0 8px 24px rgb(105, 105, 105);
+    box-shadow: 0 8px 24px #696969;
     border-radius: 1em;
     position: absolute;
     bottom: 2rem;
@@ -67,27 +60,16 @@ h2 {
     opacity: 0;
     transition: opacity 1s 0.5s;
 }
-
 .card__article:hover .card__data {
     background-color: white;
     animation: show-data 1s forwards;
     opacity: 1;
     transition: opacity 0.35s;
 }
-
-.card__article:hover {
-    animation: remove-overflow 1s forwards;
-}
-
-.card__article:not(:hover) {
-    animation: show-overflow 0.5s forwards;
-}
-
 .card__article:not(:hover) .card__data {
     background-color: white;
     animation: remove-data 1s forwards;
 }
-
 @keyframes show-data {
     0% {
         transform: translate(0.5em);
@@ -126,11 +108,12 @@ h2 {
     margin-top: 0.5em;
 }
 
-.solution i{
-   color: black;
-   text-align: center;
+.solution i {
+    color: black;
+    text-align: center;
 }
-.solution{
+
+.solution {
     text-align: center;
 
 }
@@ -141,13 +124,15 @@ span {
 }
 
 /***************************************/
-.sm .content{
+.sm .content {
     width: 80%;
     margin: 0 auto;
 }
-.sm .card__article{
+
+.sm .card__article {
     margin: 0 auto;
 }
-.sm p{
+
+.sm p {
     font-size: 2em;
 }
