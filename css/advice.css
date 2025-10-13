@@ -1,11 +1,11 @@
-
-
 body {
     background-color: #ffffff;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0;
 }
+
 h1 {
     font-size: 5em;
     margin-bottom: 0.5em;
@@ -20,10 +20,12 @@ h1 {
     background-color: #FFDF88;
     border: 1px solid gray;
 }
+
 .advice-lg p,
-.advice-sm p{
+.advice-sm p {
     font-size: 2em;
 }
+
 .advice {
     /*align-items: center;
   justify-content: center;*/
@@ -74,13 +76,14 @@ h2 {
 .content img {
     width: 9em;
     margin: 1em;
-} */
+}
 
-p {
+*/ p {
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
     font-size: 2em;
+    padding: 2em;
 }
 
 /*-----------------*/
@@ -93,7 +96,8 @@ p {
 .tips-left {
     width: 60%;
 }
-.tips-left h3{
+
+.tips-left h3 {
     padding-left: 2em;
     padding-bottom: 1em;
 }
@@ -129,39 +133,51 @@ h4 {
     width: 125.2em;
     margin-bottom: -0.01em;
 }
+
 .tips-right {
     width: 40%;
     background-color: #F2BF35;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top-left-radius:3em ;
-    border-bottom-left-radius:3em ;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
 }
+
 .doctor1 img,
-.doctor2 img{
-    width:80%;
+.doctor2 img {
+    width: 80%;
     margin: 1em;
 }
 
-.doctor1 ,.doctor2 {
+.doctor1,
+.doctor2 {
     width: 100%;
-    max-width:fit-content;
+    max-width: fit-content;
     margin: 2em 0em;
     border-radius: 2em;
     width: 60em;
     background-color: white;
 }
-.content-sm{
-  width: 90%;
-  background-color: #FFDF88;
-  margin: 1em 2em 1em 3em;
-  border-radius: 2em;
+
+.doctor1 p,
+.doctor2 p {
+    padding: 2em;
 }
-#tips{
+
+.content-sm {
+    width: 90%;
+    background-color: #FFDF88;
+    margin: 1em 2em 1em 3em;
+    border-radius: 2em;
+}
+
+#tips {
     margin-top: 1em;
 }
-.doctor1-sm,.doctor2-sm{
+
+.doctor1-sm,
+.doctor2-sm {
     width: 90%;
     border: 1px black solid;
     margin: 2em 2em 2em 3em;
