@@ -11,7 +11,7 @@ h1{
     width: 80%;
 }
 h3{
-    font-size: 2.5em;
+    font-size: 4em;
 }
 .lg p{
     padding: 0em 1em 1em 1em ;
@@ -30,9 +30,7 @@ h3{
 .content{
     margin: 2%;
 }
-.content p{
-    font-size: 1.9em;
-}
+
 .img-sm{
     display: flex;
     align-items: center;

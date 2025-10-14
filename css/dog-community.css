@@ -84,6 +84,7 @@ input[type="search"] {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
+  margin: 0.2rem;
 }
 
 .name-tag {
@@ -98,6 +99,16 @@ input[type="search"] {
   font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
 
   color: #888;
+}
+
+.row-day {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row-day p {
+  font-size: clamp(1.1rem, 1.199999vw, 2.3rem);
+
 }
 
 .post-box h3 {
