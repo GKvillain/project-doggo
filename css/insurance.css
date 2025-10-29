@@ -10,8 +10,8 @@ h1 {
 }
 
 h1 span {
-    font-size: 0.em;
-    color: brown;
+    /* font-size: 0em; */
+    color: #a52a2a;
 }
 
 .why img {
