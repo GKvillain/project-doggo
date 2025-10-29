@@ -39,7 +39,7 @@ span {
     padding: 1em;
 }
 
-*/ .row {
+ .row {
     align-items: center;
     justify-content: center;
 }
