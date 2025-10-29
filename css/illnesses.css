@@ -32,7 +32,6 @@ h2 {
 .container {
     width: 100%;
     margin: auto;
-
     place-items: center;
     padding-block: 5rem;
 }
