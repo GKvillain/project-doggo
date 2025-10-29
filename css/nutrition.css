@@ -143,20 +143,32 @@ h4 {
     font-size: 4em;
 }
 
-button {
+.btn-orange {
+     padding:0.1em 0.3em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    background-color: #E56B00;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1em;
+}
+.btn-orange:hover{
+    background-color: #272727;
+    color: #ffffff;
+    transition: 0.2s;
+}
+/* button{
     padding: 1em;
     margin-bottom: 2em;
     font-size: 2em;
     background-color: #E56B00;
-    border-radius: 2em;
     color: #ffffff;
-}
-
-button:hover {
+} */
+/* .button:hover {
     transition: 0.2s;
     color: black;
     background-color: #ffffff;
-}
+} */
 
 .foot span {
     color: rgb(221, 40, 40);
@@ -195,7 +207,4 @@ margin: -2em 0em;
 }
 .sm .foot h2{
 font-size: 2em;
-}
-.sm button{
-    font-size: 2em;
 }
